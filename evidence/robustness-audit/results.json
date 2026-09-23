@@ -1,0 +1,2890 @@
+{
+  "scope": "post hoc numerical robustness on 24 fixed computational objects; no biological replication",
+  "protocol": "PROTOCOL.md",
+  "independent_method": "SciPy cdist with explicit self-exclusion and stable sort; dense graph construction; scipy.special.xlogy JSD; no archived scorer import",
+  "driver_sha256": "e6daf0fc17bdbbf645a9a74500a654e9fb6b67698eb2165179704a66e54e1d62",
+  "input_manifest_sha256": "949657f157371cfff18baf8fba814b7eaf8b51b725092dc4581f24c00a82208f",
+  "grid_comparisons": [
+    {
+      "id": "setty-native-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-native-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "setty-continuous-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-native-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "dentate-continuous-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-native-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "endo-continuous-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s0",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s1",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-native-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 5,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 5,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 5,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 15,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 15,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 15,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 30,
+      "rank": 10,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 30,
+      "rank": 25,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    },
+    {
+      "id": "lung-continuous-s2",
+      "k": 30,
+      "rank": 50,
+      "errors": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.0,
+        "separation_survival": 0.0
+      },
+      "reference_boundary_ties": 0,
+      "candidate_boundary_ties": 0
+    }
+  ],
+  "native_permutations": [
+    {
+      "id": "setty-native-s0",
+      "observed": 0.7355447002180575,
+      "exact_denominator": 0.023622991003401376,
+      "observed_absolute_error": 2.220446049250313e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.10417250353979068
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.11350097305078177
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "setty-native-s1",
+      "observed": 0.7686224357673683,
+      "exact_denominator": 0.02024633198598038,
+      "observed_absolute_error": 4.440892098500626e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.12147605400896444
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.12161092114843497
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "setty-native-s2",
+      "observed": 0.7664825062497983,
+      "exact_denominator": 0.02645614791084905,
+      "observed_absolute_error": 0.0,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.11456044169586077
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.12518051692788612
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "dentate-native-s0",
+      "observed": 0.9306518090604686,
+      "exact_denominator": 0.23701219137294283,
+      "observed_absolute_error": 1.1102230246251565e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.08293458715750002
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.06004036971616222
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "dentate-native-s1",
+      "observed": 0.9363462411028302,
+      "exact_denominator": 0.23609473572488884,
+      "observed_absolute_error": 0.0,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.0808120833613386
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.06089020190775041
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "dentate-native-s2",
+      "observed": 0.9418568465276023,
+      "exact_denominator": 0.23354511931537894,
+      "observed_absolute_error": 1.1102230246251565e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.08513086579506601
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.0617191610664557
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "endo-native-s0",
+      "observed": 0.9032391119862848,
+      "exact_denominator": 0.26043698360004325,
+      "observed_absolute_error": 1.1102230246251565e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.04888937613167188
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.04966997487009339
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "endo-native-s1",
+      "observed": 0.8558454532985249,
+      "exact_denominator": 0.34633898431657656,
+      "observed_absolute_error": 0.0,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.03199138432697224
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.03964861189970814
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "endo-native-s2",
+      "observed": 0.9290109766615295,
+      "exact_denominator": 0.2698692447975453,
+      "observed_absolute_error": 0.0,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.04816254791242924
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.053430744424621146
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "lung-native-s0",
+      "observed": 0.6337473599998773,
+      "exact_denominator": 0.2631518067487744,
+      "observed_absolute_error": 0.0,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.0517837612255978
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.05891241704305916
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "lung-native-s1",
+      "observed": 0.5548071678765852,
+      "exact_denominator": 0.2382655400676057,
+      "observed_absolute_error": 6.661338147750939e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.051925752439185735
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.049343421431284784
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    },
+    {
+      "id": "lung-native-s2",
+      "observed": 0.564824733483017,
+      "exact_denominator": 0.10433244237641323,
+      "observed_absolute_error": 5.551115123125783e-16,
+      "streams": [
+        {
+          "seed": 20260922,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.11848588842190722
+        },
+        {
+          "seed": 104729,
+          "draws": 999,
+          "exceedances": 0,
+          "monte_carlo_p": 0.001,
+          "maximum": 0.08902488730454428
+        }
+      ],
+      "posthoc_holm_p": 0.012
+    }
+  ],
+  "summary": {
+    "grid_computations": 216,
+    "maximum_geometry_absolute_error": 0.0,
+    "boundary_ties": 0,
+    "maximum_coherence_absolute_error": 6.661338147750939e-16,
+    "new_stream_exceedances": 0,
+    "posthoc_holm_p_range": [
+      0.012,
+      0.012
+    ]
+  }
+}

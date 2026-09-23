@@ -1,0 +1,21 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite this study and its archived research release.",
+  "type": "software",
+  "title": "Reference-anchored geometry diagnostics with noise-matched calibration and native-allocation checks",
+  "authors": [
+    {
+      "family-names": "Fu",
+      "given-names": "Zeyu"
+    }
+  ],
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.22914409",
+  "repository-code": "https://github.com/PeterPonyu/reference-anchored-geometry",
+  "url": "https://doi.org/10.5281/zenodo.22914409",
+  "license": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "abstract": "Calibration and sensitivity analysis of reference-anchored graph geometry and native probability-allocation diagnostics. The archive contains the manuscript, seven vector figures, analysis code, synthetic calibration arrays, saved measurement tables, and 24 matched representation/reference arrays. It supports fixed-object sensitivity and permutation analyses and independent numerical checks. Complete historical expression caches, all inventoried latent files and the complete historical multi-library calibration driver are not supplied."
+}

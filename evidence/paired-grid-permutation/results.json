@@ -1,0 +1,2916 @@
+{
+  "protocol": "PROTOCOL.md",
+  "source_results_sha256": "9d778cde4342fa5e07337cece5f8674869b5802c59b4ab3c235aa2a698201e81",
+  "source_inputs_sha256": "949657f157371cfff18baf8fba814b7eaf8b51b725092dc4581f24c00a82208f",
+  "scorer_sha256": "079422484c29aa30b964bdc5ad9f3ecdc32335df41f0621b1170f633b4ef22ce",
+  "driver_sha256": "ff5fb5a8f7dd3d1de7e8b5abe990901e7b9f1ecf95d273e3cc6ef07ed0b178fa",
+  "permutation_seed": 20260922,
+  "permutation_definition": "native allocation rows reassigned with NumPy Generator.permutation; reference fixed; one-sided observed >= null with +1 correction; ties counted as null >= observed",
+  "grid_summary": {
+    "reachability_survival": {
+      "n_pairs": 12,
+      "n_baseline_ties": 12,
+      "n_pairs_with_reversal": 0,
+      "n_reversed_settings": 0,
+      "median_within_pair_difference_range": 0.0
+    },
+    "edge_survival": {
+      "n_pairs": 12,
+      "n_baseline_ties": 0,
+      "n_pairs_with_reversal": 0,
+      "n_reversed_settings": 0,
+      "median_within_pair_difference_range": 0.059991457923452174
+    },
+    "separation_survival": {
+      "n_pairs": 12,
+      "n_baseline_ties": 0,
+      "n_pairs_with_reversal": 2,
+      "n_reversed_settings": 2,
+      "median_within_pair_difference_range": 0.15655296548032466
+    }
+  },
+  "pairs": [
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "metric": "edge_survival",
+      "baseline_difference": -0.17616002717323248,
+      "minimum_difference": -0.23333197340664313,
+      "maximum_difference": -0.12125376250030939,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.24342827288289248,
+          "continuous": 0.3830337229447361,
+          "difference": -0.1396054500618436
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.22841861010405579,
+          "continuous": 0.3496723726043652,
+          "difference": -0.12125376250030939
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.21657395388454886,
+          "continuous": 0.3413416884863953,
+          "difference": -0.12476773460184643
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.3607474228795276,
+          "continuous": 0.5532173930553405,
+          "difference": -0.19246997017581285
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.34528773054116413,
+          "continuous": 0.5222069822512955,
+          "difference": -0.17691925171013134
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.3201725338655009,
+          "continuous": 0.49633256103873336,
+          "difference": -0.17616002717323248
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.42753616477338474,
+          "continuous": 0.6608681381800279,
+          "difference": -0.23333197340664313
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.4108541643744051,
+          "continuous": 0.6306275398562051,
+          "difference": -0.21977337548180004
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.37779112424661415,
+          "continuous": 0.6006636660232096,
+          "difference": -0.2228725417765955
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 0,
+      "metric": "separation_survival",
+      "baseline_difference": -0.2751989389920424,
+      "minimum_difference": -0.38452529668956903,
+      "maximum_difference": -0.1884098156107029,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.6009587727708533,
+          "continuous": 0.8757430488974113,
+          "difference": -0.274784276126558
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.621930369909854,
+          "continuous": 0.8698321417469692,
+          "difference": -0.24790177183711526
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.5879463270411645,
+          "continuous": 0.8745963156697748,
+          "difference": -0.28664998862861035
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.6458512413409516,
+          "continuous": 0.8404206907013198,
+          "difference": -0.19456944936036813
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.5555121798875703,
+          "continuous": 0.9400374765771393,
+          "difference": -0.38452529668956903
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5883913246996412,
+          "continuous": 0.8635902636916836,
+          "difference": -0.2751989389920424
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6785526133370303,
+          "continuous": 0.8669624289477332,
+          "difference": -0.1884098156107029
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.5984443746071653,
+          "continuous": 0.9499528598365807,
+          "difference": -0.35150848522941547
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6074412303369378,
+          "continuous": 0.8724252991796081,
+          "difference": -0.26498406884267034
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "metric": "edge_survival",
+      "baseline_difference": -0.26110998934397467,
+      "minimum_difference": -0.30781503990805076,
+      "maximum_difference": -0.17533989339547498,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.18600480894973673,
+          "continuous": 0.37181715165252516,
+          "difference": -0.18581234270278843
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.1753712107097224,
+          "continuous": 0.35509029355794836,
+          "difference": -0.17971908284822596
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.16124453773197353,
+          "continuous": 0.3365844311274485,
+          "difference": -0.17533989339547498
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.2828422754092968,
+          "continuous": 0.5492988792786226,
+          "difference": -0.26645660386932585
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.26662623577669053,
+          "continuous": 0.5257831837806516,
+          "difference": -0.25915694800396105
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.24304021199613002,
+          "continuous": 0.5041502013401047,
+          "difference": -0.26110998934397467
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.3650415559181028,
+          "continuous": 0.6728565958261535,
+          "difference": -0.30781503990805076
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.34551024143066317,
+          "continuous": 0.6442281442117328,
+          "difference": -0.29871790278106963
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.311699606945556,
+          "continuous": 0.6086792722792926,
+          "difference": -0.29697966533373665
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 1,
+      "metric": "separation_survival",
+      "baseline_difference": -0.36175690435325325,
+      "minimum_difference": -0.37768132667653476,
+      "maximum_difference": -0.2668250998634778,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.6267497603068073,
+          "continuous": 0.9578139980824545,
+          "difference": -0.3310642377756472
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.6382499222878458,
+          "continuous": 0.9316910164749767,
+          "difference": -0.2934410941871308
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.5671139413236298,
+          "continuous": 0.8768705935865363,
+          "difference": -0.3097566522629065
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.6750265459877636,
+          "continuous": 0.9418516458512414,
+          "difference": -0.2668250998634778
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.6406152404747033,
+          "continuous": 0.9797782635852592,
+          "difference": -0.3391630231105559
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5674052114214386,
+          "continuous": 0.9291621157746919,
+          "difference": -0.36175690435325325
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6166920837376958,
+          "continuous": 0.932039373353667,
+          "difference": -0.31534728961597125
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6191860465116279,
+          "continuous": 0.978708359522313,
+          "difference": -0.35952231301068516
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.5421109410672621,
+          "continuous": 0.9197922677437969,
+          "difference": -0.37768132667653476
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.8376639445681762,
+          "continuous": 0.8376639445681762,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.8376639445681762,
+          "continuous": 0.8376639445681762,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.8376639445681762,
+          "continuous": 0.8376639445681762,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "metric": "edge_survival",
+      "baseline_difference": -0.227516747429596,
+      "minimum_difference": -0.2938241807128012,
+      "maximum_difference": -0.15501668204773417,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.20550399732502234,
+          "continuous": 0.37603965878929047,
+          "difference": -0.17053566146426813
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.19349009266909736,
+          "continuous": 0.35178100733695505,
+          "difference": -0.1582909146678577
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.1806448548946777,
+          "continuous": 0.33566153694241185,
+          "difference": -0.15501668204773417
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.30673579325098443,
+          "continuous": 0.5441298779246112,
+          "difference": -0.23739408467362677
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.28908628717237833,
+          "continuous": 0.5168871438284817,
+          "difference": -0.22780085665610333
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.2645664788382093,
+          "continuous": 0.49208322626780526,
+          "difference": -0.227516747429596
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.3762935677076468,
+          "continuous": 0.670117748420448,
+          "difference": -0.2938241807128012
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.3566956793826234,
+          "continuous": 0.6391598937167865,
+          "difference": -0.2824642143341631
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.3235884642915476,
+          "continuous": 0.6009753707961082,
+          "difference": -0.2773869065045606
+        }
+      ]
+    },
+    {
+      "dataset": "setty",
+      "seed": 2,
+      "metric": "separation_survival",
+      "baseline_difference": -0.3066781089093462,
+      "minimum_difference": -0.32903484783863124,
+      "maximum_difference": -0.24730747838398137,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.6864813039309684,
+          "continuous": 0.9830297219558964,
+          "difference": -0.29654841802492804
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.6795150761579111,
+          "continuous": 0.9655735156978551,
+          "difference": -0.28605843953994403
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.6379349556515806,
+          "continuous": 0.9231748919717989,
+          "difference": -0.28523993632021827
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.6462051878444658,
+          "continuous": 0.8935126662284472,
+          "difference": -0.24730747838398137
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.6105559025608994,
+          "continuous": 0.919893816364772,
+          "difference": -0.30933791380387254
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5504368856295834,
+          "continuous": 0.8571149945389296,
+          "difference": -0.3066781089093462
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6370164979897407,
+          "continuous": 0.939830860945515,
+          "difference": -0.30281436295577435
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6416561910747958,
+          "continuous": 0.9703016970458831,
+          "difference": -0.3286455059710873
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.5651421259941293,
+          "continuous": 0.8941769738327605,
+          "difference": -0.32903484783863124
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 0,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 0,
+      "metric": "edge_survival",
+      "baseline_difference": -0.23358246783751407,
+      "minimum_difference": -0.2480594718757767,
+      "maximum_difference": -0.16916023218207737,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.2942262100429475,
+          "continuous": 0.4633864422250249,
+          "difference": -0.16916023218207737
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.26549027357593613,
+          "continuous": 0.4377423032563792,
+          "difference": -0.17225202968044306
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.24537299380295316,
+          "continuous": 0.4157322219606702,
+          "difference": -0.17035922815771706
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.41240859705766053,
+          "continuous": 0.6383761764292738,
+          "difference": -0.22596757937161327
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.3823274622650989,
+          "continuous": 0.6137705436156764,
+          "difference": -0.2314430813505775
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.35416956110547987,
+          "continuous": 0.5877520289429939,
+          "difference": -0.23358246783751407
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.5124930605172684,
+          "continuous": 0.7605525323930451,
+          "difference": -0.2480594718757767
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.4942650173847867,
+          "continuous": 0.7350217037731175,
+          "difference": -0.2407566863883308
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.4670640902563462,
+          "continuous": 0.7087286455732595,
+          "difference": -0.24166455531691333
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 0,
+      "metric": "separation_survival",
+      "baseline_difference": -0.11988304093567259,
+      "minimum_difference": -0.16766661261553428,
+      "maximum_difference": 0.03367975365665887,
+      "strict_reversals": 1,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.9240762124711316,
+          "continuous": 0.8903964588144727,
+          "difference": 0.03367975365665887
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.7341726456387347,
+          "continuous": 0.850187265917603,
+          "difference": -0.11601462027886822
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.7569933920704845,
+          "continuous": 0.8545154185022027,
+          "difference": -0.09752202643171815
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.8166045078644397,
+          "continuous": 0.984271120479974,
+          "difference": -0.16766661261553428
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.8630649649745705,
+          "continuous": 0.953843201228289,
+          "difference": -0.0907782362537185
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.7953216374269005,
+          "continuous": 0.9152046783625731,
+          "difference": -0.11988304093567259
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.8426157096216631,
+          "continuous": 0.9735932398694066,
+          "difference": -0.1309775302477435
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.8035841186466862,
+          "continuous": 0.9319017457129616,
+          "difference": -0.12831762706627536
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.8526960069950452,
+          "continuous": 0.9552317108714661,
+          "difference": -0.10253570387642086
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 1,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 1,
+      "metric": "edge_survival",
+      "baseline_difference": -0.19303246589950956,
+      "minimum_difference": -0.19505169635554098,
+      "maximum_difference": -0.1412625646296332,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.28721738835529903,
+          "continuous": 0.42847995298493224,
+          "difference": -0.1412625646296332
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.26227731421856054,
+          "continuous": 0.4060505892076739,
+          "difference": -0.14377327498911335
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.24292715028809803,
+          "continuous": 0.3863915954892922,
+          "difference": -0.14346444520119417
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.4028048732043229,
+          "continuous": 0.5918368931177502,
+          "difference": -0.18903201991342733
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.3773573132161068,
+          "continuous": 0.568623577749684,
+          "difference": -0.19126626453357715
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.3530119915823196,
+          "continuous": 0.5460444574818292,
+          "difference": -0.19303246589950956
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.504934459255392,
+          "continuous": 0.699986155610933,
+          "difference": -0.19505169635554098
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.48968675726620764,
+          "continuous": 0.6806257472452903,
+          "difference": -0.1909389899790827
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.4656873474877082,
+          "continuous": 0.6555979239487343,
+          "difference": -0.1899105764610261
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 1,
+      "metric": "separation_survival",
+      "baseline_difference": -0.04901377738130641,
+      "minimum_difference": -0.10466679469944307,
+      "maximum_difference": -0.003339199494607592,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.8944380292532718,
+          "continuous": 0.9306197074672825,
+          "difference": -0.03618167821401075
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.722485447407608,
+          "continuous": 0.7258246469022156,
+          "difference": -0.003339199494607592
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.7408590308370044,
+          "continuous": 0.7897577092511013,
+          "difference": -0.0488986784140969
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.8288470893465218,
+          "continuous": 0.9056267228798444,
+          "difference": -0.07677963353332251
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.8390749448229536,
+          "continuous": 0.8882065060934651,
+          "difference": -0.04913156127051144
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.7866983843790266,
+          "continuous": 0.835712161760333,
+          "difference": -0.04901377738130641
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.8098713270597273,
+          "continuous": 0.9145381217591704,
+          "difference": -0.10466679469944307
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.7939749729646223,
+          "continuous": 0.896276842267882,
+          "difference": -0.10230186930325968
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.827630428446517,
+          "continuous": 0.9090644127076654,
+          "difference": -0.08143398426114834
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 2,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 2,
+      "metric": "edge_survival",
+      "baseline_difference": -0.2521967278475848,
+      "minimum_difference": -0.2570051271724466,
+      "maximum_difference": -0.1902303006175653,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.28125511284619464,
+          "continuous": 0.47148541346375994,
+          "difference": -0.1902303006175653
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.2572441990851652,
+          "continuous": 0.4550194399643604,
+          "difference": -0.19777524087919518
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.23562371704827836,
+          "continuous": 0.42839185399530233,
+          "difference": -0.19276813694702397
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.4020456297191267,
+          "continuous": 0.6471567007489224,
+          "difference": -0.24511107102979568
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.3766318472910098,
+          "continuous": 0.6313593903638152,
+          "difference": -0.2547275430728054
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.34949690990868126,
+          "continuous": 0.601693637756266,
+          "difference": -0.2521967278475848
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.5015823495887575,
+          "continuous": 0.7585874767612041,
+          "difference": -0.2570051271724466
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.4839651443770987,
+          "continuous": 0.7387016512101334,
+          "difference": -0.2547365068330347
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.459613179129899,
+          "continuous": 0.7136126116583695,
+          "difference": -0.2539994325284705
+        }
+      ]
+    },
+    {
+      "dataset": "dentate",
+      "seed": 2,
+      "metric": "separation_survival",
+      "baseline_difference": -0.11418376449598577,
+      "minimum_difference": -0.1435057564455975,
+      "maximum_difference": -0.06168206312548108,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.9119515011547344,
+          "continuous": 0.9736335642802155,
+          "difference": -0.06168206312548108
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.7585849014033663,
+          "continuous": 0.8629123234511078,
+          "difference": -0.10432742204774148
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.775330396475771,
+          "continuous": 0.8573237885462555,
+          "difference": -0.0819933920704845
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.8229284903518729,
+          "continuous": 0.9664342467974704,
+          "difference": -0.1435057564455975
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.8563477593321178,
+          "continuous": 0.9301410613184915,
+          "difference": -0.07379330198637368
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.8002279710575875,
+          "continuous": 0.9144117355535732,
+          "difference": -0.11418376449598577
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.8751680430190129,
+          "continuous": 0.9652391012099097,
+          "difference": -0.09007105819089689
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.8312065502858026,
+          "continuous": 0.9216437509655492,
+          "difference": -0.09043720067974659
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.8768289128533955,
+          "continuous": 0.9552900029146022,
+          "difference": -0.07846109006120672
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "metric": "edge_survival",
+      "baseline_difference": -0.10005660384536585,
+      "minimum_difference": -0.10005660384536585,
+      "maximum_difference": -0.08202975664182566,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.3918171225560474,
+          "continuous": 0.4794630287204545,
+          "difference": -0.0876459061644071
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.3627467632693614,
+          "continuous": 0.45964565844339533,
+          "difference": -0.09689889517403394
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.33085048842728226,
+          "continuous": 0.4290214184114249,
+          "difference": -0.09817092998414262
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.5703608696245729,
+          "continuous": 0.6550274650356461,
+          "difference": -0.08466659541107324
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.5431308013576984,
+          "continuous": 0.630256520339165,
+          "difference": -0.0871257189814666
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5093367501388019,
+          "continuous": 0.6093933539841677,
+          "difference": -0.10005660384536585
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.66934714292487,
+          "continuous": 0.7546460911202769,
+          "difference": -0.08529894819540695
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6441240895120205,
+          "continuous": 0.7261538461538461,
+          "difference": -0.08202975664182566
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6169938812967658,
+          "continuous": 0.7082634779750164,
+          "difference": -0.09126959667825063
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 0,
+      "metric": "separation_survival",
+      "baseline_difference": -0.023618382780686398,
+      "minimum_difference": -0.07297167546807493,
+      "maximum_difference": -0.0027062007294975654,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.9972937992705024,
+          "continuous": 1.0,
+          "difference": -0.0027062007294975654
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.9956979508660704,
+          "continuous": 1.0,
+          "difference": -0.00430204913392962
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.9918250110472824,
+          "continuous": 0.9998895271763146,
+          "difference": -0.008064516129032251
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.9421941787095461,
+          "continuous": 0.9859556279259108,
+          "difference": -0.04376144921636471
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.9764721175094242,
+          "continuous": 0.9892109710126089,
+          "difference": -0.01273885350318471
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.9616055846422339,
+          "continuous": 0.9852239674229203,
+          "difference": -0.023618382780686398
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.9238995016611296,
+          "continuous": 0.9905523255813954,
+          "difference": -0.06665282392026584
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.9267346486366659,
+          "continuous": 0.9945688317446243,
+          "difference": -0.06783418310795841
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.9082253160505681,
+          "continuous": 0.981196991518643,
+          "difference": -0.07297167546807493
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "metric": "edge_survival",
+      "baseline_difference": -0.07443844981732589,
+      "minimum_difference": -0.07443844981732589,
+      "maximum_difference": -0.03289868616701519,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.4022568306526295,
+          "continuous": 0.4351555168196447,
+          "difference": -0.03289868616701519
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.3618405424615327,
+          "continuous": 0.4120013374963871,
+          "difference": -0.05016079503485443
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.3293790095080962,
+          "continuous": 0.38658285104299916,
+          "difference": -0.05720384153490299
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.5767561037877373,
+          "continuous": 0.6266154375576247,
+          "difference": -0.04985933376988738
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.5364004334703057,
+          "continuous": 0.5971389415604291,
+          "difference": -0.06073850809012338
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.487916152395052,
+          "continuous": 0.5623546022123779,
+          "difference": -0.07443844981732589
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6891717631441711,
+          "continuous": 0.7395190347508652,
+          "difference": -0.050347271606694166
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6507480737653151,
+          "continuous": 0.7104392446633827,
+          "difference": -0.059691170898067636
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6113487563006793,
+          "continuous": 0.6845989480604865,
+          "difference": -0.07325019175980718
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 1,
+      "metric": "separation_survival",
+      "baseline_difference": -0.185456660849331,
+      "minimum_difference": -0.24791369835131283,
+      "maximum_difference": 0.000235321802565025,
+      "strict_reversals": 1,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.9984704082833274,
+          "continuous": 0.9982350864807624,
+          "difference": 0.000235321802565025
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.9994339409034303,
+          "continuous": 0.9998867881806861,
+          "difference": -0.00045284727725580787
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.9940344675209898,
+          "continuous": 0.9956915598762704,
+          "difference": -0.001657092355280665
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.7492367189090169,
+          "continuous": 0.9971504172603297,
+          "difference": -0.24791369835131283
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.8432341089301962,
+          "continuous": 0.9987001169894709,
+          "difference": -0.15546600805927469
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.814543339150669,
+          "continuous": 1.0,
+          "difference": -0.185456660849331
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.9522425249169435,
+          "continuous": 1.0,
+          "difference": -0.0477574750830565
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.9424739525604079,
+          "continuous": 1.0,
+          "difference": -0.05752604743959211
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.92918867018723,
+          "continuous": 1.0,
+          "difference": -0.07081132981277005
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "metric": "edge_survival",
+      "baseline_difference": -0.05446945867789871,
+      "minimum_difference": -0.057316027989104956,
+      "maximum_difference": -0.03380920663763415,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.3733778202479317,
+          "continuous": 0.4109725264456235,
+          "difference": -0.037594706197691785
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.35463253206348,
+          "continuous": 0.38844173870111415,
+          "difference": -0.03380920663763415
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.3308889731175807,
+          "continuous": 0.36670861726487824,
+          "difference": -0.03581964414729755
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.5548229306069503,
+          "continuous": 0.6041463763034529,
+          "difference": -0.0493234456965026
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.52723378063348,
+          "continuous": 0.5777442866285841,
+          "difference": -0.050510505995104094
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.49703051928512415,
+          "continuous": 0.5514999779630229,
+          "difference": -0.05446945867789871
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6658404503412325,
+          "continuous": 0.7144567256571239,
+          "difference": -0.04861627531589141
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6343155551345206,
+          "continuous": 0.6859302766199317,
+          "difference": -0.05161472148541102
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6073220449422373,
+          "continuous": 0.6646380729313422,
+          "difference": -0.057316027989104956
+        }
+      ]
+    },
+    {
+      "dataset": "endo",
+      "seed": 2,
+      "metric": "separation_survival",
+      "baseline_difference": -0.19034322280395577,
+      "minimum_difference": -0.2151434968451048,
+      "maximum_difference": -0.03679384127702934,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.9416401929638781,
+          "continuous": 0.99952935639487,
+          "difference": -0.05788916343099182
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.9625268878070871,
+          "continuous": 0.9993207290841164,
+          "difference": -0.03679384127702934
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.9330534688466637,
+          "continuous": 0.9987847989394609,
+          "difference": -0.06573133009279719
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.779564420924079,
+          "continuous": 0.9947079177691838,
+          "difference": -0.2151434968451048
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.8015078642922137,
+          "continuous": 0.9966203041726245,
+          "difference": -0.19511243988041083
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.8061663757998837,
+          "continuous": 0.9965095986038395,
+          "difference": -0.19034322280395577
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.8220514950166113,
+          "continuous": 0.9961586378737541,
+          "difference": -0.1741071428571428
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.8234316116160496,
+          "continuous": 0.9983373974728441,
+          "difference": -0.1749057858567945
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.8401344215074412,
+          "continuous": 0.9944791166586654,
+          "difference": -0.15434469515122418
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 0,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 9,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 0,
+      "metric": "edge_survival",
+      "baseline_difference": -0.16065435388983024,
+      "minimum_difference": -0.17549587544407613,
+      "maximum_difference": -0.12617583923342435,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.2888753331011035,
+          "continuous": 0.43954434454434455,
+          "difference": -0.15066901144324102
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.2763504896053647,
+          "continuous": 0.40436079551442033,
+          "difference": -0.12801030590905565
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.2495565183288302,
+          "continuous": 0.37573235756225454,
+          "difference": -0.12617583923342435
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.42820875144484744,
+          "continuous": 0.6037046268889236,
+          "difference": -0.17549587544407613
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.3996612042891288,
+          "continuous": 0.5645126406754314,
+          "difference": -0.16485143638630256
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.3691343244644581,
+          "continuous": 0.5297886783542883,
+          "difference": -0.16065435388983024
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.5271725918133854,
+          "continuous": 0.6851411751880518,
+          "difference": -0.15796858337466646
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.48961444760146056,
+          "continuous": 0.6466916416916417,
+          "difference": -0.15707719409018117
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.46047148350184125,
+          "continuous": 0.6119578966389592,
+          "difference": -0.15148641313711791
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 0,
+      "metric": "separation_survival",
+      "baseline_difference": -0.17654569009218757,
+      "minimum_difference": -0.18556728946655843,
+      "maximum_difference": -0.026166593981683417,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.7121674662014827,
+          "continuous": 0.7383340601831662,
+          "difference": -0.026166593981683417
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.6829051574270814,
+          "continuous": 0.7623333977206876,
+          "difference": -0.07942824029360629
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.6767607342120159,
+          "continuous": 0.7574189374949463,
+          "difference": -0.08065820328293039
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.8045215236915454,
+          "continuous": 0.8965004645401053,
+          "difference": -0.09197894084855995
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.7362110311750599,
+          "continuous": 0.8981905384783082,
+          "difference": -0.16197950730324828
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.6400931263025478,
+          "continuous": 0.8166388163947353,
+          "difference": -0.17654569009218757
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.7916297215818408,
+          "continuous": 0.9349175385706685,
+          "difference": -0.14328781698882775
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6819117248849174,
+          "continuous": 0.8674790143514758,
+          "difference": -0.18556728946655843
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.728329759351918,
+          "continuous": 0.903550154872528,
+          "difference": -0.17522039552060997
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 1,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": 0.0,
+      "maximum_difference": 0.06042068794852762,
+      "strict_reversals": 0,
+      "ties": 6,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 0.9395793120514724,
+          "difference": 0.06042068794852762
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 0.9395793120514724,
+          "difference": 0.06042068794852762
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 0.9395793120514724,
+          "difference": 0.06042068794852762
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 1,
+      "metric": "edge_survival",
+      "baseline_difference": -0.17184437398072427,
+      "minimum_difference": -0.18915365967136605,
+      "maximum_difference": -0.14697810665827082,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.297843218247706,
+          "continuous": 0.463328515570451,
+          "difference": -0.16548529732274503
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.27619176057493094,
+          "continuous": 0.42961561198039905,
+          "difference": -0.1534238514054681
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.2532037790390788,
+          "continuous": 0.40018188569734964,
+          "difference": -0.14697810665827082
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.42754702060074273,
+          "continuous": 0.6167006802721088,
+          "difference": -0.18915365967136605
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.39850252038596073,
+          "continuous": 0.576663732477686,
+          "difference": -0.17816121209172525
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.36607890878495264,
+          "continuous": 0.5379232827656769,
+          "difference": -0.17184437398072427
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.5092006703883952,
+          "continuous": 0.6971238053708346,
+          "difference": -0.1879231349824394
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.4744811620835597,
+          "continuous": 0.6554212454212454,
+          "difference": -0.18094008333768563
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.4434639453025792,
+          "continuous": 0.6151457655704131,
+          "difference": -0.1716818202678339
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 1,
+      "metric": "separation_survival",
+      "baseline_difference": -0.2501079589192843,
+      "minimum_difference": -0.33762211103168926,
+      "maximum_difference": -0.18391687555591496,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.5977613025149004,
+          "continuous": 0.8062702912244997,
+          "difference": -0.20850898870959922
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.6180799690940699,
+          "continuous": 0.8121305775545683,
+          "difference": -0.19405060846049837
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.6083124444085065,
+          "continuous": 0.7922293199644215,
+          "difference": -0.18391687555591496
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.6109631464849798,
+          "continuous": 0.9194177764013627,
+          "difference": -0.30845462991638284
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.6304338347503815,
+          "continuous": 0.9067800305210377,
+          "difference": -0.2763461957706562
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5863577476953118,
+          "continuous": 0.8364657066145961,
+          "difference": -0.2501079589192843
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6324702961518,
+          "continuous": 0.9554885618017379,
+          "difference": -0.32301826564993796
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6043325209856485,
+          "continuous": 0.9144056322772813,
+          "difference": -0.31007311129163284
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6060519418632356,
+          "continuous": 0.9436740528949249,
+          "difference": -0.33762211103168926
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 2,
+      "metric": "reachability_survival",
+      "baseline_difference": 0.0,
+      "minimum_difference": -0.08607770353872801,
+      "maximum_difference": 0.0,
+      "strict_reversals": 0,
+      "ties": 6,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.913922296461272,
+          "continuous": 1.0,
+          "difference": -0.08607770353872801
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.913922296461272,
+          "continuous": 1.0,
+          "difference": -0.08607770353872801
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.913922296461272,
+          "continuous": 1.0,
+          "difference": -0.08607770353872801
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 1.0,
+          "continuous": 1.0,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 2,
+      "metric": "edge_survival",
+      "baseline_difference": -0.1633764970953379,
+      "minimum_difference": -0.19757908703455407,
+      "maximum_difference": -0.1313853029135575,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.3175159076102201,
+          "continuous": 0.45854689754689754,
+          "difference": -0.14103098993667745
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.2932853020217195,
+          "continuous": 0.424670604935277,
+          "difference": -0.1313853029135575
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.25997536308150654,
+          "continuous": 0.3942041356409913,
+          "difference": -0.1342287725594848
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.44445426265668103,
+          "continuous": 0.6122711221893337,
+          "difference": -0.16781685953265263
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.40631679243038815,
+          "continuous": 0.572500260290958,
+          "difference": -0.16618346786056987
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.3697590911225949,
+          "continuous": 0.5331355882179328,
+          "difference": -0.1633764970953379
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.5046630002505943,
+          "continuous": 0.7022420872851484,
+          "difference": -0.19757908703455407
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.46147298228467054,
+          "continuous": 0.6556293706293707,
+          "difference": -0.19415638834470011
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.42552604429863194,
+          "continuous": 0.6144063968196602,
+          "difference": -0.1888803525210283
+        }
+      ]
+    },
+    {
+      "dataset": "lung",
+      "seed": 2,
+      "metric": "separation_survival",
+      "baseline_difference": -0.17853588929986286,
+      "minimum_difference": -0.30302597093161776,
+      "maximum_difference": -0.10631639945914617,
+      "strict_reversals": 0,
+      "ties": 0,
+      "settings": [
+        {
+          "k": 5,
+          "d": 10,
+          "native": 0.6750496680719097,
+          "continuous": 0.7945922372437855,
+          "difference": -0.11954256917187578
+        },
+        {
+          "k": 5,
+          "d": 25,
+          "native": 0.6916747150859571,
+          "continuous": 0.7979911145451033,
+          "difference": -0.10631639945914617
+        },
+        {
+          "k": 5,
+          "d": 50,
+          "native": 0.6660467372847093,
+          "continuous": 0.8134955931106979,
+          "difference": -0.14744885582598855
+        },
+        {
+          "k": 15,
+          "d": 10,
+          "native": 0.6030969340353051,
+          "continuous": 0.8637968411272839,
+          "difference": -0.2606999070919789
+        },
+        {
+          "k": 15,
+          "d": 25,
+          "native": 0.5949858295182037,
+          "continuous": 0.8474820143884892,
+          "difference": -0.2524961848702856
+        },
+        {
+          "k": 15,
+          "d": 50,
+          "native": 0.5545145603725052,
+          "continuous": 0.7330504496723681,
+          "difference": -0.17853588929986286
+        },
+        {
+          "k": 30,
+          "d": 10,
+          "native": 0.6924986699769463,
+          "continuous": 0.9838623869480404,
+          "difference": -0.2913637169710941
+        },
+        {
+          "k": 30,
+          "d": 25,
+          "native": 0.6467912266450041,
+          "continuous": 0.9440563227728135,
+          "difference": -0.2972650961278094
+        },
+        {
+          "k": 30,
+          "d": 50,
+          "native": 0.6657136049559209,
+          "continuous": 0.9687395758875387,
+          "difference": -0.30302597093161776
+        }
+      ]
+    }
+  ],
+  "native_permutations": [
+    {
+      "id": "setty-native-s0",
+      "dataset": "setty",
+      "seed": 0,
+      "observed": 0.7355447002180575,
+      "null_min": 0.0,
+      "null_median": 0.0013048181056369845,
+      "null_max": 0.10417250353979068,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5071,
+      "input_sha256": "1ab7def65064d621b942fe53aeffda984442067c3976761b7333dedb9e4ed032"
+    },
+    {
+      "id": "setty-native-s1",
+      "dataset": "setty",
+      "seed": 1,
+      "observed": 0.7686224357673684,
+      "null_min": 0.0,
+      "null_median": 0.0023605594504437777,
+      "null_max": 0.12147605400896433,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5071,
+      "input_sha256": "625d3f5c2fd987661b3b368456a5f2cb09d5a1fe86d4ba894a5bb474256ef94c"
+    },
+    {
+      "id": "setty-native-s2",
+      "dataset": "setty",
+      "seed": 2,
+      "observed": 0.7664825062497982,
+      "null_min": 0.0,
+      "null_median": 0.0025156296233401765,
+      "null_max": 0.11456044169586055,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5071,
+      "input_sha256": "84842a05fe3ed1346b375b1ed98b6d3aa516b85cfa08327373bbcad2101bc97b"
+    },
+    {
+      "id": "dentate-native-s0",
+      "dataset": "dentate",
+      "seed": 0,
+      "observed": 0.9306518090604687,
+      "null_min": 0.0,
+      "null_median": 0.0,
+      "null_max": 0.08293458715750002,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 4870,
+      "input_sha256": "71605eb436fc85c4bae3399258a73c47bacc008bf3c40fc2868b53dc3f7ca498"
+    },
+    {
+      "id": "dentate-native-s1",
+      "dataset": "dentate",
+      "seed": 1,
+      "observed": 0.9363462411028302,
+      "null_min": 0.0,
+      "null_median": 0.0,
+      "null_max": 0.0808120833613385,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 4870,
+      "input_sha256": "e017a9835d2fe5a8f130cded0e884f2111093cbfd4cf62db0a6e9d861e9b4d78"
+    },
+    {
+      "id": "dentate-native-s2",
+      "dataset": "dentate",
+      "seed": 2,
+      "observed": 0.9418568465276023,
+      "null_min": 0.0,
+      "null_median": 0.0,
+      "null_max": 0.08513086579506601,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 4870,
+      "input_sha256": "0e4eb97cb463ce2eab7b754910a9a2d334ef6a5860bce1e376532ce7b939fa8b"
+    },
+    {
+      "id": "endo-native-s0",
+      "dataset": "endo",
+      "seed": 0,
+      "observed": 0.9032391119862848,
+      "null_min": 0.0,
+      "null_median": 0.0003133221267143105,
+      "null_max": 0.04888937613167188,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 381,
+      "n_reference_edges": 4289,
+      "input_sha256": "dcd178ee8ec7b3e28889e6a14fcfd5502ecdfa220d267c22b7a226fbb50b2a78"
+    },
+    {
+      "id": "endo-native-s1",
+      "dataset": "endo",
+      "seed": 1,
+      "observed": 0.8558454532985249,
+      "null_min": 0.0,
+      "null_median": 0.0,
+      "null_max": 0.03199138432697224,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 381,
+      "n_reference_edges": 4289,
+      "input_sha256": "53c8bda47120f1f6af5d981bbf454604adca9409d42676785d31cf4ecf65aaa9"
+    },
+    {
+      "id": "endo-native-s2",
+      "dataset": "endo",
+      "seed": 2,
+      "observed": 0.9290109766615295,
+      "null_min": 0.0,
+      "null_median": 0.0,
+      "null_max": 0.04816254791242924,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 381,
+      "n_reference_edges": 4289,
+      "input_sha256": "2160e8d871af85d8640593d1b7f79c0ca31228ebdde95a2b13aee45f2df9fc2e"
+    },
+    {
+      "id": "lung-native-s0",
+      "dataset": "lung",
+      "seed": 0,
+      "observed": 0.6337473599998773,
+      "null_min": 0.0,
+      "null_median": 0.00018176530706581762,
+      "null_max": 0.05178376122559791,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5647,
+      "input_sha256": "00e1589333d61815d77781aaa0308f14e35013f94946426cd846caed84c8b90c"
+    },
+    {
+      "id": "lung-native-s1",
+      "dataset": "lung",
+      "seed": 1,
+      "observed": 0.5548071678765852,
+      "null_min": 0.0,
+      "null_median": 8.206266894994485e-05,
+      "null_max": 0.051925752439185735,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5647,
+      "input_sha256": "cd462b98ede19a57143fe4393881042261706bd7f6359f5645ee8aae0680ef0b"
+    },
+    {
+      "id": "lung-native-s2",
+      "dataset": "lung",
+      "seed": 2,
+      "observed": 0.564824733483017,
+      "null_min": 0.0,
+      "null_median": 0.005071289008170998,
+      "null_max": 0.11848588842190722,
+      "null_ge_observed": 0,
+      "monte_carlo_p": 0.001,
+      "n_permutations": 999,
+      "n_cells": 450,
+      "n_reference_edges": 5647,
+      "input_sha256": "345c9985d384fdea20f27968803b4ab0b237ca950dee458c6dbb8b50f34c06c7"
+    }
+  ]
+}

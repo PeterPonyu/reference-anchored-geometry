@@ -1,0 +1,184 @@
+[
+  {
+    "dataset": "dentate",
+    "test_idx_sha256": "36c1fb9f3736de7552be43b4b007acca8db0b94ef0dfb94fac00fba9682b1865",
+    "X_norm_sha256": "5edd16e02e29430768d9359ebf16624ef031065b4f282c2be6c29c60d3c6bf2d",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:dentate/base_preproc_19d2922c059aeda7f0e50e5bd00caffc.h5ad",
+    "cache_sha256": "9f9a8a448c7da55ac39394326f2a9023074513b299f77fe08fd3477dc1b8d8c6",
+    "reference_sha256": "d522d83caf6a0a43c0b814cfda495ab89ac6ef01c995d782771a38c8b9de64b1",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "dentate",
+    "test_idx_sha256": "c07e42d3ad9b8f542f8413b5c5f1c2217fbf0253940cf093d20cd6bcddaf7cc6",
+    "X_norm_sha256": "5edd16e02e29430768d9359ebf16624ef031065b4f282c2be6c29c60d3c6bf2d",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:dentate/base_preproc_19d2922c059aeda7f0e50e5bd00caffc.h5ad",
+    "cache_sha256": "9f9a8a448c7da55ac39394326f2a9023074513b299f77fe08fd3477dc1b8d8c6",
+    "reference_sha256": "dc27c9bccb5b99c620ef2a5cdb2a672c1b3fdae939a0f35f15b70b7d9cabd170",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "dentate",
+    "test_idx_sha256": "a0ac4587684850f584658e6efdd181afa79bf9a306c5385249fe912c90e36bba",
+    "X_norm_sha256": "5edd16e02e29430768d9359ebf16624ef031065b4f282c2be6c29c60d3c6bf2d",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:dentate/base_preproc_19d2922c059aeda7f0e50e5bd00caffc.h5ad",
+    "cache_sha256": "9f9a8a448c7da55ac39394326f2a9023074513b299f77fe08fd3477dc1b8d8c6",
+    "reference_sha256": "b09bde884e68fc6f0ee438224517076d8cc305531a3e1019e1c2cdf08d2eb941",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "endo",
+    "test_idx_sha256": "852abdb4996345b00d434652eec77fa19005e4e0aa295b51ff40217aea6bba66",
+    "X_norm_sha256": "da10768095f4419b1ed56d24b2a05d78c3704554078c5d1c8222270be0be9de6",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:endo/base_preproc_ff6347f65a8f0721d6b615b9c32cca9a.h5ad",
+    "cache_sha256": "a8ba770fae1bdc0d412205923106dbdebd5eefc879babb9efc4cd5459f3c244c",
+    "reference_sha256": "eb8fa7a3807e94c2c821c204fd51d073a23880bd395a1b8f0bd7dae56ae3cbb4",
+    "shape": [
+      381,
+      50
+    ]
+  },
+  {
+    "dataset": "endo",
+    "test_idx_sha256": "d011954763bb3d9ed9c84c7837b8a8a815845bdc45bd02a1f27ee6fb028c5894",
+    "X_norm_sha256": "da10768095f4419b1ed56d24b2a05d78c3704554078c5d1c8222270be0be9de6",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:endo/base_preproc_ff6347f65a8f0721d6b615b9c32cca9a.h5ad",
+    "cache_sha256": "a8ba770fae1bdc0d412205923106dbdebd5eefc879babb9efc4cd5459f3c244c",
+    "reference_sha256": "995f192ca5d50a1563f967e6329685071dd8482b217540721ac6f8cf116f8c77",
+    "shape": [
+      381,
+      50
+    ]
+  },
+  {
+    "dataset": "endo",
+    "test_idx_sha256": "8419f4933f593524d582d3d6c0fdedc1cda18ba28cddeb597ec8ef9bf424a519",
+    "X_norm_sha256": "da10768095f4419b1ed56d24b2a05d78c3704554078c5d1c8222270be0be9de6",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:endo/base_preproc_ff6347f65a8f0721d6b615b9c32cca9a.h5ad",
+    "cache_sha256": "a8ba770fae1bdc0d412205923106dbdebd5eefc879babb9efc4cd5459f3c244c",
+    "reference_sha256": "ec614e04578d0f88b40956f576b734aa203388d2d32391dd7be6769b535e69f3",
+    "shape": [
+      381,
+      50
+    ]
+  },
+  {
+    "dataset": "lung",
+    "test_idx_sha256": "36c1fb9f3736de7552be43b4b007acca8db0b94ef0dfb94fac00fba9682b1865",
+    "X_norm_sha256": "a605a6fe2a78f706c7a1ef46a8dcce6a7f3ec95b658cac1ab36a3bae2be5bdbf",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:lung/base_preproc_cd0132602ea99dc7d3428bbc6f8b9977.h5ad",
+    "cache_sha256": "015721892930bebf812223d99a2e293215409ee91f65b8765f0ae82a6a4515c6",
+    "reference_sha256": "0d602afd4ef520f42fa8683cd856cfd5c558b656bfa542e936999ac3d66da718",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "lung",
+    "test_idx_sha256": "c07e42d3ad9b8f542f8413b5c5f1c2217fbf0253940cf093d20cd6bcddaf7cc6",
+    "X_norm_sha256": "a605a6fe2a78f706c7a1ef46a8dcce6a7f3ec95b658cac1ab36a3bae2be5bdbf",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:lung/base_preproc_cd0132602ea99dc7d3428bbc6f8b9977.h5ad",
+    "cache_sha256": "015721892930bebf812223d99a2e293215409ee91f65b8765f0ae82a6a4515c6",
+    "reference_sha256": "c5121b903247452689f4a5a67dc9bc0c12adb1696c1a255561b5d00e1d4aa759",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "lung",
+    "test_idx_sha256": "a0ac4587684850f584658e6efdd181afa79bf9a306c5385249fe912c90e36bba",
+    "X_norm_sha256": "a605a6fe2a78f706c7a1ef46a8dcce6a7f3ec95b658cac1ab36a3bae2be5bdbf",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:lung/base_preproc_cd0132602ea99dc7d3428bbc6f8b9977.h5ad",
+    "cache_sha256": "015721892930bebf812223d99a2e293215409ee91f65b8765f0ae82a6a4515c6",
+    "reference_sha256": "3331f39cf76e8657841a6fed8f78992176b3f557f09b632d5f18ffd36e25659a",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "setty",
+    "test_idx_sha256": "36c1fb9f3736de7552be43b4b007acca8db0b94ef0dfb94fac00fba9682b1865",
+    "X_norm_sha256": "345e2223a4fb4e98a19ddfd2d270e7bc28242d53d01c740368d7e175b253e12a",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:setty/base_preproc_2606d9d91b6299ff81de195c5608c31f.h5ad",
+    "cache_sha256": "1fdbe3fd6dddd8bf017da67a4932f0f477ab412c771486213f2a1cf6ccbff973",
+    "reference_sha256": "9bdf704a04617fcc27c47936a3ee7366879edfb5bcdf045f59708a3476ed060f",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "setty",
+    "test_idx_sha256": "a0ac4587684850f584658e6efdd181afa79bf9a306c5385249fe912c90e36bba",
+    "X_norm_sha256": "345e2223a4fb4e98a19ddfd2d270e7bc28242d53d01c740368d7e175b253e12a",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:setty/base_preproc_2606d9d91b6299ff81de195c5608c31f.h5ad",
+    "cache_sha256": "1fdbe3fd6dddd8bf017da67a4932f0f477ab412c771486213f2a1cf6ccbff973",
+    "reference_sha256": "dfe342ff323e855119bc095f6deb8874de54af88ea33d460aebdd2f4094ff27e",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "setty",
+    "test_idx_sha256": "c07e42d3ad9b8f542f8413b5c5f1c2217fbf0253940cf093d20cd6bcddaf7cc6",
+    "X_norm_sha256": "345e2223a4fb4e98a19ddfd2d270e7bc28242d53d01c740368d7e175b253e12a",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:setty/base_preproc_2606d9d91b6299ff81de195c5608c31f.h5ad",
+    "cache_sha256": "1fdbe3fd6dddd8bf017da67a4932f0f477ab412c771486213f2a1cf6ccbff973",
+    "reference_sha256": "b1f34cf89b9677fac7889824f1fef56c9ccdfbf6a1450846451287f351f01722",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "setty",
+    "test_idx_sha256": "d500177dc28d549566272c7d46c7ad1a9c62a7b66f29c8f0bc10ddeb9100ed9d",
+    "X_norm_sha256": "345e2223a4fb4e98a19ddfd2d270e7bc28242d53d01c740368d7e175b253e12a",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:setty/base_preproc_2606d9d91b6299ff81de195c5608c31f.h5ad",
+    "cache_sha256": "1fdbe3fd6dddd8bf017da67a4932f0f477ab412c771486213f2a1cf6ccbff973",
+    "reference_sha256": "e63e43f07f365b5dc6c77eff9a46a3a1ccfd973e8078d06948db564e2ca2838b",
+    "shape": [
+      450,
+      50
+    ]
+  },
+  {
+    "dataset": "setty",
+    "test_idx_sha256": "3c31112516181a08166070efeac5b4b112c7c5268a2f36d0b1b29f827ab14b6c",
+    "X_norm_sha256": "345e2223a4fb4e98a19ddfd2d270e7bc28242d53d01c740368d7e175b253e12a",
+    "matches_normalized_input_digest": true,
+    "cache_path": "historical-cache:setty/base_preproc_2606d9d91b6299ff81de195c5608c31f.h5ad",
+    "cache_sha256": "1fdbe3fd6dddd8bf017da67a4932f0f477ab412c771486213f2a1cf6ccbff973",
+    "reference_sha256": "2388d5954a47b617ae7db982d9fe8f42e717115d6c6da6d10c219cfb53b8fe1b",
+    "shape": [
+      450,
+      50
+    ]
+  }
+]

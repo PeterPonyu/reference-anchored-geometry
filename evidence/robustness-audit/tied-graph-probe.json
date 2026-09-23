@@ -1,0 +1,39 @@
+{
+  "scope": "post hoc synthetic exact-coordinate-tie stress test; not part of the stored 24-object experiment",
+  "n_rows": 20,
+  "candidate": "twenty identical three-dimensional zero rows",
+  "k": 5,
+  "archived_self_loops": 5,
+  "baseline": {
+    "reachability_survival": 1.0,
+    "edge_survival": 0.7196969696969697,
+    "separation_survival": 0.5454545454545454
+  },
+  "joint_reorder": [
+    {
+      "seed": 0,
+      "changes": {
+        "reachability_survival": 0.0,
+        "edge_survival": -0.007575757575757569,
+        "separation_survival": 0.06060606060606066
+      }
+    },
+    {
+      "seed": 17,
+      "changes": {
+        "reachability_survival": 0.0,
+        "edge_survival": -0.015151515151515138,
+        "separation_survival": -0.12121212121212116
+      }
+    },
+    {
+      "seed": 42,
+      "changes": {
+        "reachability_survival": 0.0,
+        "edge_survival": 0.015151515151515138,
+        "separation_survival": 0.0
+      }
+    }
+  ],
+  "interpretation": "Frozen neighbour routine removes the first returned rank rather than the identity explicitly. Exact duplicates expose a self-exclusion assumption and row-order-sensitive graph choices. The archived scorer is retained unchanged for reproducibility; general tie handling is not validated by the tie-free fixed-object controls."
+}

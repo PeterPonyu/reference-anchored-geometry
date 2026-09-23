@@ -1,0 +1,551 @@
+{
+  "n_scale": 216,
+  "n_correspondence": 180,
+  "n_controls": 48,
+  "scale_ranges": {
+    "reachability_survival": [
+      {
+        "id": "setty-native-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "setty-continuous-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "setty-native-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "setty-continuous-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "setty-native-s2",
+        "range": 0.16233605543182383,
+        "minimum": 0.8376639445681762,
+        "maximum": 1.0
+      },
+      {
+        "id": "setty-continuous-s2",
+        "range": 0.16233605543182383,
+        "minimum": 0.8376639445681762,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-native-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-continuous-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-native-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-continuous-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-native-s2",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "dentate-continuous-s2",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-native-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-continuous-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-native-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-continuous-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-native-s2",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-continuous-s2",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-native-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-continuous-s0",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-native-s1",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-continuous-s1",
+        "range": 0.06042068794852762,
+        "minimum": 0.9395793120514724,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-native-s2",
+        "range": 0.08607770353872801,
+        "minimum": 0.913922296461272,
+        "maximum": 1.0
+      },
+      {
+        "id": "lung-continuous-s2",
+        "range": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0
+      }
+    ],
+    "edge_survival": [
+      {
+        "id": "setty-native-s0",
+        "range": 0.21096221088883588,
+        "minimum": 0.21657395388454886,
+        "maximum": 0.42753616477338474
+      },
+      {
+        "id": "setty-continuous-s0",
+        "range": 0.3195264496936326,
+        "minimum": 0.3413416884863953,
+        "maximum": 0.6608681381800279
+      },
+      {
+        "id": "setty-native-s1",
+        "range": 0.20379701818612925,
+        "minimum": 0.16124453773197353,
+        "maximum": 0.3650415559181028
+      },
+      {
+        "id": "setty-continuous-s1",
+        "range": 0.336272164698705,
+        "minimum": 0.3365844311274485,
+        "maximum": 0.6728565958261535
+      },
+      {
+        "id": "setty-native-s2",
+        "range": 0.19564871281296914,
+        "minimum": 0.1806448548946777,
+        "maximum": 0.3762935677076468
+      },
+      {
+        "id": "setty-continuous-s2",
+        "range": 0.33445621147803617,
+        "minimum": 0.33566153694241185,
+        "maximum": 0.670117748420448
+      },
+      {
+        "id": "dentate-native-s0",
+        "range": 0.2671200667143152,
+        "minimum": 0.24537299380295316,
+        "maximum": 0.5124930605172684
+      },
+      {
+        "id": "dentate-continuous-s0",
+        "range": 0.3448203104323749,
+        "minimum": 0.4157322219606702,
+        "maximum": 0.7605525323930451
+      },
+      {
+        "id": "dentate-native-s1",
+        "range": 0.262007308967294,
+        "minimum": 0.24292715028809803,
+        "maximum": 0.504934459255392
+      },
+      {
+        "id": "dentate-continuous-s1",
+        "range": 0.31359456012164083,
+        "minimum": 0.3863915954892922,
+        "maximum": 0.699986155610933
+      },
+      {
+        "id": "dentate-native-s2",
+        "range": 0.26595863254047913,
+        "minimum": 0.23562371704827836,
+        "maximum": 0.5015823495887575
+      },
+      {
+        "id": "dentate-continuous-s2",
+        "range": 0.33019562276590175,
+        "minimum": 0.42839185399530233,
+        "maximum": 0.7585874767612041
+      },
+      {
+        "id": "endo-native-s0",
+        "range": 0.3384966544975877,
+        "minimum": 0.33085048842728226,
+        "maximum": 0.66934714292487
+      },
+      {
+        "id": "endo-continuous-s0",
+        "range": 0.32562467270885204,
+        "minimum": 0.4290214184114249,
+        "maximum": 0.7546460911202769
+      },
+      {
+        "id": "endo-native-s1",
+        "range": 0.3597927536360749,
+        "minimum": 0.3293790095080962,
+        "maximum": 0.6891717631441711
+      },
+      {
+        "id": "endo-continuous-s1",
+        "range": 0.35293618370786606,
+        "minimum": 0.38658285104299916,
+        "maximum": 0.7395190347508652
+      },
+      {
+        "id": "endo-native-s2",
+        "range": 0.3349514772236518,
+        "minimum": 0.3308889731175807,
+        "maximum": 0.6658404503412325
+      },
+      {
+        "id": "endo-continuous-s2",
+        "range": 0.3477481083922457,
+        "minimum": 0.36670861726487824,
+        "maximum": 0.7144567256571239
+      },
+      {
+        "id": "lung-native-s0",
+        "range": 0.2776160734845552,
+        "minimum": 0.2495565183288302,
+        "maximum": 0.5271725918133854
+      },
+      {
+        "id": "lung-continuous-s0",
+        "range": 0.3094088176257973,
+        "minimum": 0.37573235756225454,
+        "maximum": 0.6851411751880518
+      },
+      {
+        "id": "lung-native-s1",
+        "range": 0.2559968913493164,
+        "minimum": 0.2532037790390788,
+        "maximum": 0.5092006703883952
+      },
+      {
+        "id": "lung-continuous-s1",
+        "range": 0.296941919673485,
+        "minimum": 0.40018188569734964,
+        "maximum": 0.6971238053708346
+      },
+      {
+        "id": "lung-native-s2",
+        "range": 0.24468763716908776,
+        "minimum": 0.25997536308150654,
+        "maximum": 0.5046630002505943
+      },
+      {
+        "id": "lung-continuous-s2",
+        "range": 0.30803795164415704,
+        "minimum": 0.3942041356409913,
+        "maximum": 0.7022420872851484
+      }
+    ],
+    "separation_survival": [
+      {
+        "id": "setty-native-s0",
+        "range": 0.12304043344946003,
+        "minimum": 0.5555121798875703,
+        "maximum": 0.6785526133370303
+      },
+      {
+        "id": "setty-continuous-s0",
+        "range": 0.10953216913526098,
+        "minimum": 0.8404206907013198,
+        "maximum": 0.9499528598365807
+      },
+      {
+        "id": "setty-native-s1",
+        "range": 0.13291560492050147,
+        "minimum": 0.5421109410672621,
+        "maximum": 0.6750265459877636
+      },
+      {
+        "id": "setty-continuous-s1",
+        "range": 0.10290766999872292,
+        "minimum": 0.8768705935865363,
+        "maximum": 0.9797782635852592
+      },
+      {
+        "id": "setty-native-s2",
+        "range": 0.13604441830138503,
+        "minimum": 0.5504368856295834,
+        "maximum": 0.6864813039309684
+      },
+      {
+        "id": "setty-continuous-s2",
+        "range": 0.12591472741696685,
+        "minimum": 0.8571149945389296,
+        "maximum": 0.9830297219558964
+      },
+      {
+        "id": "dentate-native-s0",
+        "range": 0.18990356683239684,
+        "minimum": 0.7341726456387347,
+        "maximum": 0.9240762124711316
+      },
+      {
+        "id": "dentate-continuous-s0",
+        "range": 0.13408385456237104,
+        "minimum": 0.850187265917603,
+        "maximum": 0.984271120479974
+      },
+      {
+        "id": "dentate-native-s1",
+        "range": 0.17195258184566375,
+        "minimum": 0.722485447407608,
+        "maximum": 0.8944380292532718
+      },
+      {
+        "id": "dentate-continuous-s1",
+        "range": 0.2047950605650669,
+        "minimum": 0.7258246469022156,
+        "maximum": 0.9306197074672825
+      },
+      {
+        "id": "dentate-native-s2",
+        "range": 0.15336659975136813,
+        "minimum": 0.7585849014033663,
+        "maximum": 0.9119515011547344
+      },
+      {
+        "id": "dentate-continuous-s2",
+        "range": 0.11630977573396006,
+        "minimum": 0.8573237885462555,
+        "maximum": 0.9736335642802155
+      },
+      {
+        "id": "endo-native-s0",
+        "range": 0.08906848321993432,
+        "minimum": 0.9082253160505681,
+        "maximum": 0.9972937992705024
+      },
+      {
+        "id": "endo-continuous-s0",
+        "range": 0.018803008481356964,
+        "minimum": 0.981196991518643,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-native-s1",
+        "range": 0.2501972219944134,
+        "minimum": 0.7492367189090169,
+        "maximum": 0.9994339409034303
+      },
+      {
+        "id": "endo-continuous-s1",
+        "range": 0.004308440123729551,
+        "minimum": 0.9956915598762704,
+        "maximum": 1.0
+      },
+      {
+        "id": "endo-native-s2",
+        "range": 0.1829624668830081,
+        "minimum": 0.779564420924079,
+        "maximum": 0.9625268878070871
+      },
+      {
+        "id": "endo-continuous-s2",
+        "range": 0.005050239736204554,
+        "minimum": 0.9944791166586654,
+        "maximum": 0.99952935639487
+      },
+      {
+        "id": "lung-native-s0",
+        "range": 0.16442839738899762,
+        "minimum": 0.6400931263025478,
+        "maximum": 0.8045215236915454
+      },
+      {
+        "id": "lung-continuous-s0",
+        "range": 0.19658347838750234,
+        "minimum": 0.7383340601831662,
+        "maximum": 0.9349175385706685
+      },
+      {
+        "id": "lung-native-s1",
+        "range": 0.046112548456488156,
+        "minimum": 0.5863577476953118,
+        "maximum": 0.6324702961518
+      },
+      {
+        "id": "lung-continuous-s1",
+        "range": 0.16325924183731644,
+        "minimum": 0.7922293199644215,
+        "maximum": 0.9554885618017379
+      },
+      {
+        "id": "lung-native-s2",
+        "range": 0.13798410960444107,
+        "minimum": 0.5545145603725052,
+        "maximum": 0.6924986699769463
+      },
+      {
+        "id": "lung-continuous-s2",
+        "range": 0.2508119372756723,
+        "minimum": 0.7330504496723681,
+        "maximum": 0.9838623869480404
+      }
+    ],
+    "allocation_coherence": [
+      {
+        "id": "setty-native-s0",
+        "range": 0.2723215971580685,
+        "minimum": 0.5980616474282822,
+        "maximum": 0.8703832445863506
+      },
+      {
+        "id": "setty-native-s1",
+        "range": 0.28780903784695133,
+        "minimum": 0.633147347754252,
+        "maximum": 0.9209563856012033
+      },
+      {
+        "id": "setty-native-s2",
+        "range": 0.29382330516227784,
+        "minimum": 0.629430453935244,
+        "maximum": 0.9232537590975218
+      },
+      {
+        "id": "dentate-native-s0",
+        "range": 0.07461011481212476,
+        "minimum": 0.902600715274519,
+        "maximum": 0.9772108300866438
+      },
+      {
+        "id": "dentate-native-s1",
+        "range": 0.06693295431473911,
+        "minimum": 0.9088572406189476,
+        "maximum": 0.9757901949336867
+      },
+      {
+        "id": "dentate-native-s2",
+        "range": 0.060376445207080076,
+        "minimum": 0.9167017626157751,
+        "maximum": 0.9770782078228551
+      },
+      {
+        "id": "endo-native-s0",
+        "range": 0.06684121690493106,
+        "minimum": 0.8757231113132503,
+        "maximum": 0.9425643282181814
+      },
+      {
+        "id": "endo-native-s1",
+        "range": 0.12569777869790988,
+        "minimum": 0.8154047113728767,
+        "maximum": 0.9411024900707866
+      },
+      {
+        "id": "endo-native-s2",
+        "range": 0.055682083034534924,
+        "minimum": 0.9057876685442151,
+        "maximum": 0.96146975157875
+      },
+      {
+        "id": "lung-native-s0",
+        "range": 0.2867298908839021,
+        "minimum": 0.5365668722072251,
+        "maximum": 0.8232967630911272
+      },
+      {
+        "id": "lung-native-s1",
+        "range": 0.31717687816304885,
+        "minimum": 0.4490841943767536,
+        "maximum": 0.7662610725398025
+      },
+      {
+        "id": "lung-native-s2",
+        "range": 0.32150889790660697,
+        "minimum": 0.4549663134278267,
+        "maximum": 0.7764752113344336
+      }
+    ]
+  },
+  "correspondence_means": {
+    "reachability_survival": {
+      "0": 1.0,
+      "0.1": 1.0,
+      "0.25": 1.0,
+      "0.5": 1.0,
+      "1": 1.0
+    },
+    "edge_survival": {
+      "0": 0.373642786123942,
+      "0.1": 0.33763767578189724,
+      "0.25": 0.29255346327878823,
+      "0.5": 0.2390823046964416,
+      "1": 0.1978081357088766
+    },
+    "separation_survival": {
+      "0": 0.7043135123814444,
+      "0.1": 0.6727666645610448,
+      "0.25": 0.6271054342466464,
+      "0.5": 0.5661662784031068,
+      "1": 0.5198986772414776
+    },
+    "allocation_coherence": {
+      "0": 0.7934149451859955,
+      "0.1": 0.6306116417846894,
+      "0.25": 0.43395732944482085,
+      "0.5": 0.19556421846601163,
+      "1": 0.009045803621496009
+    }
+  },
+  "max_control_abs_delta": 5.551115123125783e-16,
+  "elapsed_seconds": 54.75088357925415
+}

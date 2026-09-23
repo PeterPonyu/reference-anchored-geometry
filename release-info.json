@@ -1,0 +1,13 @@
+{
+  "title": "Reference-anchored geometry diagnostics with noise-matched calibration and native-allocation checks",
+  "version": "1.0.0",
+  "repository": "https://github.com/PeterPonyu/reference-anchored-geometry",
+  "archive_doi": "10.5281/zenodo.22914409",
+  "archive_record": "https://zenodo.org/records/22914409",
+  "scope": "The archive contains the manuscript, seven vector figures, analysis code, synthetic calibration arrays, saved measurement tables, and 24 matched representation/reference arrays. It supports fixed-object sensitivity and permutation analyses and independent numerical checks. Complete historical expression caches, all inventoried latent files and the complete historical multi-library calibration driver are not supplied.",
+  "licenses_by_contribution": {
+    "author_software": "MIT",
+    "author_research_content": "CC-BY-4.0",
+    "third_party": "original terms"
+  }
+}

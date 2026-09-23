@@ -1,0 +1,7 @@
+{
+  "source": "evidence/measurement-inventory/calibration_arrays/seed42.npz",
+  "source_sha256": "f4ea80f535a88d452d361dbed56f5c98ce353854db72c61aa2ab8e1951e9081a",
+  "output_sha256": "efb770645d7fca85b28fe33e9caba8ad7bcb6e2891dde612101686f18717aaf4",
+  "rows": 2700,
+  "transformation": "Lossless CSV export of six retained seed-42 coordinate arrays and original branch identities."
+}
