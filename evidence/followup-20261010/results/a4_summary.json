@@ -1,0 +1,78 @@
+{
+  "C_unclipped_by_family_median": {
+    "gmm_diag50": 0.5944410269960758,
+    "gmm_full10": 0.6431511892493705,
+    "native": 0.8122339445329467,
+    "random_beta1": 0.49678782030150054,
+    "random_matched": 0.3351664042067678
+  },
+  "C_unclipped_by_family_range": {
+    "gmm_diag50": [
+      0.4367281554444442,
+      0.6818874381135613
+    ],
+    "gmm_full10": [
+      0.5033834137806893,
+      0.7258473503492815
+    ],
+    "native": [
+      0.5548071678765852,
+      0.9418568465276023
+    ],
+    "random_beta1": [
+      0.4303145370714332,
+      0.6024296667816602
+    ],
+    "random_matched": [
+      0.25432452045345155,
+      0.4227612336955661
+    ]
+  },
+  "n_native_exceeds_gmm_diag50": 12,
+  "n_native_exceeds_gmm_full10": 12,
+  "n_native_exceeds_random_matched_mean": 12,
+  "n_native_exceeds_random_beta1_mean": 12,
+  "bootstrap_CI_excludes_zero_positive": {
+    "d_gmm_diag50": 12,
+    "d_gmm_full10": 12,
+    "d_random_matched": 12,
+    "d_random_beta1": 12
+  },
+  "bootstrap_CI_excludes_zero_negative": {
+    "d_gmm_diag50": 0,
+    "d_gmm_full10": 0,
+    "d_random_matched": 0,
+    "d_random_beta1": 0
+  },
+  "native_perm_null_unclipped": {
+    "mean_of_means": 0.0002976353418657119,
+    "max_null_max": 0.12921237879896308,
+    "frac_null_below_zero_mean": 0.4741666666666666,
+    "z_range": [
+      13.821061139414269,
+      70.51439756266463
+    ]
+  },
+  "spearman_C_vs_one_minus_geary_native": 0.9930069930069931,
+  "perplexity_fraction_by_family_median": {
+    "gmm_diag50": 0.10253361060155056,
+    "gmm_full10": 0.10525189462642065,
+    "native": 0.19037658701989119,
+    "random_beta1": 0.7110947182617663,
+    "random_matched": 0.1903765870200444
+  },
+  "one_minus_geary_by_family_median": {
+    "gmm_diag50": 0.5934613558834525,
+    "gmm_full10": 0.6426647846456979,
+    "native": 0.8367118997721745,
+    "random_beta1": 0.48328790934108157,
+    "random_matched": 0.33051045235585597
+  },
+  "moran_I_by_family_median": {
+    "gmm_diag50": 0.583257455349412,
+    "gmm_full10": 0.6318585853130024,
+    "native": 0.7840362829072611,
+    "random_beta1": 0.4178422164200869,
+    "random_matched": 0.2929746680455213
+  }
+}

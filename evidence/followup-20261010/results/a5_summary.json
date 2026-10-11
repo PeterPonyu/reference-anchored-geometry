@@ -1,0 +1,678 @@
+{
+  "checks": [
+    {
+      "object": "bulb",
+      "pca_max_abs_diff_vs_regenerated": 0.0,
+      "tissue_equal": true
+    },
+    {
+      "object": "bulb",
+      "seed0_umap_max_abs_diff": 0.0,
+      "seed0_scvi_max_abs_diff": 0.0
+    },
+    {
+      "object": "pfc_151673",
+      "pca_max_abs_diff_vs_regenerated": 0.0,
+      "tissue_equal": true
+    },
+    {
+      "object": "pfc_151673",
+      "seed0_umap_max_abs_diff": 0.0,
+      "seed0_scvi_max_abs_diff": 0.0
+    },
+    {
+      "object": "pfc_151507",
+      "pca_max_abs_diff_vs_regenerated": 0.0,
+      "tissue_equal": true
+    },
+    {
+      "object": "pfc_151507",
+      "seed0_umap_max_abs_diff": 0.0,
+      "seed0_scvi_max_abs_diff": 0.0
+    }
+  ],
+  "seed_variability": [
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "metric": "tissue_E",
+      "sd_scvi": 0.003554516697680662,
+      "sd_umap": 0.015547836105180018,
+      "range_scvi": [
+        0.5073151990164437,
+        0.5170201321653604
+      ],
+      "range_umap": [
+        0.3141530732471259,
+        0.35067193832753996
+      ],
+      "pca": 0.5138773628400184,
+      "mean_scvi": 0.5125464883971107,
+      "mean_umap": 0.32304392830672224,
+      "random": 0.5036114953127401
+    },
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "metric": "tissue_E_star",
+      "sd_scvi": 0.006019868177590981,
+      "sd_umap": 0.005140639342726488,
+      "range_scvi": [
+        0.11458708339445335,
+        0.13091496502009706
+      ],
+      "range_umap": [
+        0.10663615961051245,
+        0.11991683019675647
+      ],
+      "pca": 0.11584445310794987,
+      "mean_scvi": 0.12229995103624354,
+      "mean_umap": 0.1154167146977046,
+      "random": 0.022569637393900024
+    },
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "metric": "tissue_S",
+      "sd_scvi": 0.011867058383729081,
+      "sd_umap": 0.05656067722702768,
+      "range_scvi": [
+        0.551959668238738,
+        0.5771670190274841
+      ],
+      "range_umap": [
+        0.5854610505773297,
+        0.7142624817043421
+      ],
+      "pca": 0.9045373231419743,
+      "mean_scvi": 0.5628232232883396,
+      "mean_umap": 0.686453081801919,
+      "random": 0.9102293055781427
+    },
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "metric": "tissue_S_star",
+      "sd_scvi": 0.017657177990501524,
+      "sd_umap": 0.013112987075346617,
+      "range_scvi": [
+        0.05224318523460794,
+        0.09630771097152342
+      ],
+      "range_umap": [
+        0.005261754638502517,
+        0.04111966127470011
+      ],
+      "pca": 0.009719543551955265,
+      "mean_scvi": 0.0700622785409903,
+      "mean_umap": 0.023553133931072095,
+      "random": 0.025912468112434004
+    },
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "metric": "tissue_AUROC_far_vs_edge",
+      "sd_scvi": 0.007681913369193882,
+      "sd_umap": 0.011121401802976482,
+      "range_scvi": [
+        0.6152710231644903,
+        0.6312745174561251
+      ],
+      "range_umap": [
+        0.5964274984346393,
+        0.623447788554418
+      ],
+      "pca": 0.5876922567070207,
+      "mean_scvi": 0.6223645236575855,
+      "mean_umap": 0.6037451992291325,
+      "random": 0.5274442927632158
+    },
+    {
+      "object": "bulb",
+      "reference": "expression",
+      "metric": "expression_E",
+      "sd_scvi": 0.007768095528359016,
+      "sd_umap": 0.002129677484810799,
+      "range_scvi": [
+        0.643406148867314,
+        0.6624949433656957
+      ],
+      "range_umap": [
+        0.6420986477115117,
+        0.6474785454230236
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.6569377022653722,
+      "mean_umap": 0.6450952981080408,
+      "random": 0.5408070388349514
+    },
+    {
+      "object": "bulb",
+      "reference": "expression",
+      "metric": "expression_E_star",
+      "sd_scvi": 0.018602524296102405,
+      "sd_umap": 0.012540546694340765,
+      "range_scvi": [
+        0.3519215242610075,
+        0.4000626267385997
+      ],
+      "range_umap": [
+        0.5140335764820704,
+        0.5454759276601031
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.38219060344165456,
+      "mean_umap": 0.5360238281917902,
+      "random": 0.09581076455326369
+    },
+    {
+      "object": "bulb",
+      "reference": "expression",
+      "metric": "expression_S",
+      "sd_scvi": 0.017776135524424006,
+      "sd_umap": 0.002991850114337582,
+      "range_scvi": [
+        0.8561654249657898,
+        0.8981298464345446
+      ],
+      "range_umap": [
+        0.9933100197658506,
+        1.0
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.8731032385586133,
+      "mean_umap": 0.9986620039531701,
+      "random": 0.9297552075414323
+    },
+    {
+      "object": "bulb",
+      "reference": "expression",
+      "metric": "expression_S_star",
+      "sd_scvi": 0.02967466323108911,
+      "sd_umap": 0.0070562424818456345,
+      "range_scvi": [
+        0.7004052418522888,
+        0.7716636671983425
+      ],
+      "range_umap": [
+        0.9842217621448713,
+        1.0
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.7309128131336562,
+      "mean_umap": 0.9968443524289743,
+      "random": 0.2377849257534469
+    },
+    {
+      "object": "bulb",
+      "reference": "expression",
+      "metric": "expression_AUROC_far_vs_edge",
+      "sd_scvi": 0.012048929774350138,
+      "sd_umap": 0.0034263164164264007,
+      "range_scvi": [
+        0.907469243177534,
+        0.9356601447232265
+      ],
+      "range_umap": [
+        0.9897045557038281,
+        0.9973868417964339
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.9213146938581198,
+      "mean_umap": 0.9912577535571888,
+      "random": 0.5986123263845321
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "metric": "tissue_E",
+      "sd_scvi": 0.0017539880112681634,
+      "sd_umap": 0.0003696429197575806,
+      "range_scvi": [
+        0.3891057699107891,
+        0.393131371300983
+      ],
+      "range_umap": [
+        0.1644630910892925,
+        0.1653263751028671
+      ],
+      "pca": 0.43704977823578733,
+      "mean_scvi": 0.39107881469806716,
+      "mean_umap": 0.16476560775487953,
+      "random": 0.3014472766950565
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "metric": "tissue_E_star",
+      "sd_scvi": 0.002594642918590262,
+      "sd_umap": 0.000313761048484882,
+      "range_scvi": [
+        0.152968976892724,
+        0.15885258842340824
+      ],
+      "range_umap": [
+        0.08600643462692088,
+        0.08683668184951547
+      ],
+      "pca": 0.11849649933268457,
+      "mean_scvi": 0.15607185635750684,
+      "mean_umap": 0.08638847040866082,
+      "random": 0.004931683318773945
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "metric": "tissue_S",
+      "sd_scvi": 0.010264187484032572,
+      "sd_umap": 0.006049987915177752,
+      "range_scvi": [
+        0.7709607818510248,
+        0.7987342198695622
+      ],
+      "range_umap": [
+        0.737859140605136,
+        0.7532198460763981
+      ],
+      "pca": 0.8915683072998835,
+      "mean_scvi": 0.7874788245277066,
+      "mean_umap": 0.7473590267502759,
+      "random": 0.5715759044313536
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "metric": "tissue_S_star",
+      "sd_scvi": 0.03156057357452761,
+      "sd_umap": 0.010919439659160179,
+      "range_scvi": [
+        0.2900598955665027,
+        0.3717991288811953
+      ],
+      "range_umap": [
+        0.43167669021405264,
+        0.45879301078860873
+      ],
+      "pca": 0.4633413197688758,
+      "mean_scvi": 0.33958184456746227,
+      "mean_umap": 0.4500007212100483,
+      "random": 0.027665613491452832
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "metric": "tissue_AUROC_far_vs_edge",
+      "sd_scvi": 0.006407591384694816,
+      "sd_umap": 0.002128855016248264,
+      "range_scvi": [
+        0.8192456842472965,
+        0.8369766144992106
+      ],
+      "range_umap": [
+        0.856339643089281,
+        0.8615138384644203
+      ],
+      "pca": 0.7444968216332681,
+      "mean_scvi": 0.8269662234841897,
+      "mean_umap": 0.8598478034799678,
+      "random": 0.5178029022853622
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "metric": "expression_E",
+      "sd_scvi": 0.001554994402711237,
+      "sd_umap": 0.00027864374766029394,
+      "range_scvi": [
+        0.3809910995682752,
+        0.38440868428646596
+      ],
+      "range_umap": [
+        0.21753336981145086,
+        0.21823949875934398
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.3825911403076957,
+      "mean_umap": 0.21793787776476975,
+      "random": 0.3107116384602762
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "metric": "expression_E_star",
+      "sd_scvi": 0.002015385916065591,
+      "sd_umap": 0.00040860348819330995,
+      "range_scvi": [
+        0.14235182642659672,
+        0.14708801990836645
+      ],
+      "range_umap": [
+        0.1439530337944215,
+        0.1450969464266332
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.14430911719332673,
+      "mean_umap": 0.14455028484755866,
+      "random": 0.018128500909332265
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "metric": "expression_S",
+      "sd_scvi": 0.006953633428951726,
+      "sd_umap": 0.005068259221246815,
+      "range_scvi": [
+        0.895363331741719,
+        0.9146729232602459
+      ],
+      "range_umap": [
+        0.87158841699168,
+        0.8839438512277262
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.904610470005113,
+      "mean_umap": 0.8794531748479868,
+      "random": 0.6100220994942047
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "metric": "expression_S_star",
+      "sd_scvi": 0.020608670206087084,
+      "sd_umap": 0.010297609880140567,
+      "range_scvi": [
+        0.6756635488401854,
+        0.7336728384567137
+      ],
+      "range_umap": [
+        0.7216027442703532,
+        0.7462541018690677
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.7036259501504989,
+      "mean_umap": 0.7375740499016488,
+      "random": 0.11492157756230521
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "metric": "expression_AUROC_far_vs_edge",
+      "sd_scvi": 0.007434266125825413,
+      "sd_umap": 0.0010922032112334074,
+      "range_scvi": [
+        0.87638275784311,
+        0.8971207118190311
+      ],
+      "range_umap": [
+        0.9515871614393199,
+        0.9541917651911846
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.8857372306993753,
+      "mean_umap": 0.9532252130282041,
+      "random": 0.5744155229568861
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "metric": "tissue_E",
+      "sd_scvi": 0.004520439229406271,
+      "sd_umap": 0.0028101956841928284,
+      "range_scvi": [
+        0.42188174089582536,
+        0.4327686841771348
+      ],
+      "range_umap": [
+        0.20440112367135424,
+        0.21160108023772364
+      ],
+      "pca": 0.4597374583290076,
+      "mean_scvi": 0.4274413722301046,
+      "mean_umap": 0.2067681675202458,
+      "random": 0.31865533907787424
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "metric": "tissue_E_star",
+      "sd_scvi": 0.006548787970780772,
+      "sd_umap": 0.0031746476540904034,
+      "range_scvi": [
+        0.2015886036094558,
+        0.21625456305199905
+      ],
+      "range_umap": [
+        0.12636883876939387,
+        0.13462914887536398
+      ],
+      "pca": 0.18670067248754246,
+      "mean_scvi": 0.20857091837524716,
+      "mean_umap": 0.1293219198456268,
+      "random": 0.021144968158136376
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "metric": "tissue_S",
+      "sd_scvi": 0.008573540190439589,
+      "sd_umap": 0.03179876524339941,
+      "range_scvi": [
+        0.8439765193557495,
+        0.8643426862182526
+      ],
+      "range_umap": [
+        0.7272119755724362,
+        0.8076853366804307
+      ],
+      "pca": 0.9274090038727527,
+      "mean_scvi": 0.8576853983288351,
+      "mean_umap": 0.7523810463213781,
+      "random": 0.5778465225984556
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "metric": "tissue_S_star",
+      "sd_scvi": 0.022553111168437685,
+      "sd_umap": 0.06630552937981457,
+      "range_scvi": [
+        0.5187699500998578,
+        0.5747810744641042
+      ],
+      "range_umap": [
+        0.43534269060050307,
+        0.5990493265828476
+      ],
+      "pca": 0.6073131756859049,
+      "mean_scvi": 0.5556841719126326,
+      "mean_umap": 0.4821882844534393,
+      "random": 0.11689820317297984
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "metric": "tissue_AUROC_far_vs_edge",
+      "sd_scvi": 0.007514708141731484,
+      "sd_umap": 0.009402606398191784,
+      "range_scvi": [
+        0.8969764149867098,
+        0.9172710027545644
+      ],
+      "range_umap": [
+        0.9120759658760594,
+        0.9361102230165569
+      ],
+      "pca": 0.8535399036907417,
+      "mean_scvi": 0.908930299507063,
+      "mean_umap": 0.9204699389258562,
+      "random": 0.5804515352005297
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "metric": "expression_E",
+      "sd_scvi": 0.0018411953150477885,
+      "sd_umap": 0.001087529299235484,
+      "range_scvi": [
+        0.42092392392392386,
+        0.4252002002002002
+      ],
+      "range_umap": [
+        0.2650771712078529,
+        0.26787520763138334
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.42271845178511847,
+      "mean_umap": 0.26624876482960996,
+      "random": 0.32706039372706036
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "metric": "expression_E_star",
+      "sd_scvi": 0.0029714082055341544,
+      "sd_umap": 0.0011123908383750588,
+      "range_scvi": [
+        0.19791488759934694,
+        0.20579716301770876
+      ],
+      "range_umap": [
+        0.19346623315084369,
+        0.19639735821490906
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.20204336460767497,
+      "mean_umap": 0.19461016651723922,
+      "random": 0.033220105028111825
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "metric": "expression_S",
+      "sd_scvi": 0.005244737658705776,
+      "sd_umap": 0.008120599295873485,
+      "range_scvi": [
+        0.9597995523858617,
+        0.9729343521013722
+      ],
+      "range_umap": [
+        0.9747515611032449,
+        0.9969028059620986
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.9690219696327084,
+      "mean_umap": 0.9839974683048736,
+      "random": 0.6653921191201707
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "metric": "expression_S_star",
+      "sd_scvi": 0.015577778283783804,
+      "sd_umap": 0.016765908919258048,
+      "range_scvi": [
+        0.8760080000043716,
+        0.9149363350708091
+      ],
+      "range_umap": [
+        0.9477370181337815,
+        0.993396051530503
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.9033325630227749,
+      "mean_umap": 0.9666843464806032,
+      "random": 0.30003461618677707
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "metric": "expression_AUROC_far_vs_edge",
+      "sd_scvi": 0.004882333861027791,
+      "sd_umap": 0.0017037162071492245,
+      "range_scvi": [
+        0.9540074429467084,
+        0.9654889032660684
+      ],
+      "range_umap": [
+        0.9925138301376037,
+        0.9968363944570577
+      ],
+      "pca": 1.0,
+      "mean_scvi": 0.9625276513651269,
+      "mean_umap": 0.993933045690899,
+      "random": 0.6612266629126979
+    }
+  ],
+  "external_anchor": [
+    {
+      "object": "pfc_151507",
+      "score": "tissue_E_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.7622377622377624,
+      "spearman_vs_layer_ari": 0.7622377622377624
+    },
+    {
+      "object": "pfc_151507",
+      "score": "expression_E_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": -0.027972027972027972,
+      "spearman_vs_layer_ari": 0.3636363636363637
+    },
+    {
+      "object": "pfc_151507",
+      "score": "tissue_S_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": -0.3636363636363637,
+      "spearman_vs_layer_ari": 0.02097902097902098
+    },
+    {
+      "object": "pfc_151507",
+      "score": "tissue_AUROC_far_vs_edge",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.034965034965034975,
+      "spearman_vs_layer_ari": -0.35664335664335667
+    },
+    {
+      "object": "pfc_151507",
+      "score": "tissue_E",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.2937062937062937,
+      "spearman_vs_layer_ari": 0.7062937062937064
+    },
+    {
+      "object": "pfc_151673",
+      "score": "tissue_E_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.9720279720279721,
+      "spearman_vs_layer_ari": 0.8741258741258742
+    },
+    {
+      "object": "pfc_151673",
+      "score": "expression_E_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.8321678321678322,
+      "spearman_vs_layer_ari": 0.5664335664335665
+    },
+    {
+      "object": "pfc_151673",
+      "score": "tissue_S_star",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.7412587412587414,
+      "spearman_vs_layer_ari": 0.5034965034965035
+    },
+    {
+      "object": "pfc_151673",
+      "score": "tissue_AUROC_far_vs_edge",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": -0.04895104895104895,
+      "spearman_vs_layer_ari": 0.22377622377622378
+    },
+    {
+      "object": "pfc_151673",
+      "score": "tissue_E",
+      "n_candidates": 12,
+      "spearman_vs_layer_purity": 0.7272727272727274,
+      "spearman_vs_layer_ari": 0.41958041958041964
+    }
+  ]
+}

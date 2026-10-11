@@ -1,0 +1,72 @@
+{
+ "n_reference_graphs_per_section": 62,
+ "baseline": {
+  "umap_above_random_Estar": true,
+  "scvi_not_below_pca_Estar": true,
+  "umap_Estar_positive": true,
+  "umap_below_scvi_Estar": 7,
+  "umap_below_pca_Estar": 6,
+  "random_last_Estar": 7,
+  "pca_above_scvi_raw": 4,
+  "umap_below_permuted_pca_raw": 6,
+  "ordering_changed_sections": 7,
+  "metastasis_Sstar_negative": true,
+  "random_Estar_min": 0.0049316833187739,
+  "random_Estar_max": 0.1033848223054904,
+  "umap_Estar_min": 0.0868366818495154,
+  "umap_Estar_max": 0.3224073948757625
+ },
+ "held_in_every_graph": {
+  "umap_above_random_Estar": true,
+  "scvi_not_below_pca_Estar": true,
+  "umap_Estar_positive": true,
+  "umap_below_scvi_Estar": true,
+  "umap_below_pca_Estar": true,
+  "random_last_Estar": true,
+  "pca_above_scvi_raw": true,
+  "umap_below_permuted_pca_raw": true,
+  "ordering_changed_sections": true,
+  "metastasis_Sstar_negative": true
+ },
+ "random_Estar_range_all_graphs": [
+  0.0049097867287255,
+  0.1037984108215743
+ ],
+ "umap_Estar_range_all_graphs": [
+  0.0867600603423216,
+  0.322967212555862
+ ],
+ "largest_range_over_all_62_graphs": {
+  "AUROC": 0.00518,
+  "E": 0.00149,
+  "E_star": 0.00205,
+  "R": 0.0,
+  "S": 0.01288,
+  "S_star": 0.04233
+ },
+ "largest_sd_over_all_62_graphs": {
+  "AUROC": 0.00169,
+  "E": 0.0002,
+  "E_star": 0.00027,
+  "R": 0.0,
+  "S": 0.00374,
+  "S_star": 0.00851
+ },
+ "largest_tie_complete_shift": {
+  "AUROC": 0.00418,
+  "E": 0.00117,
+  "E_star": 0.00161,
+  "R": 0.0,
+  "S": 0.01201,
+  "S_star": 0.03947
+ },
+ "reproduction_max_abs_difference_vs_saved": {
+  "E": 0.0,
+  "S": 0.0,
+  "E0_exact": 0.0,
+  "S0_exact": 0.0,
+  "AUROC": 0.0,
+  "n_edges": 0.0,
+  "n_far": 0.0
+ }
+}

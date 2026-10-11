@@ -1,0 +1,146 @@
+{
+  "summary": {
+    "schema": "raag-v3-p2-remeasurement-report-v1",
+    "status": "PASS_AGREES_WITH_ARCHIVED_V2",
+    "n_scale": 216,
+    "n_correspondence": 180,
+    "n_controls": 48,
+    "n_batteries": 444,
+    "n_permutation_objects": 12,
+    "n_mismatches": 0,
+    "maximum_absolute_difference_vs_v2": {
+      "reachability_survival": 0.0,
+      "edge_survival": 2.220446049250313e-16,
+      "separation_survival": 0.0,
+      "allocation_coherence_raw": 1.5543122344752192e-15
+    },
+    "allocation_status_counts_v3": {
+      "eligible": 288,
+      "non_native": 108
+    },
+    "cutoff_tie_rows_total": 0,
+    "zero_distance_nonself_pairs_total": 0,
+    "permutation_exceedances_v3": [
+      [
+        "setty-native-s0",
+        0,
+        0
+      ],
+      [
+        "setty-native-s1",
+        0,
+        0
+      ],
+      [
+        "setty-native-s2",
+        0,
+        0
+      ],
+      [
+        "dentate-native-s0",
+        0,
+        0
+      ],
+      [
+        "dentate-native-s1",
+        0,
+        0
+      ],
+      [
+        "dentate-native-s2",
+        0,
+        0
+      ],
+      [
+        "endo-native-s0",
+        0,
+        0
+      ],
+      [
+        "endo-native-s1",
+        0,
+        0
+      ],
+      [
+        "endo-native-s2",
+        0,
+        0
+      ],
+      [
+        "lung-native-s0",
+        0,
+        0
+      ],
+      [
+        "lung-native-s1",
+        0,
+        0
+      ],
+      [
+        "lung-native-s2",
+        0,
+        0
+      ]
+    ],
+    "permutation_exceedances_archived": [
+      [
+        "setty-native-s0",
+        0
+      ],
+      [
+        "setty-native-s1",
+        0
+      ],
+      [
+        "setty-native-s2",
+        0
+      ],
+      [
+        "dentate-native-s0",
+        0
+      ],
+      [
+        "dentate-native-s1",
+        0
+      ],
+      [
+        "dentate-native-s2",
+        0
+      ],
+      [
+        "endo-native-s0",
+        0
+      ],
+      [
+        "endo-native-s1",
+        0
+      ],
+      [
+        "endo-native-s2",
+        0
+      ],
+      [
+        "lung-native-s0",
+        0
+      ],
+      [
+        "lung-native-s1",
+        0
+      ],
+      [
+        "lung-native-s2",
+        0
+      ]
+    ],
+    "elapsed_seconds": 40.93076239299262,
+    "peak_rss_mib": 87.92578125,
+    "scorer_version": "RAAG-v3-identity-compensated-20261009",
+    "ceilings": {
+      "threads": 2,
+      "wall_seconds": 1800,
+      "peak_rss_mib": 2048
+    },
+    "within_ceilings": true
+  },
+  "mismatches": []
+}

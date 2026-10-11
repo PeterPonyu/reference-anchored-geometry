@@ -1,10 +1,12 @@
 {
-  "title": "Reference-anchored geometry diagnostics with noise-matched calibration and native-allocation checks",
-  "version": "1.0.0",
+  "title": "Reference-anchored diagnostics of single-cell geometry and native allocation coherence",
+  "version": "2.0.0",
+  "date": "2026-10-11",
   "repository": "https://github.com/PeterPonyu/reference-anchored-geometry",
-  "archive_doi": "10.5281/zenodo.22914409",
-  "archive_record": "https://zenodo.org/records/22914409",
-  "scope": "The archive contains the manuscript, seven vector figures, analysis code, synthetic calibration arrays, saved measurement tables, and 24 matched representation/reference arrays. It supports fixed-object sensitivity and permutation analyses and independent numerical checks. Complete historical expression caches, all inventoried latent files and the complete historical multi-library calibration driver are not supplied.",
+  "archive_doi": "10.5281/zenodo.23299047",
+  "archive_record": "https://zenodo.org/records/23299047",
+  "concept_doi": "10.5281/zenodo.22914408",
+  "scope": "Calibration, chance correction and sensitivity analysis of reference-anchored graph geometry and native probability-allocation diagnostics for single-cell representations. The release contains the manuscript, twelve vector figures, analysis code, synthetic calibration arrays, saved score tables, the matched representation and reference arrays of 24 stored objects, seven tissue sections and one blood sample, the identity-explicit scorer with its decimal-oracle validation, and a consistency audit of the manuscript against the saved evidence. Count matrices of the cited public datasets, complete expression caches and the historical multi-library calibration driver are not distributed.",
   "licenses_by_contribution": {
     "author_software": "MIT",
     "author_research_content": "CC-BY-4.0",

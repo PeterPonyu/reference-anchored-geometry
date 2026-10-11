@@ -1,0 +1,1017 @@
+{
+  "protocol": "evidence/diversity-20261009/PROTOCOL.md",
+  "k": 15,
+  "objects": [
+    {
+      "object": "bulb",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 262,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 189
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5138773628400184,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.1590594744121715,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9045373231419743,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5170201321653604,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.15168280313508528,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.5578142787445113,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 6149.0
+        },
+        "umap": {
+          "reachability_survival": 0.6178818987452839,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.3150575936537209,
+          "edge_severed_fraction": 0.2471184877823882,
+          "edge_preserved_fraction": 0.11848778238819732,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.7142624817043421,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 6149.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5036114953127401,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.10142923005993545,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9102293055781427,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.4532426617488858,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.099124020285846,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9032362985851358,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 3296.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6577.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.643406148867314,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.32281553398058255,
+          "n_reference_edges": 3296.0,
+          "separation_survival": 0.8634635852212255,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 6577.0
+        },
+        "umap": {
+          "reachability_survival": 0.6178818987452839,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.6420986477115117,
+          "edge_severed_fraction": 0.01972087378640777,
+          "edge_preserved_fraction": 0.3995752427184466,
+          "n_reference_edges": 3296.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 6577.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5408070388349514,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.1495752427184466,
+          "n_reference_edges": 3296.0,
+          "separation_survival": 0.9297552075414323,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6577.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.4527760922330097,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.10103155339805825,
+          "n_reference_edges": 3296.0,
+          "separation_survival": 0.904819826668694,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6577.0
+        }
+      }
+    },
+    {
+      "object": "pfc_151673",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 3639,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.4597374583290076,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.06139045575665294,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.9274090038727527,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 811051.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.42366854690798345,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.07762051424023254,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.8439765193557495,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 811051.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.20755160806066478,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.03713188220230474,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.7512412906216749,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 811051.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.31865533907787424,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.01003564383846074,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.5778465225984556,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 811051.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.3367530325276804,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.007717064055092224,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.8118379731977398,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 811051.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 49950.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 919542.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.4210166833500167,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.07465465465465465,
+          "n_reference_edges": 49950.0,
+          "separation_survival": 0.9597995523858617,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 919542.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.26541309946830666,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.062202202202202204,
+          "n_reference_edges": 49950.0,
+          "separation_survival": 0.995333546482923,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 919542.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.32706039372706036,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.012332332332332333,
+          "n_reference_edges": 49950.0,
+          "separation_survival": 0.6653921191201707,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 919542.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.33609075742409067,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.007767767767767768,
+          "n_reference_edges": 49950.0,
+          "separation_survival": 0.8139214957011208,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 919542.0
+        }
+      }
+    },
+    {
+      "object": "metastasis",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 1184,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.5785540510710646,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.25051780254462963,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.40800123930134385,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.6247131538284512,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.3129499950685472,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.5567561287324271,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.4163900921566659,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.17565834894960056,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.29840052670307116,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 10.0,
+          "n_far_pairs": 25821.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.43317881447874546,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.07347864680935004,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.7783974284497115,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 25821.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.30563606347953914,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.022290166683104844,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.6035784826304171,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 700336.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 14737.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 171394.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 700336.0,
+          "edge_survival": 0.5672140417543146,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.248829476827034,
+          "n_reference_edges": 14737.0,
+          "separation_survival": 0.9479678401811031,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 171394.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 700336.0,
+          "edge_survival": 0.6064453832726283,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.34681414127705773,
+          "n_reference_edges": 14737.0,
+          "separation_survival": 0.9174708566227523,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 10.0,
+          "n_far_pairs": 171394.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 700336.0,
+          "edge_survival": 0.4506435050100653,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.08400624279025581,
+          "n_reference_edges": 14737.0,
+          "separation_survival": 0.8206529983546682,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 171394.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 700336.0,
+          "edge_survival": 0.3046728028254119,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.021646196647893058,
+          "n_reference_edges": 14737.0,
+          "separation_survival": 0.6064564687211921,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 171394.0
+        }
+      }
+    },
+    {
+      "object": "pfc_151507",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 4226,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 148
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.43704977823578733,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.04337283666232231,
+          "n_reference_edges": 32993.0,
+          "separation_survival": 0.8915683072998835,
+          "separation_far_cutoff_hops": 30.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 979317.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.3891057699107891,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.05410238535446913,
+          "n_reference_edges": 32993.0,
+          "separation_survival": 0.7864481061801235,
+          "separation_far_cutoff_hops": 30.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 979317.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.1653263751028671,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.021853120358864,
+          "n_reference_edges": 32993.0,
+          "separation_survival": 0.737859140605136,
+          "separation_far_cutoff_hops": 30.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 979317.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.3014472766950565,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.006516533810202164,
+          "n_reference_edges": 32993.0,
+          "separation_survival": 0.5715759044313536,
+          "separation_far_cutoff_hops": 30.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 979317.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.36172319380878765,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.006395295971872821,
+          "n_reference_edges": 32993.0,
+          "separation_survival": 0.7957842047059328,
+          "separation_far_cutoff_hops": 30.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 979317.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 58911.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 946628.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.38175892447929927,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.04951537064385259,
+          "n_reference_edges": 58911.0,
+          "separation_survival": 0.9050672492256726,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 946628.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.21753336981145086,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.04389672556907878,
+          "n_reference_edges": 58911.0,
+          "separation_survival": 0.87158841699168,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 946628.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.3107116384602762,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.00804603554514437,
+          "n_reference_edges": 58911.0,
+          "separation_survival": 0.6100220994942047,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 946628.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8927425.0,
+          "edge_survival": 0.3607155992372675,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0066880548624195825,
+          "n_reference_edges": 58911.0,
+          "separation_survival": 0.7968684636414727,
+          "separation_far_cutoff_hops": 4.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 946628.0
+        }
+      }
+    },
+    {
+      "object": "lymph",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 4035,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.43488057518706574,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.08219092135395425,
+          "n_reference_edges": 31877.0,
+          "separation_survival": 0.6065586778608254,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 907378.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.4151398903822281,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.09844088214072842,
+          "n_reference_edges": 31877.0,
+          "separation_survival": 0.8135936731990416,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 907378.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.1996271242300692,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.04573830661605546,
+          "n_reference_edges": 31877.0,
+          "separation_survival": 0.5463830950276511,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 907378.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.30876860014012186,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.008187721554725977,
+          "n_reference_edges": 31877.0,
+          "separation_survival": 0.541243010079592,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 907378.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.2958174052944577,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0068701571666091536,
+          "n_reference_edges": 31877.0,
+          "separation_survival": 0.5629649385371918,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 907378.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 51600.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 1677121.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.5160744739756368,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.17903100775193798,
+          "n_reference_edges": 51600.0,
+          "separation_survival": 0.9900865829001009,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 1677121.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.3774481539862063,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.1325,
+          "n_reference_edges": 51600.0,
+          "separation_survival": 0.870008186648429,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 1677121.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.31878036175710595,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.010155038759689922,
+          "n_reference_edges": 51600.0,
+          "separation_survival": 0.5896646693947545,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 1677121.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 8138595.0,
+          "edge_survival": 0.29561344130675526,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0065697674418604655,
+          "n_reference_edges": 51600.0,
+          "separation_survival": 0.5648149417960898,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 1677121.0
+        }
+      }
+    },
+    {
+      "object": "breast",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 3798,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.5006712009023799,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.16242838476228766,
+          "n_reference_edges": 29847.0,
+          "separation_survival": 0.8378038529800371,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 736417.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.5318815642315491,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.2087982041746239,
+          "n_reference_edges": 29847.0,
+          "separation_survival": 0.8092534528670576,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 5.0,
+          "n_far_pairs": 736417.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.26911940083533514,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0835594867155828,
+          "n_reference_edges": 29847.0,
+          "separation_survival": 0.6926401753354418,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 736417.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.3336220278978345,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0167521023888498,
+          "n_reference_edges": 29847.0,
+          "separation_survival": 0.5380117514940584,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 736417.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.2695447177430291,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.006499815726873723,
+          "n_reference_edges": 29847.0,
+          "separation_survival": 0.6931371763552444,
+          "separation_far_cutoff_hops": 29.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 736417.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 48263.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 771825.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.5687602550706792,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.2600957255040093,
+          "n_reference_edges": 48263.0,
+          "separation_survival": 0.915721828134616,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 5.0,
+          "n_far_pairs": 771825.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.4651070411701519,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.20914572239603837,
+          "n_reference_edges": 48263.0,
+          "separation_survival": 0.9517196255627894,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 771825.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.3428879265690073,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.019145100801856496,
+          "n_reference_edges": 48263.0,
+          "separation_survival": 0.6122216823761863,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 771825.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 7210503.0,
+          "edge_survival": 0.26923920325439094,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0066717775521621114,
+          "n_reference_edges": 48263.0,
+          "separation_survival": 0.7012289055161468,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 771825.0
+        }
+      }
+    },
+    {
+      "object": "ovary",
+      "kind": "spatial",
+      "preprocessing": {
+        "n_spots": 3493,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "spatial_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.4414372603395439,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.08019812798193539,
+          "n_reference_edges": 27457.0,
+          "separation_survival": 0.8882488007488007,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 683760.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.4284475118670405,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.09913683213752413,
+          "n_reference_edges": 27457.0,
+          "separation_survival": 0.7324412074412074,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 683760.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.18640621593270704,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0336526204610846,
+          "n_reference_edges": 27457.0,
+          "separation_survival": 0.5147230022230023,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 683760.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.3188519017615423,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.010671231379975962,
+          "n_reference_edges": 27457.0,
+          "separation_survival": 0.9086229086229086,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 683760.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.315708371705021,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.008231052190698182,
+          "n_reference_edges": 27457.0,
+          "separation_survival": 0.8652085527085527,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 683760.0
+        }
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 47308.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 821827.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.49466475014796646,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.14857952143400693,
+          "n_reference_edges": 47308.0,
+          "separation_survival": 0.9782411626777898,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 821827.0
+        },
+        "umap": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.3432227695793771,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.10328062906907923,
+          "n_reference_edges": 47308.0,
+          "separation_survival": 0.9959650875427554,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 821827.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.3271166257997238,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.011900735604971674,
+          "n_reference_edges": 47308.0,
+          "separation_survival": 0.9329189719977562,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 821827.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6098778.0,
+          "edge_survival": 0.3141728772340931,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.0075251543079394604,
+          "n_reference_edges": 47308.0,
+          "separation_survival": 0.8620451749577466,
+          "separation_far_cutoff_hops": 5.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 821827.0
+        }
+      }
+    },
+    {
+      "object": "pbmc3k",
+      "kind": "dissociated",
+      "preprocessing": {
+        "n_spots": 2700,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "expression_reference": {
+        "pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 3643650.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 35597.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 773344.0
+        },
+        "scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 3643650.0,
+          "edge_survival": 0.4471233530915526,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.08955810882939573,
+          "n_reference_edges": 35597.0,
+          "separation_survival": 0.9891367877684446,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 773344.0
+        },
+        "umap": {
+          "reachability_survival": 0.457468198098061,
+          "n_reference_connected_pairs": 3643650.0,
+          "edge_survival": 0.34737216207583244,
+          "edge_severed_fraction": 0.004831867854032643,
+          "edge_preserved_fraction": 0.11413883192403854,
+          "n_reference_edges": 35597.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 10.0,
+          "n_far_pairs": 773344.0
+        },
+        "random": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 3643650.0,
+          "edge_survival": 0.3393375846279181,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.01398994297272242,
+          "n_reference_edges": 35597.0,
+          "separation_survival": 0.9078210990193238,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 773344.0
+        },
+        "permuted_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 3643650.0,
+          "edge_survival": 0.2924892346465794,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.009242351883585695,
+          "n_reference_edges": 35597.0,
+          "separation_survival": 0.5634749865519096,
+          "separation_far_cutoff_hops": 6.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 773344.0
+        }
+      }
+    }
+  ],
+  "failures": []
+}

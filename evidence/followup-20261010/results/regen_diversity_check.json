@@ -1,0 +1,1384 @@
+{
+  "note": "Regenerated with archived diversity_extension.representations; diffs = regenerated - archived results.json",
+  "objects": [
+    {
+      "object": "bulb",
+      "meta": {
+        "n_spots": 262,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 189
+      },
+      "n": 262,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.643406148867314,
+            "regenerated": 0.643406148867314,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8634635852212255,
+            "regenerated": 0.8634635852212255,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 0.6178818987452839,
+            "regenerated": 0.6178818987452839,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.6420986477115117,
+            "regenerated": 0.6420986477115117,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5408070388349514,
+            "regenerated": 0.5408070388349514,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9297552075414323,
+            "regenerated": 0.9297552075414323,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4527760922330097,
+            "regenerated": 0.4527760922330097,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.904819826668694,
+            "regenerated": 0.904819826668694,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5138773628400184,
+            "regenerated": 0.5138773628400184,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9045373231419743,
+            "regenerated": 0.9045373231419743,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5170201321653604,
+            "regenerated": 0.5170201321653604,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5578142787445113,
+            "regenerated": 0.5578142787445113,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 0.6178818987452839,
+            "regenerated": 0.6178818987452839,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3150575936537209,
+            "regenerated": 0.3150575936537209,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7142624817043421,
+            "regenerated": 0.7142624817043421,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5036114953127401,
+            "regenerated": 0.5036114953127401,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9102293055781427,
+            "regenerated": 0.9102293055781427,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4532426617488858,
+            "regenerated": 0.4532426617488858,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9032362985851358,
+            "regenerated": 0.9032362985851358,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 11.608446598052979
+    },
+    {
+      "object": "pfc_151673",
+      "meta": {
+        "n_spots": 3639,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 3639,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4210166833500167,
+            "regenerated": 0.4210166833500167,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9597995523858617,
+            "regenerated": 0.9597995523858617,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.26541309946830666,
+            "regenerated": 0.26787520763138334,
+            "diff": 0.0024621081630766817
+          },
+          "separation_survival": {
+            "archived": 0.995333546482923,
+            "regenerated": 0.9847565418436569,
+            "diff": -0.010577004639266141
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.32706039372706036,
+            "regenerated": 0.32706039372706036,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6653921191201707,
+            "regenerated": 0.6653921191201707,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.33609075742409067,
+            "regenerated": 0.33609075742409067,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8139214957011208,
+            "regenerated": 0.8139214957011208,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4597374583290076,
+            "regenerated": 0.4597374583290076,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9274090038727527,
+            "regenerated": 0.9274090038727527,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.42366854690798345,
+            "regenerated": 0.42366854690798345,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8439765193557495,
+            "regenerated": 0.8439765193557495,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.20755160806066478,
+            "regenerated": 0.21160108023772364,
+            "diff": 0.004049472177058866
+          },
+          "separation_survival": {
+            "archived": 0.7512412906216749,
+            "regenerated": 0.8076853366804307,
+            "diff": 0.05644404605875586
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.31865533907787424,
+            "regenerated": 0.31865533907787424,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5778465225984556,
+            "regenerated": 0.5778465225984556,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3367530325276804,
+            "regenerated": 0.3367530325276804,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8118379731977398,
+            "regenerated": 0.8118379731977398,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 100.04021072387695
+    },
+    {
+      "object": "metastasis",
+      "meta": {
+        "n_spots": 1184,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 1184,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5672140417543146,
+            "regenerated": 0.5672140417543146,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9479678401811031,
+            "regenerated": 0.9479678401811031,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.6064453832726283,
+            "regenerated": 0.6064453832726283,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9174708566227523,
+            "regenerated": 0.9174708566227523,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4506435050100653,
+            "regenerated": 0.4506435050100653,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8206529983546682,
+            "regenerated": 0.8206529983546682,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3046728028254119,
+            "regenerated": 0.3046728028254119,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6064564687211921,
+            "regenerated": 0.6064564687211921,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5785540510710646,
+            "regenerated": 0.5785540510710646,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.40800123930134385,
+            "regenerated": 0.40800123930134385,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.6247131538284512,
+            "regenerated": 0.6247131538284512,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5567561287324271,
+            "regenerated": 0.5567561287324271,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4163900921566659,
+            "regenerated": 0.4163900921566659,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.29840052670307116,
+            "regenerated": 0.29840052670307116,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.43317881447874546,
+            "regenerated": 0.43317881447874546,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7783974284497115,
+            "regenerated": 0.7783974284497115,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.30563606347953914,
+            "regenerated": 0.30563606347953914,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6035784826304171,
+            "regenerated": 0.6035784826304171,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 36.646722078323364
+    },
+    {
+      "object": "pfc_151507",
+      "meta": {
+        "n_spots": 4226,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 148
+      },
+      "n": 4226,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.38175892447929927,
+            "regenerated": 0.38175892447929927,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9050672492256726,
+            "regenerated": 0.9050672492256726,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.21753336981145086,
+            "regenerated": 0.21753336981145086,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.87158841699168,
+            "regenerated": 0.87158841699168,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3107116384602762,
+            "regenerated": 0.3107116384602762,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6100220994942047,
+            "regenerated": 0.6100220994942047,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3607155992372675,
+            "regenerated": 0.3607155992372675,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7968684636414727,
+            "regenerated": 0.7968684636414727,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.43704977823578733,
+            "regenerated": 0.43704977823578733,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8915683072998835,
+            "regenerated": 0.8915683072998835,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3891057699107891,
+            "regenerated": 0.3891057699107891,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7864481061801235,
+            "regenerated": 0.7864481061801235,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.1653263751028671,
+            "regenerated": 0.1653263751028671,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.737859140605136,
+            "regenerated": 0.737859140605136,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3014472766950565,
+            "regenerated": 0.3014472766950565,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5715759044313536,
+            "regenerated": 0.5715759044313536,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.36172319380878765,
+            "regenerated": 0.36172319380878765,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7957842047059328,
+            "regenerated": 0.7957842047059328,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 183.32266998291016
+    },
+    {
+      "object": "lymph",
+      "meta": {
+        "n_spots": 4035,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 4035,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5160744739756368,
+            "regenerated": 0.5160744739756368,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9900865829001009,
+            "regenerated": 0.9900865829001009,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3774481539862063,
+            "regenerated": 0.3774481539862063,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.870008186648429,
+            "regenerated": 0.870008186648429,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.31878036175710595,
+            "regenerated": 0.31878036175710595,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5896646693947545,
+            "regenerated": 0.5896646693947545,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.29561344130675526,
+            "regenerated": 0.29561344130675526,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5648149417960898,
+            "regenerated": 0.5648149417960898,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.43488057518706574,
+            "regenerated": 0.43488057518706574,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6065586778608254,
+            "regenerated": 0.6065586778608254,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4151398903822281,
+            "regenerated": 0.4151398903822281,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8135936731990416,
+            "regenerated": 0.8135936731990416,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.1996271242300692,
+            "regenerated": 0.1996271242300692,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5463830950276511,
+            "regenerated": 0.5463830950276511,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.30876860014012186,
+            "regenerated": 0.30876860014012186,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.541243010079592,
+            "regenerated": 0.541243010079592,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.2958174052944577,
+            "regenerated": 0.2958174052944577,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5629649385371918,
+            "regenerated": 0.5629649385371918,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 183.52365016937256
+    },
+    {
+      "object": "breast",
+      "meta": {
+        "n_spots": 3798,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 3798,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5687602550706792,
+            "regenerated": 0.5687602550706792,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.915721828134616,
+            "regenerated": 0.915721828134616,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4651070411701519,
+            "regenerated": 0.4651070411701519,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9517196255627894,
+            "regenerated": 0.9517196255627894,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3428879265690073,
+            "regenerated": 0.3428879265690073,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6122216823761863,
+            "regenerated": 0.6122216823761863,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.26923920325439094,
+            "regenerated": 0.26923920325439094,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7012289055161468,
+            "regenerated": 0.7012289055161468,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5006712009023799,
+            "regenerated": 0.5006712009023799,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8378038529800371,
+            "regenerated": 0.8378038529800371,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.5318815642315491,
+            "regenerated": 0.5318815642315491,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8092534528670576,
+            "regenerated": 0.8092534528670576,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.26911940083533514,
+            "regenerated": 0.26911940083533514,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6926401753354418,
+            "regenerated": 0.6926401753354418,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3336220278978345,
+            "regenerated": 0.3336220278978345,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5380117514940584,
+            "regenerated": 0.5380117514940584,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.2695447177430291,
+            "regenerated": 0.2695447177430291,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.6931371763552444,
+            "regenerated": 0.6931371763552444,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 143.9666121006012
+    },
+    {
+      "object": "ovary",
+      "meta": {
+        "n_spots": 3493,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 3493,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.49466475014796646,
+            "regenerated": 0.49466475014796646,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9782411626777898,
+            "regenerated": 0.9782411626777898,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3432227695793771,
+            "regenerated": 0.3432227695793771,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9959650875427554,
+            "regenerated": 0.9959650875427554,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3271166257997238,
+            "regenerated": 0.3271166257997238,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9329189719977562,
+            "regenerated": 0.9329189719977562,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3141728772340931,
+            "regenerated": 0.3141728772340931,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8620451749577466,
+            "regenerated": 0.8620451749577466,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4414372603395439,
+            "regenerated": 0.4414372603395439,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8882488007488007,
+            "regenerated": 0.8882488007488007,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4284475118670405,
+            "regenerated": 0.4284475118670405,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.7324412074412074,
+            "regenerated": 0.7324412074412074,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/umap": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.18640621593270704,
+            "regenerated": 0.18640621593270704,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5147230022230023,
+            "regenerated": 0.5147230022230023,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3188519017615423,
+            "regenerated": 0.3188519017615423,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9086229086229086,
+            "regenerated": 0.9086229086229086,
+            "diff": 0.0
+          }
+        },
+        "spatial_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.315708371705021,
+            "regenerated": 0.315708371705021,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.8652085527085527,
+            "regenerated": 0.8652085527085527,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 90.53071427345276
+    },
+    {
+      "object": "pbmc3k",
+      "meta": {
+        "n_spots": 2700,
+        "n_genes": 2000,
+        "pca_components": 50,
+        "scvi_epochs_ran": 200
+      },
+      "n": 2700,
+      "diffs": {
+        "expression_reference/pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/scvi": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.4471233530915526,
+            "regenerated": 0.4471233530915526,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9891367877684446,
+            "regenerated": 0.9891367877684446,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/umap": {
+          "reachability_survival": {
+            "archived": 0.457468198098061,
+            "regenerated": 0.457468198098061,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.34737216207583244,
+            "regenerated": 0.34737216207583244,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/random": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.3393375846279181,
+            "regenerated": 0.3393375846279181,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.9078210990193238,
+            "regenerated": 0.9078210990193238,
+            "diff": 0.0
+          }
+        },
+        "expression_reference/permuted_pca": {
+          "reachability_survival": {
+            "archived": 1.0,
+            "regenerated": 1.0,
+            "diff": 0.0
+          },
+          "edge_survival": {
+            "archived": 0.2924892346465794,
+            "regenerated": 0.2924892346465794,
+            "diff": 0.0
+          },
+          "separation_survival": {
+            "archived": 0.5634749865519096,
+            "regenerated": 0.5634749865519096,
+            "diff": 0.0
+          }
+        }
+      },
+      "seconds": 38.23272514343262
+    }
+  ]
+}

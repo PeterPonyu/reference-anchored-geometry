@@ -18,7 +18,15 @@
 \usepackage[svgnames]{xcolor}
 \usepackage{authblk}
 \usepackage{microtype}
-\usepackage{xurl}
+\usepackage{url}
+\urlstyle{same}
+\Urlmuskip=0mu
+\makeatletter
+\def\UrlBreaks{\do\/}
+\def\UrlBigBreaks{}
+\def\UrlNoBreaks{\do\(\do\)}
+\makeatother
+\newcommand{\doi}[1]{doi:~\mbox{\nolinkurl{#1}}}
 \usepackage[hidelinks]{hyperref}
 
 \captionsetup{font=small,labelfont=bf}
@@ -28,19 +36,22 @@
 \setlength{\textfloatsep}{10pt plus 3pt minus 3pt}
 \setlength{\floatsep}{9pt plus 2pt minus 2pt}
 \setlength{\intextsep}{9pt plus 2pt minus 2pt}
-\renewcommand{\topfraction}{0.9}
-\renewcommand{\bottomfraction}{0.85}
-\renewcommand{\textfraction}{0.08}
-\renewcommand{\floatpagefraction}{0.72}
-\setcounter{topnumber}{3}
-\setcounter{bottomnumber}{2}
-\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.92}
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{3}
 \makeatletter
 \setlength{\@fptop}{0pt}
-\setlength{\@fpsep}{10pt plus 2pt}
+\setlength{\@fpsep}{8pt plus 2pt}
 \setlength{\@fpbot}{0pt plus 1fil}
 \makeatother
 \raggedbottom
+\brokenpenalty=10000
+\clubpenalty=10000
+\widowpenalty=10000
 
 \newcommand{\panfig}[1]{\resizebox{\textwidth}{!}{\input{#1}}}
 \newcommand{\panhalffig}[1]{\resizebox{0.98\linewidth}{!}{\input{#1}}}

@@ -1,0 +1,20 @@
+# Python environment of the saved results and of the replay (Python 3.13.5).
+# Core: scorers, tests, fixed-object checks, figures' inputs, manuscript audit.
+numpy==2.2.6
+scipy==1.16.3
+scikit-learn==1.8.0
+pandas==2.3.3
+PyMuPDF==1.27.1        # scripts/audit_manuscript.py
+# Follow-up analyses that reload data, retrain models or call the official scIB metrics.
+scanpy==1.11.5
+anndata==0.12.10
+umap-learn==0.5.11
+scvi-tools==1.4.3
+torch==2.12.0          # the saved scVI fits used a CUDA build
+zadu==0.5.3
+scib==1.1.7
+# Optional: the unit tests also run with pytest.
+pytest==8.4.2
+# Not installable from pip: R 4.5.2 with ggplot2 4.0.3, gridExtra 2.3, gtable 0.3.6, jsonlite 2.0.0 and Cairo 1.7.0
+# (figures); XeLaTeX and BibTeX from TeX Live 2025 with Arial (manuscript); poppler-utils with pdffonts (audit);
+# PyGObject and librsvg (schematic conversion).

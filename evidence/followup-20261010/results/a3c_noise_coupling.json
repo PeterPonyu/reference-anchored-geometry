@@ -1,0 +1,15 @@
+{
+  "seed7": {
+    "generator_reproduces_archived_reference": true,
+    "max_abs_eps_ref_minus_eps_faithful": 2.220446049250313e-14
+  },
+  "seed17": {
+    "generator_reproduces_archived_reference": true,
+    "max_abs_eps_ref_minus_eps_faithful": 1.687538997430238e-14
+  },
+  "seed42": {
+    "generator_reproduces_archived_reference": true,
+    "max_abs_eps_ref_minus_eps_faithful": 2.220446049250313e-14
+  },
+  "interpretation": "eps identical to machine precision: faithful = clean + 0.014*eps_ref, a deterministic rescaling of the reference jitter"
+}

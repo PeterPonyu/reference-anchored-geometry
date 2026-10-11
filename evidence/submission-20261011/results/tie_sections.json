@@ -1,0 +1,65 @@
+[
+ {
+  "object": "bulb",
+  "n": 262,
+  "cutoff_tie_rows": 0,
+  "cutoff_tie_fraction": 0.0,
+  "archived_edges": 2169,
+  "tie_complete_edges": 2169,
+  "seconds": 0.8
+ },
+ {
+  "object": "pfc_151673",
+  "n": 3639,
+  "cutoff_tie_rows": 96,
+  "cutoff_tie_fraction": 0.0264,
+  "archived_edges": 28897,
+  "tie_complete_edges": 28984,
+  "seconds": 194.3
+ },
+ {
+  "object": "metastasis",
+  "n": 1184,
+  "cutoff_tie_rows": 146,
+  "cutoff_tie_fraction": 0.1233,
+  "archived_edges": 10139,
+  "tie_complete_edges": 10208,
+  "seconds": 9.4
+ },
+ {
+  "object": "breast",
+  "n": 3798,
+  "cutoff_tie_rows": 436,
+  "cutoff_tie_fraction": 0.1148,
+  "archived_edges": 29847,
+  "tie_complete_edges": 30238,
+  "seconds": 210.1
+ },
+ {
+  "object": "ovary",
+  "n": 3493,
+  "cutoff_tie_rows": 1444,
+  "cutoff_tie_fraction": 0.4134,
+  "archived_edges": 27457,
+  "tie_complete_edges": 28109,
+  "seconds": 181.6
+ },
+ {
+  "object": "lymph",
+  "n": 4035,
+  "cutoff_tie_rows": 740,
+  "cutoff_tie_fraction": 0.1834,
+  "archived_edges": 31877,
+  "tie_complete_edges": 32045,
+  "seconds": 231.6
+ },
+ {
+  "object": "pfc_151507",
+  "n": 4226,
+  "cutoff_tie_rows": 958,
+  "cutoff_tie_fraction": 0.2267,
+  "archived_edges": 32993,
+  "tie_complete_edges": 33200,
+  "seconds": 247.1
+ }
+]

@@ -1,0 +1,89 @@
+{
+  "diversity": {
+    "n_scored": 75,
+    "n_reference_connected": 70,
+    "max_abs_diff_R_vs_component_formula_connected_ref": 0.0,
+    "n_R_below_1": 3,
+    "R_values_below_1": [
+      0.457468,
+      0.617882
+    ],
+    "max_abs_diff_R_minus_stored_LCC": null
+  },
+  "fixture": {
+    "n_scored": 36,
+    "n_reference_connected": 36,
+    "max_abs_diff_R_vs_component_formula_connected_ref": 0.0,
+    "n_R_below_1": 12,
+    "R_values_below_1": [
+      0.331849
+    ],
+    "max_abs_diff_vs_stored_R": 0.0,
+    "max_abs_diff_R_minus_stored_LCC": 0.0014847809948032586
+  },
+  "scale24": {
+    "n_scored": 216,
+    "n_reference_connected": 216,
+    "max_abs_diff_R_vs_component_formula_connected_ref": 0.0,
+    "n_R_below_1": 12,
+    "R_values_below_1": [
+      0.837664,
+      0.913922,
+      0.939579
+    ],
+    "max_abs_diff_vs_stored_R": 0.0,
+    "max_abs_diff_R_minus_stored_LCC": null
+  },
+  "fragmented_fixture_mean_over_seeds": {
+    "faithful": {
+      "R_archived": 1.0,
+      "pair_precision": 1.0,
+      "pair_f1": 1.0,
+      "component_ari": 1.0,
+      "E": 0.93,
+      "S": 1.0,
+      "n_ref_components": 3.0,
+      "n_cand_components": 3.0
+    },
+    "merged_all": {
+      "R_archived": 1.0,
+      "pair_precision": 0.3318,
+      "pair_f1": 0.4983,
+      "component_ari": 0.0,
+      "E": 0.9148,
+      "S": 0.726,
+      "n_ref_components": 3.0,
+      "n_cand_components": 1.0
+    },
+    "merged_two": {
+      "R_archived": 1.0,
+      "pair_precision": 0.5984,
+      "pair_f1": 0.7487,
+      "component_ari": 0.5703,
+      "E": 0.924,
+      "S": 1.0,
+      "n_ref_components": 3.0,
+      "n_cand_components": 2.0
+    },
+    "over_fragmented": {
+      "R_archived": 0.8322,
+      "pair_precision": 1.0,
+      "pair_f1": 0.9084,
+      "component_ari": 0.8689,
+      "E": 0.9235,
+      "S": 1.0,
+      "n_ref_components": 3.0,
+      "n_cand_components": 4.0
+    },
+    "row_permuted": {
+      "R_archived": 0.3322,
+      "pair_precision": 0.3322,
+      "pair_f1": 0.3322,
+      "component_ari": 0.0005,
+      "E": 0.0974,
+      "S": 0.8386,
+      "n_ref_components": 3.0,
+      "n_cand_components": 3.0
+    }
+  }
+}

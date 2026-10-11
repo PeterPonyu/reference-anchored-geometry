@@ -1,16 +1,31 @@
 {
   "renderer": "R",
   "entrypoint": "scripts/build_figures.R",
+  "followup_entrypoint": "scripts/build_followup_figures.R",
+  "schematic": [
+    "scripts/build_architecture.py",
+    "scripts/render_schematic.py",
+    "figures/architecture.svg"
+  ],
   "files": [
     "scripts/build_figures.R",
+    "scripts/build_followup_figures.R",
+    "scripts/figure_style.R",
     "scripts/build_architecture.py",
     "scripts/render_schematic.py",
     "figures/architecture.svg",
-    "scripts/figure_style.R",
     "scripts/export_plot_inputs.py",
     "scripts/plot-inputs/coordinates.csv",
     "scripts/plot-inputs/provenance.json",
     "scripts/scale_correspondence.py",
-    "scripts/local_raag.py"
+    "scripts/local_raag.py",
+    "evidence/measurement-inventory/calibration.json",
+    "evidence/measurement-inventory/rescore_summary.json",
+    "evidence/measurement-inventory/null_v2.json",
+    "evidence/scale-correspondence/results.json",
+    "evidence/raag-v3/full-20261009-c/report.json",
+    "evidence/diversity-20261009/results.json",
+    "evidence/diversity-20261009/object_views.csv",
+    "evidence/followup-20261010/results"
   ]
 }

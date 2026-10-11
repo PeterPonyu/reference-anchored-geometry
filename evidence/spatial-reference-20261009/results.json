@@ -1,0 +1,226 @@
+{
+  "protocol": "evidence/spatial-reference-20261009/PROTOCOL.md",
+  "k": 15,
+  "native_coherence": "not_quoted_continuous_candidates",
+  "objects": [
+    {
+      "object": "stahl2016_mob_rep11",
+      "provenance": {
+        "files": {
+          "spatial-data/st_stahl2016_mob_rep11/Rep11_MOB_0_expr.txt": "cdb8788a3ec369e65f8b352451c50fb324e0ac48f50d56ce9e4bf1d65ec9d068",
+          "spatial-data/st_stahl2016_mob_rep11/Rep11_MOB_0_location.txt": "79ebfdbf326f40489438a6b02d1897f47826e8cf1f8cbacb5924a07d145fa92c"
+        }
+      },
+      "preprocessing": {
+        "n_spots": 262,
+        "n_genes": 2000,
+        "n_hvg_requested": 2000,
+        "pca_components": 50,
+        "scvi_latent": 10,
+        "scvi_epochs_ran": 200,
+        "scvi_batch_size": 32,
+        "scvi_seed": 0,
+        "pca_seed": 42,
+        "device": "NVIDIA GeForce RTX 5090 Laptop GPU"
+      },
+      "k": 15,
+      "scores": {
+        "spatial_identity": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 6149.0
+        },
+        "expression_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5138773628400184,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.1590594744121715,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9045373231419743,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        },
+        "expression_scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.5250883663746734,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.15444905486399263,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9206375020328509,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        },
+        "pca_row_permutation": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 34191.0,
+          "edge_survival": 0.4532426617488858,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.099124020285846,
+          "n_reference_edges": 2169.0,
+          "separation_survival": 0.9032362985851358,
+          "separation_far_cutoff_hops": 7.0,
+          "separation_threshold_hops": 2.0,
+          "n_far_pairs": 6149.0
+        }
+      }
+    },
+    {
+      "object": "maynard2021_dlpfc_151673",
+      "provenance": {
+        "files": {
+          "spatial-data/dlpfc_libd_151673/151673_filtered_feature_bc_matrix.h5": "216e8010e1c313925afa0f174207da7c8947497c960e81b07edbd16176460413",
+          "spatial-data/dlpfc_libd_151673/tissue_positions_list.txt": "c1ce0eafc855982bb2a9773f147ce6c5aef68dfd06600caa8a7e7a0e6f7cc5e8"
+        }
+      },
+      "preprocessing": {
+        "n_spots": 3639,
+        "n_genes": 2000,
+        "n_hvg_requested": 2000,
+        "pca_components": 50,
+        "scvi_latent": 10,
+        "scvi_epochs_ran": 200,
+        "scvi_batch_size": 128,
+        "scvi_seed": 0,
+        "pca_seed": 42,
+        "device": "NVIDIA GeForce RTX 5090 Laptop GPU"
+      },
+      "k": 15,
+      "scores": {
+        "spatial_identity": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 16.0,
+          "n_far_pairs": 811051.0
+        },
+        "expression_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.4597374583290076,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.06139045575665294,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.9274090038727527,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 811051.0
+        },
+        "expression_scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.4001811029980043,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.05367339170156071,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.7492722405865969,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 811051.0
+        },
+        "pca_row_permutation": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 6619341.0,
+          "edge_survival": 0.3367530325276804,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.007717064055092224,
+          "n_reference_edges": 28897.0,
+          "separation_survival": 0.8118379731977398,
+          "separation_far_cutoff_hops": 27.0,
+          "separation_threshold_hops": 3.0,
+          "n_far_pairs": 811051.0
+        }
+      }
+    },
+    {
+      "object": "bclm_visium_A_0069226",
+      "provenance": {
+        "files": {
+          "spatial-data/visium_bclm_A_0069226/A_0069226_matrix.mtx.gz": "651e1382a97a6989bccb479f7b9c72c775c40a6234ab3c7c6c61aa6ce9fa9f40",
+          "spatial-data/visium_bclm_A_0069226/A_0069226_barcodes.tsv.gz": "6fbedcb4be40bc10a4da74ed54e5a21afaab18aba6ca9e0ed173055ebbf724c7",
+          "spatial-data/visium_bclm_A_0069226/A_0069226_features.tsv.gz": "4865dcf96afffc70be44215cf2d71d167cc575455b29c07f719e6c86f18e323c",
+          "spatial-data/visium_bclm_A_0069226/A_0069226_tissue_positions.csv": "2629be8c1766a1706cf58a11c4dd08a9e0f5d411557246dac2f789f4ba80ded0"
+        }
+      },
+      "preprocessing": {
+        "n_spots": 1184,
+        "n_genes": 2000,
+        "n_hvg_requested": 2000,
+        "pca_components": 50,
+        "scvi_latent": 10,
+        "scvi_epochs_ran": 200,
+        "scvi_batch_size": 128,
+        "scvi_seed": 0,
+        "pca_seed": 42,
+        "device": "NVIDIA GeForce RTX 5090 Laptop GPU"
+      },
+      "k": 15,
+      "scores": {
+        "spatial_identity": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 1.0,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 1.0,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 1.0,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 8.0,
+          "n_far_pairs": 25821.0
+        },
+        "expression_pca": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.5785540510710646,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.25051780254462963,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.40800123930134385,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        },
+        "expression_scvi": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.6247131538284512,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.3129499950685472,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.5567561287324271,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        },
+        "pca_row_permutation": {
+          "reachability_survival": 1.0,
+          "n_reference_connected_pairs": 223093.0,
+          "edge_survival": 0.30563606347953914,
+          "edge_severed_fraction": 0.0,
+          "edge_preserved_fraction": 0.022290166683104844,
+          "n_reference_edges": 10139.0,
+          "separation_survival": 0.6035784826304171,
+          "separation_far_cutoff_hops": 18.0,
+          "separation_threshold_hops": 4.0,
+          "n_far_pairs": 25821.0
+        }
+      }
+    }
+  ],
+  "failures": []
+}

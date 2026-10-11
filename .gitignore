@@ -15,3 +15,9 @@ build*/
 *.synctex.gz
 *.fdb_latexmk
 *.DS_Store
+Rplots.pdf
+.pytest_cache/
+data/
+output/
+tmp/
+evidence/diversity-20261009/pbmc3k_matrix/

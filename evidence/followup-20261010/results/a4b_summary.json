@@ -1,0 +1,32 @@
+{
+  "K10_diag_50pc": {
+    "median_C_gmm_raw": 0.594441026996076,
+    "median_C_gmm_tempered": 0.7367965914540104,
+    "n_native_exceeds_tempered": 11,
+    "median_native_minus_tempered": 0.10762023387617464,
+    "range_native_minus_tempered": [
+      -0.0014021605867853282,
+      0.20714777300030585
+    ]
+  },
+  "K10_full_10pc": {
+    "median_C_gmm_raw": 0.6431511892493704,
+    "median_C_gmm_tempered": 0.7711399414196014,
+    "n_native_exceeds_tempered": 8,
+    "median_native_minus_tempered": 0.029294137950900412,
+    "range_native_minus_tempered": [
+      -0.10817234230597406,
+      0.13226771119452785
+    ]
+  },
+  "K20_diag_50pc": {
+    "median_C_gmm_raw": 0.4699553131788668,
+    "median_C_gmm_tempered": 0.723303758072326,
+    "n_native_exceeds_tempered": 11,
+    "median_native_minus_tempered": 0.08198861632311544,
+    "range_native_minus_tempered": [
+      -0.009486552062195952,
+      0.18980308875152385
+    ]
+  }
+}

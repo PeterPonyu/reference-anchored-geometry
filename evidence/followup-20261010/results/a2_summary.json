@@ -1,0 +1,504 @@
+{
+  "scale24": {
+    "median_within_object_E_range": 0.3115016888737191,
+    "median_within_object_E0_range": 0.1983782222658007,
+    "median_within_object_Estar_range": 0.24989732101113216,
+    "median_within_object_S_range": 0.13506413643187803,
+    "median_within_object_Sstar_range": 0.2563637970014576,
+    "median_within_object_AUROC_range": 0.07457919973183036,
+    "frac_of_dE_k5_to_k30_from_null_d50": {
+      "median": 0.7375565464610773,
+      "min": 0.6741892454569606,
+      "max": 1.186430281097841
+    },
+    "frac_of_dE_k5_to_k30_from_null_all_d": {
+      "median": 0.7375565464610773,
+      "iqr": [
+        0.6873868966442662,
+        0.9109222446929073
+      ]
+    },
+    "n_objects_Estar_increases_k5_to_k30_d50": 23,
+    "median_dE_k5_to_k30_d50": 0.24777375830675952,
+    "median_dEstar_k5_to_k30_d50": 0.14804462440294616,
+    "E0_mc_vs_exact_max_abs_diff": 0.0013841570585317181,
+    "S0_mc_vs_exact_max_abs_diff": 0.005410984674583119,
+    "S0_range_over_all_rows": [
+      0.4976625119846596,
+      0.716530733820742
+    ],
+    "E0_range_over_all_rows": [
+      0.0884283704592984,
+      0.3969791053453977
+    ],
+    "AUROC0_mean_range": [
+      0.4954396854802207,
+      0.5037975415581052
+    ],
+    "n_rows_S_below_own_perm_mean": 1,
+    "min_E_z": 18.44892978240957,
+    "cand_cutoff_tie_rows_total": 0
+  },
+  "scale24_native_minus_continuous": {
+    "n": 108,
+    "dE_negative": 108,
+    "dEstar_negative": 108,
+    "sign_changes_E_vs_Estar": 0,
+    "dS_negative": 106,
+    "dSstar_negative": 106,
+    "dAUROC_negative": 107
+  },
+  "scale24_object_ranking_tau_per_setting": [
+    {
+      "k": 5,
+      "rank": 10,
+      "tau_E_Estar": 0.8985507246376812,
+      "tau_S_Sstar": 0.9637681159420289,
+      "tau_S_AUROC": 0.7681159420289855,
+      "tau_Estar_AUROC": 0.6231884057971014
+    },
+    {
+      "k": 5,
+      "rank": 25,
+      "tau_E_Estar": 0.8623188405797101,
+      "tau_S_Sstar": 0.9492753623188406,
+      "tau_S_AUROC": 0.8115942028985507,
+      "tau_Estar_AUROC": 0.6594202898550725
+    },
+    {
+      "k": 5,
+      "rank": 50,
+      "tau_E_Estar": 0.7753623188405797,
+      "tau_S_Sstar": 0.9492753623188406,
+      "tau_S_AUROC": 0.8043478260869565,
+      "tau_Estar_AUROC": 0.6884057971014493
+    },
+    {
+      "k": 15,
+      "rank": 10,
+      "tau_E_Estar": 0.8550724637681159,
+      "tau_S_Sstar": 0.9492753623188406,
+      "tau_S_AUROC": 0.7971014492753623,
+      "tau_Estar_AUROC": 0.7463768115942029
+    },
+    {
+      "k": 15,
+      "rank": 25,
+      "tau_E_Estar": 0.8333333333333333,
+      "tau_S_Sstar": 0.9637681159420289,
+      "tau_S_AUROC": 0.8043478260869565,
+      "tau_Estar_AUROC": 0.7391304347826086
+    },
+    {
+      "k": 15,
+      "rank": 50,
+      "tau_E_Estar": 0.7898550724637681,
+      "tau_S_Sstar": 0.8695652173913043,
+      "tau_S_AUROC": 0.782608695652174,
+      "tau_Estar_AUROC": 0.7898550724637681
+    },
+    {
+      "k": 30,
+      "rank": 10,
+      "tau_E_Estar": 0.8478260869565217,
+      "tau_S_Sstar": 0.9637681159420289,
+      "tau_S_AUROC": 0.7681159420289855,
+      "tau_Estar_AUROC": 0.8840579710144928
+    },
+    {
+      "k": 30,
+      "rank": 25,
+      "tau_E_Estar": 0.8695652173913043,
+      "tau_S_Sstar": 0.9420289855072465,
+      "tau_S_AUROC": 0.7536231884057971,
+      "tau_Estar_AUROC": 0.782608695652174
+    },
+    {
+      "k": 30,
+      "rank": 50,
+      "tau_E_Estar": 0.8695652173913043,
+      "tau_S_Sstar": 0.9420289855072465,
+      "tau_S_AUROC": 0.6666666666666667,
+      "tau_Estar_AUROC": 0.8333333333333333
+    }
+  ],
+  "diversity_umap": {
+    "tissue_ref_below_pca_permutation": "6/7",
+    "tissue_ref_at_or_below_own_null_max": "0/7",
+    "tissue_ref_min_E_star_umap": 0.0867639661873769,
+    "tissue_ref_min_z_umap": 18.178524712267645,
+    "rows": [
+      {
+        "object": "breast",
+        "reference": "expression",
+        "E_umap": 0.4651070411701519,
+        "E_permuted_pca": 0.2692392032543909,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.0863455842339117,
+        "E0_umap_own_sd": 0.0004002822838859,
+        "E_star_umap": 0.4145565876991392,
+        "E_z_umap": 946.235874491428,
+        "below_own_null": false
+      },
+      {
+        "object": "breast",
+        "reference": "tissue",
+        "E_umap": 0.2691194008353351,
+        "E_permuted_pca": 0.2695447177430291,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0864398494792051,
+        "E0_umap_own_sd": 0.0005169805050068,
+        "E_star_umap": 0.19996444815592,
+        "E_z_umap": 353.3586848767213,
+        "below_own_null": false
+      },
+      {
+        "object": "bulb",
+        "reference": "expression",
+        "E_umap": 0.6420986477115117,
+        "E_permuted_pca": 0.4527760922330097,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.2256193534250269,
+        "E0_umap_own_sd": 0.0049116985265223,
+        "E_star_umap": 0.5378224470466058,
+        "E_z_umap": 84.79333412618209,
+        "below_own_null": false
+      },
+      {
+        "object": "bulb",
+        "reference": "tissue",
+        "E_umap": 0.3150575936537209,
+        "E_permuted_pca": 0.4532426617488858,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.2249808704179382,
+        "E0_umap_own_sd": 0.0049551173520145,
+        "E_star_umap": 0.1162251611574511,
+        "E_z_umap": 18.178524712267645,
+        "below_own_null": false
+      },
+      {
+        "object": "lymph",
+        "reference": "expression",
+        "E_umap": 0.3774481539862063,
+        "E_permuted_pca": 0.2956134413067552,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.0881613093382751,
+        "E0_umap_own_sd": 0.0003967971599537,
+        "E_star_umap": 0.3172566020838561,
+        "E_z_umap": 729.0547257990487,
+        "below_own_null": false
+      },
+      {
+        "object": "lymph",
+        "reference": "tissue",
+        "E_umap": 0.1996271242300692,
+        "E_permuted_pca": 0.2958174052944577,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0882318120020478,
+        "E0_umap_own_sd": 0.0005426268204914,
+        "E_star_umap": 0.1221750371359431,
+        "E_z_umap": 205.2889905573109,
+        "below_own_null": false
+      },
+      {
+        "object": "metastasis",
+        "reference": "expression",
+        "E_umap": 0.6064453832726283,
+        "E_permuted_pca": 0.3046728028254119,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.1388612093001674,
+        "E0_umap_own_sd": 0.0013829536958591,
+        "E_star_umap": 0.5429835225428219,
+        "E_z_umap": 338.1054444357108,
+        "below_own_null": false
+      },
+      {
+        "object": "metastasis",
+        "reference": "tissue",
+        "E_umap": 0.4163900921566659,
+        "E_permuted_pca": 0.3056360634795391,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.138915525726178,
+        "E0_umap_own_sd": 0.0012959213026113,
+        "E_star_umap": 0.3222384965940658,
+        "E_z_umap": 214.11374739450068,
+        "below_own_null": false
+      },
+      {
+        "object": "ovary",
+        "reference": "expression",
+        "E_umap": 0.3432227695793771,
+        "E_permuted_pca": 0.3141728772340931,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.0909795538404839,
+        "E0_umap_own_sd": 0.0004959025697121,
+        "E_star_umap": 0.2774890452734979,
+        "E_z_umap": 508.6547865346311,
+        "below_own_null": false
+      },
+      {
+        "object": "ovary",
+        "reference": "tissue",
+        "E_umap": 0.186406215932707,
+        "E_permuted_pca": 0.315708371705021,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0908251615035098,
+        "E0_umap_own_sd": 0.0006104057748901,
+        "E_star_umap": 0.1051294540742684,
+        "E_z_umap": 156.58609135275523,
+        "below_own_null": false
+      },
+      {
+        "object": "pbmc3k",
+        "reference": "expression",
+        "E_umap": 0.3473721620758324,
+        "E_permuted_pca": 0.2924892346465794,
+        "below_pca_permutation": false,
+        "E0_umap_own": 0.0660652457403208,
+        "E0_umap_own_sd": 0.0007110336655205,
+        "E_star_umap": 0.30120617639773,
+        "E_z_umap": 395.6309384163343,
+        "below_own_null": false
+      },
+      {
+        "object": "pfc_151507",
+        "reference": "expression",
+        "E_umap": 0.2175333698114508,
+        "E_permuted_pca": 0.3607155992372675,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0859106853309186,
+        "E0_umap_own_sd": 0.0003886729329515,
+        "E_star_umap": 0.1439932426386389,
+        "E_z_umap": 338.64638703031306,
+        "below_own_null": false
+      },
+      {
+        "object": "pfc_151507",
+        "reference": "tissue",
+        "E_umap": 0.1653263751028671,
+        "E_permuted_pca": 0.3617231938087876,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0860264006310656,
+        "E0_umap_own_sd": 0.0005794320551767,
+        "E_star_umap": 0.0867639661873769,
+        "E_z_umap": 136.8581074576666,
+        "below_own_null": false
+      },
+      {
+        "object": "pfc_151673",
+        "reference": "expression",
+        "E_umap": 0.2678752076313833,
+        "E_permuted_pca": 0.3360907574240906,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0889220156807516,
+        "E0_umap_own_sd": 0.0005769803694704,
+        "E_star_umap": 0.1964191814868014,
+        "E_z_umap": 310.1547321529682,
+        "below_own_null": false
+      },
+      {
+        "object": "pfc_151673",
+        "reference": "tissue",
+        "E_umap": 0.2116010802377236,
+        "E_permuted_pca": 0.3367530325276804,
+        "below_pca_permutation": true,
+        "E0_umap_own": 0.0890028212571444,
+        "E0_umap_own_sd": 0.0005534102433224,
+        "E_star_umap": 0.1345758931435556,
+        "E_z_umap": 221.5323269850361,
+        "below_own_null": false
+      }
+    ]
+  },
+  "diversity_rankings": {
+    "mean_tau_E_Estar_tissue": 0.4285714285714287,
+    "mean_tau_E_Estar_expression": 0.5833333333333334,
+    "n_order_changes_E_vs_Estar": 11,
+    "n_combos": 15,
+    "mean_tau_S_Sstar": 0.6444444444444444,
+    "n_order_changes_S_vs_Sstar": 8,
+    "mean_tau_S_AUROC": 0.3555555555555555,
+    "n_order_changes_S_vs_AUROC": 11
+  },
+  "diversity_pooled_tau": {
+    "tau_E_Estar": 0.4563545906829489,
+    "tau_S_Sstar": 0.5384615384615383,
+    "tau_S_AUROC": 0.33657544403201395,
+    "n": 67
+  },
+  "diversity_null_ranges": {
+    "E0_by_candidate_tissue": {
+      "pca": {
+        "min": 0.2688848553549026,
+        "max": 0.4506900261257107
+      },
+      "permuted_pca": {
+        "min": 0.2690191936548354,
+        "max": 0.4496980175195942
+      },
+      "random": {
+        "min": 0.2979926853170874,
+        "max": 0.4917757799293069
+      },
+      "scvi": {
+        "min": 0.2338889221271873,
+        "max": 0.4502514215460273
+      },
+      "umap": {
+        "min": 0.0860264006310656,
+        "max": 0.2249808704179382
+      }
+    },
+    "S0_by_candidate_tissue": {
+      "pca": {
+        "min": 0.5655335483117291,
+        "max": 0.9024524312896406
+      },
+      "permuted_pca": {
+        "min": 0.5671970667131008,
+        "max": 0.9036623841275004
+      },
+      "random": {
+        "min": 0.5180512943074372,
+        "max": 0.9085347210928606
+      },
+      "scvi": {
+        "min": 0.5088567246706781,
+        "max": 0.7735138387750198
+      },
+      "umap": {
+        "min": 0.5045336960336961,
+        "max": 0.7082322328833957
+      }
+    },
+    "E0_mc_vs_exact_max_abs_diff": 0.001345456507013204,
+    "S0_mc_vs_exact_max_abs_diff": 0.003257176488898006,
+    "AUROC0_range": [
+      0.4985833400375831,
+      0.5045537479093811
+    ]
+  },
+  "diversity_S_below_own_perm_mean": [
+    {
+      "object": "breast",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.6931371763552444,
+      "S0": 0.6977136595162794
+    },
+    {
+      "object": "bulb",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.9032362985851358,
+      "S0": 0.9036623841275004
+    },
+    {
+      "object": "lymph",
+      "reference": "expression",
+      "candidate": "permuted_pca",
+      "S": 0.5648149417960898,
+      "S0": 0.5656794828757138
+    },
+    {
+      "object": "lymph",
+      "reference": "tissue",
+      "candidate": "random",
+      "S": 0.541243010079592,
+      "S0": 0.5500276400794377
+    },
+    {
+      "object": "lymph",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.5629649385371918,
+      "S0": 0.5671970667131008
+    },
+    {
+      "object": "metastasis",
+      "reference": "tissue",
+      "candidate": "pca",
+      "S": 0.4080012393013438,
+      "S0": 0.6021997598853646
+    },
+    {
+      "object": "metastasis",
+      "reference": "tissue",
+      "candidate": "scvi",
+      "S": 0.5567561287324271,
+      "S0": 0.7068672785717053
+    },
+    {
+      "object": "metastasis",
+      "reference": "tissue",
+      "candidate": "umap",
+      "S": 0.2984005267030711,
+      "S0": 0.5630316409124356
+    },
+    {
+      "object": "metastasis",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.6035784826304171,
+      "S0": 0.6066186437395918
+    },
+    {
+      "object": "ovary",
+      "reference": "expression",
+      "candidate": "permuted_pca",
+      "S": 0.8620451749577466,
+      "S0": 0.8636956196377098
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "expression",
+      "candidate": "permuted_pca",
+      "S": 0.7968684636414727,
+      "S0": 0.7978295592355181
+    },
+    {
+      "object": "pfc_151507",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.7957842047059328,
+      "S0": 0.7973875262044875
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "expression",
+      "candidate": "permuted_pca",
+      "S": 0.8139214957011208,
+      "S0": 0.8152381946664754
+    },
+    {
+      "object": "pfc_151673",
+      "reference": "tissue",
+      "candidate": "permuted_pca",
+      "S": 0.8118379731977398,
+      "S0": 0.81518787351227
+    }
+  ],
+  "hop_relabel_vs_direct_call_max_abs_diff": {
+    "E": 0.0,
+    "S": 0.0,
+    "n_checked": 150
+  },
+  "diversity_cutoff_ties": {},
+  "diversity_ref_cutoff_ties": {
+    "('breast', 'expression')": 0,
+    "('breast', 'tissue')": 436,
+    "('bulb', 'expression')": 0,
+    "('bulb', 'tissue')": 0,
+    "('lymph', 'expression')": 0,
+    "('lymph', 'tissue')": 740,
+    "('metastasis', 'expression')": 0,
+    "('metastasis', 'tissue')": 146,
+    "('ovary', 'expression')": 0,
+    "('ovary', 'tissue')": 1444,
+    "('pbmc3k', 'expression')": 0,
+    "('pfc_151507', 'expression')": 0,
+    "('pfc_151507', 'tissue')": 958,
+    "('pfc_151673', 'expression')": 0,
+    "('pfc_151673', 'tissue')": 96
+  }
+}
