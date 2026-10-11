@@ -1,9 +1,9 @@
 # Reference-anchored diagnostics of single-cell geometry and native allocation coherence
 
-Research release 2.0.0 accompanying the manuscript of the same title by Zeyu Fu. The study asks how graph construction, chance expectations, reference choice and allocation baselines change the interpretation of geometric preservation scores for single-cell representations. It separates reachability, edge survival and separation from allocation coherence, calibrates them on controlled synthetic interventions, and examines 24 stored representations, seven tissue sections and one blood sample.
+Research release 2.0.1 accompanying the manuscript of the same title by Zeyu Fu. The study asks how graph construction, chance expectations, reference choice and allocation baselines change the interpretation of geometric preservation scores for single-cell representations. It separates reachability, edge survival and separation from allocation coherence, calibrates them on controlled synthetic interventions, and examines 24 stored representations, seven tissue sections and one blood sample.
 
 - Repository: [PeterPonyu/reference-anchored-geometry](https://github.com/PeterPonyu/reference-anchored-geometry)
-- This version: [10.5281/zenodo.23299047](https://doi.org/10.5281/zenodo.23299047). All versions: [10.5281/zenodo.22914408](https://doi.org/10.5281/zenodo.22914408), which resolves to the latest version.
+- This version: [10.5281/zenodo.23301675](https://doi.org/10.5281/zenodo.23301675). All versions: [10.5281/zenodo.22914408](https://doi.org/10.5281/zenodo.22914408), which resolves to the latest version.
 - Citation: `CITATION.cff`. Changes since 1.0.0: `CHANGELOG.md`.
 
 The objects analysed are fixed computational objects, not independent biological replicates, and the results make no claim of biological or method superiority. `AUDIT.md` states what was verified and where the boundary lies. `CLAIM_LEDGER.md` maps each family of manuscript claims to its evidence.

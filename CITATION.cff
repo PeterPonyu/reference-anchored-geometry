@@ -5,11 +5,11 @@ title: "Reference-anchored diagnostics of single-cell geometry and native alloca
 authors:
   - family-names: Fu
     given-names: Zeyu
-version: "2.0.0"
+version: "2.0.1"
 date-released: "2026-10-11"
-doi: 10.5281/zenodo.23299047
+doi: 10.5281/zenodo.23301675
 repository-code: https://github.com/PeterPonyu/reference-anchored-geometry
-url: https://doi.org/10.5281/zenodo.23299047
+url: https://doi.org/10.5281/zenodo.23301675
 license:
   - MIT
   - CC-BY-4.0

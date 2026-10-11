@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "study": "reference-anchored-geometry",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "scope": "Distributed source and research files. Excludes this manifest and SHA256SUMS to avoid self-reference.",
   "files": {
     ".gitignore": {
@@ -10,7 +10,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     ".zenodo.json": {
-      "sha256": "a3bac355b44b77a6b45bf29f9c6ac7d2404389bd73818ee9c5fa97a5dd95f83d",
+      "sha256": "ec04433d855db9a81c19b604167928176e975d74cf99c542cdcf1d798af543e0",
       "bytes": 1715,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -20,12 +20,12 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "CHANGELOG.md": {
-      "sha256": "a46baeef6be5e22e44899bfc6bc00846fe6592d5563d541af5b7b8125d54988b",
-      "bytes": 3896,
+      "sha256": "51561ec8585cc08771a90631787c07a19fd1fc19bffbd6b5108a2e955ad3f1f5",
+      "bytes": 4536,
       "distribution": "github-and-zenodo-source-archive"
     },
     "CITATION.cff": {
-      "sha256": "6b62fffbb9cd8490ab00701755962513bd16986d6bb6fdf67f11283cf8c7e490",
+      "sha256": "3fb918c0c330070c21fd0300659ceeff9343796c63e047765f52b5f5a32f0603",
       "bytes": 1323,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -55,7 +55,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "README.md": {
-      "sha256": "07002cc003aab4459ff1c7bd56c0e4895a5c517e29d6ffd247bf0cfe1014a65f",
+      "sha256": "5e832a962f35aa67ec591216fcc8324001186d7122226c41ea18e7c2bf06f968",
       "bytes": 6998,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -710,13 +710,13 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "paper.pdf": {
-      "sha256": "676e203f684f7ea47622597ccd240c8865d7cb956590e985fd9e4e3faf2ef6a0",
-      "bytes": 2451149,
+      "sha256": "c6fbcf82f3b4a808f91062ea444bb23a1c0739722a63461036c4faa5a5814a56",
+      "bytes": 2451132,
       "distribution": "github-and-zenodo-source-archive"
     },
     "paper.tex": {
-      "sha256": "d27c0a6b35665b0eee023de948db28febbc8c36965a4c089b289022d930c1931",
-      "bytes": 104178,
+      "sha256": "8df809e1b45dc21863ab98809f8c980044d4659630f5bdf37ef6606b3d1bb179",
+      "bytes": 104238,
       "distribution": "github-and-zenodo-source-archive"
     },
     "references.bib": {
@@ -725,7 +725,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "release-info.json": {
-      "sha256": "8967645a32d4f7f11dd039d5f81d4166f8d54bc0c70ac10e3acd1207b6f1a2a7",
+      "sha256": "ebe86a271b5a02d8980065b310f9094cf27018225251f11547ee2ed2f6f4f733",
       "bytes": 1226,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -735,8 +735,8 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "scripts/audit_manuscript.py": {
-      "sha256": "03edecc0c2419a522cf76aa6322c161f3a9fc51b049b61ef7fe0386800ae78ab",
-      "bytes": 24532,
+      "sha256": "25e07ad6bbfbe08a97eb5b59b1e494e12cbdac14348ea128b72db65dc426f7ef",
+      "bytes": 24675,
       "distribution": "github-and-zenodo-source-archive"
     },
     "scripts/build_architecture.py": {
