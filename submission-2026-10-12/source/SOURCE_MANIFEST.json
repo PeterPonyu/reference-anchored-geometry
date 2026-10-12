@@ -1,0 +1,136 @@
+{
+  "title": "Reference-anchored diagnostics of single-cell geometry and native allocation coherence",
+  "document_version": "submission-2026-10-12",
+  "software_doi": "10.5281/zenodo.23308078",
+  "software_version": "2.0.2",
+  "numeric_research_outputs_changed": false,
+  "documents": {
+    "manuscript": {
+      "sha256": "58047b4e481a9418f0147775494f0042c4aebd6d914f24beb445b7415351ad67",
+      "bytes": 407130,
+      "pages": 15
+    },
+    "supplement": {
+      "sha256": "cd9ba147a8283b1839a6167f014df422acbafb7b201e617df5edf8a45fdd00b6",
+      "bytes": 2160836,
+      "pages": 30
+    }
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1123,
+      "sha256": "d36a23d2cae0daf36fd1bfd3b15131c3816cd829d4ff7dc71379c75ef768a93f"
+    },
+    {
+      "path": "journal-figures/allocation_validity_guards.pdf",
+      "bytes": 34846,
+      "sha256": "1154f1393811086b7cf4539ae6914c8495d797ab9dec89e5f687ad2310543eab"
+    },
+    {
+      "path": "journal-figures/architecture.pdf",
+      "bytes": 36935,
+      "sha256": "053a7e17fcc2db5fc64bbb19c57795c8c368c241533c32694ce6d0ffe73dd340"
+    },
+    {
+      "path": "journal-figures/calibration_perturbations.pdf",
+      "bytes": 122289,
+      "sha256": "e60bc0a5c2d86e5e2c81083f8af1d6282fef3f9facd1d0f6da30714306734903"
+    },
+    {
+      "path": "journal-figures/calibration_reachability.pdf",
+      "bytes": 37407,
+      "sha256": "b06bc56d5d8feb0168cdab532fecffebfe7e2e83a104a7ec340031dcfc9c44b0"
+    },
+    {
+      "path": "journal-figures/chance_correction.pdf",
+      "bytes": 36051,
+      "sha256": "3c02d29ad2e0fd9f3ce9fe856c9e25f9751e1bf3cf2c78b8865803cedb82ded8"
+    },
+    {
+      "path": "journal-figures/coherence_baselines.pdf",
+      "bytes": 48588,
+      "sha256": "90a0fcd8f189ab9688a92020fa987c8974acf416a829f26dd26cd20b0e9accf2"
+    },
+    {
+      "path": "journal-figures/inventory_null_comparison.pdf",
+      "bytes": 28966,
+      "sha256": "611464d805265896898d2ad5948acd9205d53d9f55a6cc5ca5ba68d2c09fed7b"
+    },
+    {
+      "path": "journal-figures/object_embeddings.pdf",
+      "bytes": 724654,
+      "sha256": "3a08331425b2a7e4fe403e375b52890eb192d7a9f0f2d80b6181a41a3a85e1fa"
+    },
+    {
+      "path": "journal-figures/object_pbmc.pdf",
+      "bytes": 366652,
+      "sha256": "ecbf302a07ece828d4db5b0e5027251e5abd7e5aa6d34a21301b99b9af8f1cab"
+    },
+    {
+      "path": "journal-figures/row_correspondence_sensitivity.pdf",
+      "bytes": 28764,
+      "sha256": "df911c8e209f4a59816b6b3a0ce9ce6ea7bba6be4278a0eb2c1a8e55790f0d30"
+    },
+    {
+      "path": "journal-figures/scale_reference_sensitivity.pdf",
+      "bytes": 35586,
+      "sha256": "43c6285d412719e8e4a28d455bcf3c4f6629fc2bc8dafee06a8cc942f2b6ead8"
+    },
+    {
+      "path": "journal-figures/spatial_reference.pdf",
+      "bytes": 734205,
+      "sha256": "de2d8e3d736c99b950b4b1af2f0f5ba821a7f52213f7a6a420225cdd585bd3e7"
+    },
+    {
+      "path": "paper_srep_inline.bbl",
+      "bytes": 6464,
+      "sha256": "d32eb751c135ec18af899cfb4139cc2ce062d7d5b2da0c9aad23cd7d709e6f65"
+    },
+    {
+      "path": "paper_srep_inline.tex",
+      "bytes": 37858,
+      "sha256": "7f47fad738736cace43b3df08135b15444927ffb6da0438cde291549b71352e3"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 18840,
+      "sha256": "75d35a221b5e06b72ceff790bccb5ec66281d3ff67cc3424521137da544f9c2d"
+    },
+    {
+      "path": "standalone-assets/preamble.tex",
+      "bytes": 1640,
+      "sha256": "460273cc5cdac1cc6a5c0f1a8b428114fca3c8475512229c0f6892653dc42523"
+    },
+    {
+      "path": "supporting_srep.bbl",
+      "bytes": 15172,
+      "sha256": "53226c417ff1dec4172c25a2e4cbc219ef676896a0394f420161c07f583fb8bc"
+    },
+    {
+      "path": "supporting_srep.tex",
+      "bytes": 85466,
+      "sha256": "2f72a532864733d12920e07df4259ab5763da9f025451ce360ea47d3dad5085f"
+    },
+    {
+      "path": "tables/calibration.tex",
+      "bytes": 596,
+      "sha256": "d022ae101dad30d838a92ddb837e004965672cf1a2a0cbe3239022f9bfdce806"
+    },
+    {
+      "path": "tables/diversity_expression.tex",
+      "bytes": 637,
+      "sha256": "cdf95212d08e44b77bd92fee181a2ffd7fc6c9750dfad8f877706928e9a19b74"
+    },
+    {
+      "path": "tables/diversity_spatial.tex",
+      "bytes": 579,
+      "sha256": "c6e0d9c5b6af33dd127428e12d495bbc06b7f89e1e3af453cf3f748d6588bce7"
+    },
+    {
+      "path": "tables/measurement_numbers.tex",
+      "bytes": 364,
+      "sha256": "bb44603c3de69eea68499c116fd47bcd9458b61b765efb15bdc534f85554e3c6"
+    }
+  ]
+}

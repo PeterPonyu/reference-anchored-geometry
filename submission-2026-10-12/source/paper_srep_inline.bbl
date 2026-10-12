@@ -1,0 +1,145 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{luecken2019practices}
+\bibinfo{author}{Luecken, M.~D.} \& \bibinfo{author}{Theis, F.~J.}
+\newblock \bibinfo{title}{Current best practices in single-cell {RNA}-seq
+  analysis: a tutorial}.
+\newblock \emph{\bibinfo{journal}{Molecular Systems Biology}}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{e8746} (\bibinfo{year}{2019}).
+
+\bibitem{becht2019umap}
+\bibinfo{author}{Becht, E.} \emph{et~al.}
+\newblock \bibinfo{title}{Dimensionality reduction for visualizing single-cell
+  data using {UMAP}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{38--44}
+  (\bibinfo{year}{2019}).
+
+\bibitem{venna2006local}
+\bibinfo{author}{Venna, J.} \& \bibinfo{author}{Kaski, S.}
+\newblock \bibinfo{title}{Local multidimensional scaling}.
+\newblock \emph{\bibinfo{journal}{Neural Networks}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{889--899}
+  (\bibinfo{year}{2006}).
+
+\bibitem{venna2010retrieval}
+\bibinfo{author}{Venna, J.}, \bibinfo{author}{Peltonen, J.},
+  \bibinfo{author}{Nybo, K.}, \bibinfo{author}{Aidos, H.} \&
+  \bibinfo{author}{Kaski, S.}
+\newblock \bibinfo{title}{Information retrieval perspective to nonlinear
+  dimensionality reduction for data visualization}.
+\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{451--490}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{https://jmlr.org/papers/v11/venna10a.html}.
+
+\bibitem{lee2009quality}
+\bibinfo{author}{Lee, J.~A.} \& \bibinfo{author}{Verleysen, M.}
+\newblock \bibinfo{title}{Quality assessment of dimensionality reduction:
+  Rank-based criteria}.
+\newblock \emph{\bibinfo{journal}{Neurocomputing}}
+  \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{1431--1443}
+  (\bibinfo{year}{2009}).
+
+\bibitem{roweis2000lle}
+\bibinfo{author}{Roweis, S.~T.} \& \bibinfo{author}{Saul, L.~K.}
+\newblock \bibinfo{title}{Nonlinear dimensionality reduction by locally linear
+  embedding}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{290}},
+  \bibinfo{pages}{2323--2326} (\bibinfo{year}{2000}).
+
+\bibitem{belkin2003laplacian}
+\bibinfo{author}{Belkin, M.} \& \bibinfo{author}{Niyogi, P.}
+\newblock \bibinfo{title}{{Laplacian} eigenmaps for dimensionality reduction
+  and data representation}.
+\newblock \emph{\bibinfo{journal}{Neural Computation}}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{1373--1396}
+  (\bibinfo{year}{2003}).
+
+\bibitem{vandermaaten2008tsne}
+\bibinfo{author}{van~der Maaten, L.} \& \bibinfo{author}{Hinton, G.}
+\newblock \bibinfo{title}{Visualizing data using {t-SNE}}.
+\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
+  \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{2579--2605}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{https://jmlr.org/papers/v9/vandermaaten08a.html}.
+
+\bibitem{tenenbaum2000global}
+\bibinfo{author}{Tenenbaum, J.~B.}, \bibinfo{author}{de~Silva, V.} \&
+  \bibinfo{author}{Langford, J.~C.}
+\newblock \bibinfo{title}{A global geometric framework for nonlinear
+  dimensionality reduction}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{290}},
+  \bibinfo{pages}{2319--2323} (\bibinfo{year}{2000}).
+
+\bibitem{jeon2022steadiness}
+\bibinfo{author}{Jeon, H.}, \bibinfo{author}{Ko, H.-K.}, \bibinfo{author}{Jo,
+  J.}, \bibinfo{author}{Kim, Y.} \& \bibinfo{author}{Seo, J.}
+\newblock \bibinfo{title}{Measuring and explaining the inter-cluster
+  reliability of multidimensional projections}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Visualization and
+  Computer Graphics}} \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{551--561}
+  (\bibinfo{year}{2022}).
+
+\bibitem{luecken2022benchmarking}
+\bibinfo{author}{Luecken, M.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{Benchmarking atlas-level data integration in
+  single-cell genomics}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{41--50}
+  (\bibinfo{year}{2022}).
+
+\bibitem{saelens2019comparison}
+\bibinfo{author}{Saelens, W.}, \bibinfo{author}{Cannoodt, R.},
+  \bibinfo{author}{Todorov, H.} \& \bibinfo{author}{Saeys, Y.}
+\newblock \bibinfo{title}{A comparison of single-cell trajectory inference
+  methods}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{547--554}
+  (\bibinfo{year}{2019}).
+
+\bibitem{lespinats2011checkviz}
+\bibinfo{author}{Lespinats, S.} \& \bibinfo{author}{Aupetit, M.}
+\newblock \bibinfo{title}{{CheckViz}: Sanity check and topological clues for
+  linear and non-linear mappings}.
+\newblock \emph{\bibinfo{journal}{Computer Graphics Forum}}
+  \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{113--125}
+  (\bibinfo{year}{2011}).
+
+\bibitem{lin1991divergence}
+\bibinfo{author}{Lin, J.}
+\newblock \bibinfo{title}{Divergence measures based on the {S}hannon entropy}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Information Theory}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{145--151}
+  (\bibinfo{year}{1991}).
+
+\bibitem{zappia2017splatter}
+\bibinfo{author}{Zappia, L.}, \bibinfo{author}{Phipson, B.} \&
+  \bibinfo{author}{Oshlack, A.}
+\newblock \bibinfo{title}{{Splatter}: simulation of single-cell {RNA}
+  sequencing data}.
+\newblock \emph{\bibinfo{journal}{Genome Biology}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{174} (\bibinfo{year}{2017}).
+
+\bibitem{cannoodt2021dyngen}
+\bibinfo{author}{Cannoodt, R.}, \bibinfo{author}{Saelens, W.},
+  \bibinfo{author}{Deconinck, L.} \& \bibinfo{author}{Saeys, Y.}
+\newblock \bibinfo{title}{Spearheading future omics analyses using dyngen, a
+  multi-modal simulator of single cells}.
+\newblock \emph{\bibinfo{journal}{Nature Communications}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{3942} (\bibinfo{year}{2021}).
+
+\bibitem{weinreb2020lineage}
+\bibinfo{author}{Weinreb, C.}, \bibinfo{author}{Rodriguez-Fraticelli, A.},
+  \bibinfo{author}{Camargo, F.~D.} \& \bibinfo{author}{Klein, A.~M.}
+\newblock \bibinfo{title}{Lineage tracing on transcriptional landscapes links
+  state to fate during differentiation}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{367}},
+  \bibinfo{pages}{eaaw3381} (\bibinfo{year}{2020}).
+
+\end{thebibliography}

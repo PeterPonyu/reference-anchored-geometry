@@ -1,10 +1,16 @@
 # Reference-anchored diagnostics of single-cell geometry and native allocation coherence
 
+## Current manuscript documents
+
+The reviewed main Article, Supplementary Information and editable document sources are available in the [submission-2026-10-12 document release](https://github.com/PeterPonyu/reference-anchored-geometry/releases/tag/submission-2026-10-12) and in [submission-2026-10-12/](submission-2026-10-12/README.md).
+
+The software and saved-analysis release remains version 2.0.2, DOI [10.5281/zenodo.23308078](https://doi.org/10.5281/zenodo.23308078). It archives the frozen computational evidence and its earlier document sources. The later editorial revision has a separate GitHub document tag; it adds no model fits or biological samples. Earlier document files remain available for provenance.
+
 Version 2.0.2 accompanying the manuscript of the same title by Zeyu Fu. The study asks how graph construction, chance expectations, reference choice and allocation baselines change the interpretation of geometric preservation scores for single-cell representations. It separates reachability, edge survival and separation from allocation coherence, calibrates them on controlled synthetic interventions, and examines 24 stored representations, seven tissue sections and one blood sample.
 
 - Repository: [PeterPonyu/reference-anchored-geometry](https://github.com/PeterPonyu/reference-anchored-geometry)
 - Software and research-source archive: [10.5281/zenodo.23308078](https://doi.org/10.5281/zenodo.23308078). Prior published version 2.0.1: [10.5281/zenodo.23301675](https://doi.org/10.5281/zenodo.23301675).
-- Current submission documents: [inline manuscript](scientific-reports/scientific-reports-manuscript-inline.pdf), [supplementary information](scientific-reports/scientific-reports-supplement.pdf). The archive DOI is a software/source DOI, not a manuscript-publication DOI.
+- Earlier archived submission documents: [inline manuscript](scientific-reports/scientific-reports-manuscript-inline.pdf), [supplementary information](scientific-reports/scientific-reports-supplement.pdf). The archive DOI is a software/source DOI, not a manuscript-publication DOI.
 - Citation: `CITATION.cff`. Changes since 1.0.0: `CHANGELOG.md`.
 
 The objects analysed are fixed computational objects, not independent biological replicates, and the results make no claim of biological or method superiority. `AUDIT.md` states what was verified and where the boundary lies. `CLAIM_LEDGER.md` maps each family of manuscript claims to its evidence.

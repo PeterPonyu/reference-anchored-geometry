@@ -1,0 +1,338 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{phipson2010permutation}
+\bibinfo{author}{Phipson, B.} \& \bibinfo{author}{Smyth, G.~K.}
+\newblock \bibinfo{title}{Permutation p-values should never be zero:
+  Calculating exact p-values when permutations are randomly drawn}.
+\newblock \emph{\bibinfo{journal}{Statistical Applications in Genetics and
+  Molecular Biology}} \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{Article 39}
+  (\bibinfo{year}{2010}).
+
+\bibitem{zappia2017splatter}
+\bibinfo{author}{Zappia, L.}, \bibinfo{author}{Phipson, B.} \&
+  \bibinfo{author}{Oshlack, A.}
+\newblock \bibinfo{title}{{Splatter}: simulation of single-cell {RNA}
+  sequencing data}.
+\newblock \emph{\bibinfo{journal}{Genome Biology}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{174} (\bibinfo{year}{2017}).
+
+\bibitem{cannoodt2021dyngen}
+\bibinfo{author}{Cannoodt, R.}, \bibinfo{author}{Saelens, W.},
+  \bibinfo{author}{Deconinck, L.} \& \bibinfo{author}{Saeys, Y.}
+\newblock \bibinfo{title}{Spearheading future omics analyses using dyngen, a
+  multi-modal simulator of single cells}.
+\newblock \emph{\bibinfo{journal}{Nature Communications}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{3942} (\bibinfo{year}{2021}).
+
+\bibitem{weinreb2020lineage}
+\bibinfo{author}{Weinreb, C.}, \bibinfo{author}{Rodriguez-Fraticelli, A.},
+  \bibinfo{author}{Camargo, F.~D.} \& \bibinfo{author}{Klein, A.~M.}
+\newblock \bibinfo{title}{Lineage tracing on transcriptional landscapes links
+  state to fate during differentiation}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{367}},
+  \bibinfo{pages}{eaaw3381} (\bibinfo{year}{2020}).
+
+\bibitem{luecken2019practices}
+\bibinfo{author}{Luecken, M.~D.} \& \bibinfo{author}{Theis, F.~J.}
+\newblock \bibinfo{title}{Current best practices in single-cell {RNA}-seq
+  analysis: a tutorial}.
+\newblock \emph{\bibinfo{journal}{Molecular Systems Biology}}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{e8746} (\bibinfo{year}{2019}).
+
+\bibitem{hubert1985comparing}
+\bibinfo{author}{Hubert, L.} \& \bibinfo{author}{Arabie, P.}
+\newblock \bibinfo{title}{Comparing partitions}.
+\newblock \emph{\bibinfo{journal}{Journal of Classification}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{193--218}
+  (\bibinfo{year}{1985}).
+
+\bibitem{lee2009quality}
+\bibinfo{author}{Lee, J.~A.} \& \bibinfo{author}{Verleysen, M.}
+\newblock \bibinfo{title}{Quality assessment of dimensionality reduction:
+  Rank-based criteria}.
+\newblock \emph{\bibinfo{journal}{Neurocomputing}}
+  \textbf{\bibinfo{volume}{72}}, \bibinfo{pages}{1431--1443}
+  (\bibinfo{year}{2009}).
+
+\bibitem{chen2009local}
+\bibinfo{author}{Chen, L.} \& \bibinfo{author}{Buja, A.}
+\newblock \bibinfo{title}{Local multidimensional scaling for nonlinear
+  dimension reduction, graph drawing, and proximity analysis}.
+\newblock \emph{\bibinfo{journal}{Journal of the American Statistical
+  Association}} \textbf{\bibinfo{volume}{104}}, \bibinfo{pages}{209--219}
+  (\bibinfo{year}{2009}).
+
+\bibitem{jeon2023zadu}
+\bibinfo{author}{Jeon, H.} \emph{et~al.}
+\newblock \bibinfo{title}{{ZADU}: A {Python} library for evaluating the
+  reliability of dimensionality reduction embeddings}.
+\newblock In \emph{\bibinfo{booktitle}{2023 IEEE Visualization and Visual
+  Analytics (VIS)}}, \bibinfo{pages}{196--200} (\bibinfo{publisher}{IEEE},
+  \bibinfo{year}{2023}).
+
+\bibitem{jeon2022steadiness}
+\bibinfo{author}{Jeon, H.}, \bibinfo{author}{Ko, H.-K.}, \bibinfo{author}{Jo,
+  J.}, \bibinfo{author}{Kim, Y.} \& \bibinfo{author}{Seo, J.}
+\newblock \bibinfo{title}{Measuring and explaining the inter-cluster
+  reliability of multidimensional projections}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Visualization and
+  Computer Graphics}} \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{551--561}
+  (\bibinfo{year}{2022}).
+
+\bibitem{lin1991divergence}
+\bibinfo{author}{Lin, J.}
+\newblock \bibinfo{title}{Divergence measures based on the {S}hannon entropy}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on Information Theory}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{145--151}
+  (\bibinfo{year}{1991}).
+
+\bibitem{geary1954contiguity}
+\bibinfo{author}{Geary, R.~C.}
+\newblock \bibinfo{title}{The contiguity ratio and statistical mapping}.
+\newblock \emph{\bibinfo{journal}{The Incorporated Statistician}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{115--146}
+  (\bibinfo{year}{1954}).
+
+\bibitem{anselin2019local}
+\bibinfo{author}{Anselin, L.}
+\newblock \bibinfo{title}{A local indicator of multivariate spatial
+  association: Extending {Geary's} $c$}.
+\newblock \emph{\bibinfo{journal}{Geographical Analysis}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{133--150}
+  (\bibinfo{year}{2019}).
+
+\bibitem{scib2025software}
+\bibinfo{author}{Luecken, M.~D.}, \bibinfo{author}{B{\"u}ttner, M.},
+  \bibinfo{author}{Strobl, D.~C.} \& \bibinfo{author}{Mueller, M.~F.}
+\newblock \bibinfo{title}{{scib}: evaluating single-cell data integration
+  methods, version 1.1.7}.
+\newblock \bibinfo{howpublished}{Python package} (\bibinfo{year}{2025}).
+\newblock \urlprefix\url{https://github.com/theislab/scib}.
+\newblock \bibinfo{note}{Graph connectivity and trajectory conservation
+  metrics; documentation at \url{https://scib.readthedocs.io}}.
+
+\bibitem{wolf2018scanpy}
+\bibinfo{author}{Wolf, F.~A.}, \bibinfo{author}{Angerer, P.} \&
+  \bibinfo{author}{Theis, F.~J.}
+\newblock \bibinfo{title}{{SCANPY}: large-scale single-cell gene expression
+  data analysis}.
+\newblock \emph{\bibinfo{journal}{Genome Biology}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{15} (\bibinfo{year}{2018}).
+
+\bibitem{haghverdi2016diffusion}
+\bibinfo{author}{Haghverdi, L.}, \bibinfo{author}{B{\"u}ttner, M.},
+  \bibinfo{author}{Wolf, F.~A.}, \bibinfo{author}{Buettner, F.} \&
+  \bibinfo{author}{Theis, F.~J.}
+\newblock \bibinfo{title}{Diffusion pseudotime robustly reconstructs lineage
+  branching}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{845--848}
+  (\bibinfo{year}{2016}).
+
+\bibitem{venna2006local}
+\bibinfo{author}{Venna, J.} \& \bibinfo{author}{Kaski, S.}
+\newblock \bibinfo{title}{Local multidimensional scaling}.
+\newblock \emph{\bibinfo{journal}{Neural Networks}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{889--899}
+  (\bibinfo{year}{2006}).
+
+\bibitem{venna2010retrieval}
+\bibinfo{author}{Venna, J.}, \bibinfo{author}{Peltonen, J.},
+  \bibinfo{author}{Nybo, K.}, \bibinfo{author}{Aidos, H.} \&
+  \bibinfo{author}{Kaski, S.}
+\newblock \bibinfo{title}{Information retrieval perspective to nonlinear
+  dimensionality reduction for data visualization}.
+\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{451--490}
+  (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{https://jmlr.org/papers/v11/venna10a.html}.
+
+\bibitem{pedregosa2011scikit}
+\bibinfo{author}{Pedregosa, F.} \emph{et~al.}
+\newblock \bibinfo{title}{Scikit-learn: Machine learning in {Python}}.
+\newblock \emph{\bibinfo{journal}{Journal of Machine Learning Research}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{2825--2830}
+  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{https://jmlr.org/papers/v12/pedregosa11a.html}.
+
+\bibitem{luecken2022benchmarking}
+\bibinfo{author}{Luecken, M.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{Benchmarking atlas-level data integration in
+  single-cell genomics}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{41--50}
+  (\bibinfo{year}{2022}).
+
+\bibitem{setty2019palantir}
+\bibinfo{author}{Setty, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Characterization of cell fate probabilities in
+  single-cell data with {Palantir}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{451--460}
+  (\bibinfo{year}{2019}).
+
+\bibitem{hochgerner2018conserved}
+\bibinfo{author}{Hochgerner, H.}, \bibinfo{author}{Zeisel, A.},
+  \bibinfo{author}{L{\"o}nnerberg, P.} \& \bibinfo{author}{Linnarsson, S.}
+\newblock \bibinfo{title}{Conserved properties of dentate gyrus neurogenesis
+  across postnatal development revealed by single-cell {RNA} sequencing}.
+\newblock \emph{\bibinfo{journal}{Nature Neuroscience}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{290--299}
+  (\bibinfo{year}{2018}).
+
+\bibitem{bastidas2019endocrinogenesis}
+\bibinfo{author}{Bastidas-Ponce, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{Comprehensive single cell mRNA profiling reveals a
+  detailed roadmap for pancreatic endocrinogenesis}}.
+\newblock \emph{\bibinfo{journal}{Development}} \textbf{\bibinfo{volume}{146}},
+  \bibinfo{pages}{dev173849} (\bibinfo{year}{2019}).
+
+\bibitem{vieirabraga2019lung}
+\bibinfo{author}{Vieira~Braga, F.~A.} \emph{et~al.}
+\newblock \bibinfo{title}{{A cellular census of human lungs identifies novel
+  cell states in health and in asthma}}.
+\newblock \emph{\bibinfo{journal}{Nature Medicine}}
+  \textbf{\bibinfo{volume}{25}}, \bibinfo{pages}{1153--1163}
+  (\bibinfo{year}{2019}).
+
+\bibitem{lung_geo130148}
+\bibinfo{author}{Simon, L.~M.} \& \bibinfo{author}{Schiller, H.~B.}
+\newblock \bibinfo{title}{{GSE130148}: Single cell {RNA} sequencing analysis of
+  fresh resected human lung tissue}.
+\newblock \bibinfo{howpublished}{NCBI Gene Expression Omnibus}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130148}.
+\newblock \bibinfo{note}{Four patients; released 23 April 2019}.
+
+\bibitem{stahl2016spatial}
+\bibinfo{author}{St{\aa}hl, P.~L.} \emph{et~al.}
+\newblock \bibinfo{title}{Visualization and analysis of gene expression in
+  tissue sections by spatial transcriptomics}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{353}},
+  \bibinfo{pages}{78--82} (\bibinfo{year}{2016}).
+
+\bibitem{maynard2021dlpfc}
+\bibinfo{author}{Maynard, K.~R.} \emph{et~al.}
+\newblock \bibinfo{title}{Transcriptome-scale spatial gene expression in the
+  human dorsolateral prefrontal cortex}.
+\newblock \emph{\bibinfo{journal}{Nature Neuroscience}}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{425--436}
+  (\bibinfo{year}{2021}).
+
+\bibitem{chan2026bclm}
+\bibinfo{author}{Chan, I.}, \bibinfo{author}{Mohta, S.} \& \bibinfo{author}{Xu,
+  L.}
+\newblock \bibinfo{title}{Spatial transcriptomics dataset of {BCLM}}.
+\newblock \bibinfo{howpublished}{Zenodo, version 1.0} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://doi.org/10.5281/zenodo.18306028}.
+\newblock \bibinfo{note}{Visium sample A\_0069226; CC BY 4.0}.
+
+\bibitem{tenxlymph}
+\bibinfo{author}{{10x Genomics}}.
+\newblock \bibinfo{title}{Human lymph node, {Visium} spatial gene expression
+  ({Space Ranger} 1.1.0)}.
+\newblock \bibinfo{howpublished}{10x Genomics public dataset}
+  (\bibinfo{year}{2020}).
+\newblock
+  \urlprefix\url{https://cf.10xgenomics.com/samples/spatial-exp/1.1.0/V1_Human_Lymph_Node/V1_Human_Lymph_Node_web_summary.html}.
+
+\bibitem{tenxbreast}
+\bibinfo{author}{{10x Genomics}}.
+\newblock \bibinfo{title}{Human breast cancer: {Block A} section 1, {Visium}
+  spatial gene expression ({Space Ranger} 1.1.0)}.
+\newblock \bibinfo{howpublished}{10x Genomics public dataset}
+  (\bibinfo{year}{2020}).
+\newblock
+  \urlprefix\url{https://cf.10xgenomics.com/samples/spatial-exp/1.1.0/V1_Breast_Cancer_Block_A_Section_1/V1_Breast_Cancer_Block_A_Section_1_web_summary.html}.
+
+\bibitem{tenxovary}
+\bibinfo{author}{{10x Genomics}}.
+\newblock \bibinfo{title}{Human ovarian cancer, {Visium} spatial gene
+  expression ({Space Ranger} 1.2.0)}.
+\newblock \bibinfo{howpublished}{10x Genomics public dataset}
+  (\bibinfo{year}{2020}).
+\newblock
+  \urlprefix\url{https://cf.10xgenomics.com/samples/spatial-exp/1.2.0/Parent_Visium_Human_OvarianCancer/Parent_Visium_Human_OvarianCancer_web_summary.html}.
+
+\bibitem{tenxpbmc3k}
+\bibinfo{author}{{10x Genomics}}.
+\newblock \bibinfo{title}{3k {PBMCs} from a healthy donor}.
+\newblock \bibinfo{howpublished}{Single Cell Gene Expression dataset, Cell
+  Ranger 1.1.0} (\bibinfo{year}{2016}).
+\newblock
+  \urlprefix\url{https://cf.10xgenomics.com/samples/cell-exp/1.1.0/pbmc3k/pbmc3k_web_summary.html}.
+
+\bibitem{zheng2017massively}
+\bibinfo{author}{Zheng, G. X.~Y.} \emph{et~al.}
+\newblock \bibinfo{title}{Massively parallel digital transcriptional profiling
+  of single cells}.
+\newblock \emph{\bibinfo{journal}{Nature Communications}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{14049} (\bibinfo{year}{2017}).
+
+\bibitem{lopez2018scvi}
+\bibinfo{author}{Lopez, R.}, \bibinfo{author}{Regier, J.},
+  \bibinfo{author}{Cole, M.~B.}, \bibinfo{author}{Jordan, M.~I.} \&
+  \bibinfo{author}{Yosef, N.}
+\newblock \bibinfo{title}{Deep generative modeling for single-cell
+  transcriptomics}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{1053--1058}
+  (\bibinfo{year}{2018}).
+
+\bibitem{gayoso2022scvitools}
+\bibinfo{author}{Gayoso, A.} \emph{et~al.}
+\newblock \bibinfo{title}{A {Python} library for probabilistic analysis of
+  single-cell omics data}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{163--166}
+  (\bibinfo{year}{2022}).
+
+\bibitem{becht2019umap}
+\bibinfo{author}{Becht, E.} \emph{et~al.}
+\newblock \bibinfo{title}{Dimensionality reduction for visualizing single-cell
+  data using {UMAP}}.
+\newblock \emph{\bibinfo{journal}{Nature Biotechnology}}
+  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{38--44}
+  (\bibinfo{year}{2019}).
+
+\bibitem{mcinnes2018umap}
+\bibinfo{author}{McInnes, L.}, \bibinfo{author}{Healy, J.} \&
+  \bibinfo{author}{Melville, J.}
+\newblock \bibinfo{title}{{UMAP}: Uniform manifold approximation and projection
+  for dimension reduction} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{https://arxiv.org/abs/1802.03426}.
+\newblock \eprint{1802.03426}.
+
+\bibitem{virtanen2020scipy}
+\bibinfo{author}{Virtanen, P.}, \bibinfo{author}{Gommers, R.},
+  \bibinfo{author}{Oliphant, T.~E.} \& \bibinfo{author}{{SciPy 1.0
+  Contributors}}.
+\newblock \bibinfo{title}{{SciPy} 1.0: fundamental algorithms for scientific
+  computing in {Python}}.
+\newblock \emph{\bibinfo{journal}{Nature Methods}}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{261--272}
+  (\bibinfo{year}{2020}).
+
+\bibitem{holm1979sequential}
+\bibinfo{author}{Holm, S.}
+\newblock \bibinfo{title}{A simple sequentially rejective multiple test
+  procedure}.
+\newblock \emph{\bibinfo{journal}{Scandinavian Journal of Statistics}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{65--70} (\bibinfo{year}{1979}).
+\newblock \urlprefix\url{https://www.jstor.org/stable/4615733}.
+
+\bibitem{zimmerman2021pseudoreplication}
+\bibinfo{author}{Zimmerman, K.~D.}, \bibinfo{author}{Espeland, M.~A.} \&
+  \bibinfo{author}{Langefeld, C.~D.}
+\newblock \bibinfo{title}{{A practical solution to pseudoreplication bias in
+  single-cell studies}}.
+\newblock \emph{\bibinfo{journal}{Nature Communications}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{738} (\bibinfo{year}{2021}).
+
+\end{thebibliography}

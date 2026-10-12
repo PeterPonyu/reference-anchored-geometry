@@ -1,0 +1,38 @@
+{
+  "document_version": "submission-2026-10-12",
+  "title": "Reference-anchored diagnostics of single-cell geometry and native allocation coherence",
+  "software_doi": "10.5281/zenodo.23308078",
+  "software_version": "2.0.2",
+  "software_archive_sha256": "d068ac71d19d99c8e81932743251ceaaac863e8b67e6454ef6d24e0dedc15c90",
+  "documents": {
+    "manuscript": {
+      "sha256": "58047b4e481a9418f0147775494f0042c4aebd6d914f24beb445b7415351ad67",
+      "bytes": 407130,
+      "pages": 15
+    },
+    "supplement": {
+      "sha256": "cd9ba147a8283b1839a6167f014df422acbafb7b201e617df5edf8a45fdd00b6",
+      "bytes": 2160836,
+      "pages": 30
+    }
+  },
+  "editable_source": {
+    "file": "reference-anchored-geometry-submission-2026-10-12-editable-source.zip",
+    "sha256": "c805b77a31ad50e53dbeb4b72b659496ef9ef178cefb7534537e87a2a7913278",
+    "bytes": 2206775
+  },
+  "checks": {
+    "mechanical_layout": "PASS",
+    "main_panels_in_first_citation_order": "PASS",
+    "displays_after_first_citation_within_one_page": "PASS",
+    "all_page_overview_and_selected_full_page_review": "PASS",
+    "fresh_source_rebuild_with_network_and_original_author_home_unavailable": "PASS",
+    "rebuild_pdf_text_and_page_identity": "PASS",
+    "new_model_fits": false
+  },
+  "scope": "Document reproduction and preparation checks, not independent human peer review or additional biological validation.",
+  "author_final_journal_reading_certified": false,
+  "journal_submission_performed": false,
+  "Arial_is_installed_licensed_runtime_not_redistributed": true,
+  "software_doi_archives_this_later_editorial_source": false
+}
