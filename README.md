@@ -13,7 +13,7 @@ The objects analysed are fixed computational objects, not independent biological
 
 | Path | Contents |
 | --- | --- |
-| `paper.tex`, `paper.pdf`, `references.bib`, `standalone-assets/` | Manuscript source, compiled manuscript, bibliography and LaTeX preamble |
+| `paper.tex`, `references.bib`, `standalone-assets/` | Consolidated scientific source, bibliography and LaTeX preamble; current compiled documents are under `scientific-reports/` |
 | `figures/`, `tables/` | Twelve vector figures (one with an editable SVG source) and the table sources used by the manuscript |
 | `scripts/` | Scorers, analysis drivers, figure builders and the manuscript audit |
 | `validation/` | Independent decimal oracle, 19 numerical tests and the validation protocol for the identity-explicit scorer |
@@ -59,7 +59,7 @@ bash build.sh
 python3 scripts/audit_manuscript.py
 ```
 
-The fixed-object scripts verify input checksums before computing and overwrite only their own result files. Plotting needs R with ggplot2, gridExtra, gtable, jsonlite and Cairo; the SVG conversion needs PyGObject, librsvg and Cairo and uses `/usr/bin/python3` unless `SVG_PYTHON` names another interpreter. Figure text is Arial. The manuscript needs XeLaTeX, BibTeX, Arial and the packages in `standalone-assets/preamble.tex`. `scripts/audit_manuscript.py` additionally needs PyMuPDF and `pdffonts` (poppler-utils), and the compiled manuscript, so run `bash build.sh` first. Rebuilding changes the bytes of PDF files, not their content, so the audit compares rebuilt PDFs with the checksum list only as a warning.
+The fixed-object scripts verify input checksums before computing and overwrite only their own result files. Plotting needs R with ggplot2, gridExtra, gtable, jsonlite and Cairo; the SVG conversion needs PyGObject, librsvg and Cairo and uses `/usr/bin/python3` unless `SVG_PYTHON` names another interpreter. Figure text is Arial. The journal manuscript needs XeLaTeX, BibTeX, Arial and the packages in `standalone-assets/preamble.tex`. `scripts/audit_manuscript.py` additionally needs PyMuPDF and `pdffonts` (poppler-utils), and the current compiled journal documents, so run `bash build.sh` first. Rebuilding changes the bytes of PDF files, not their content, so freshly rebuilt document hashes are bound by the regenerated format report. The previous 2.0.1 consolidated-layout audit/build remain byte-exact in `provenance/previous-version/`; they are historical source evidence, not the current journal build entry point. The current audit reuses all 43 published numeric claim checks unchanged.
 
 Scripts that read raw expression data or retrain scVI and UMAP take their input locations from environment variables (`RAAG_SPATIAL_DATA`, `RAAG_SPATIAL_EXTERNAL`, `RAAG_PBMC3K_ARCHIVE`); the expected folder layouts, the GPU requirement and the two vendored files of the synthetic fixture generator are described in `evidence/followup-20261010/README.md`. The saved outputs of those scripts are included, so the figures, tables and audit do not need the raw data.
 
@@ -74,3 +74,20 @@ Not included: the count matrices of the cited public datasets, the complete expr
 ## Rights
 
 Author-owned software is MIT licensed. The author's manuscript, figures and generated results are CC BY 4.0. Source-study data, labels, annotations and other third-party materials keep their original terms and are not relicensed. Read `LICENSE`, `LICENSE-MIT`, `LICENSE-CC-BY-4.0` and `NOTICE.md` before reusing mixed-content files.
+
+
+## Complete versioned reproduction package
+
+This Git checkout and the source-and-documents asset provide current producing
+source, corrected manuscripts and compact saved results. Large numerical arrays,
+model states and inputs are in the complete version archive at
+[software DOI 10.5281/zenodo.23308078](https://doi.org/10.5281/zenodo.23308078).
+The public record determines publication status; the sealed package was assembled
+while its DOI was reserved. Download every numbered ZIP part and follow
+REASSEMBLE.md and SHA256SUMS. The reconstructed ZIP has SHA256
+`d068ac71d19d99c8e81932743251ceaaac863e8b67e6454ef6d24e0dedc15c90`.
+
+Extract the full archive before running full-manifest checks or scripts that use
+the large inputs. The full archive's release-manifest.json describes that archive;
+SOURCE_DOCUMENTS_MANIFEST.json describes this compact source/docs selection.
+The DOI identifies software and research sources, not a manuscript publication.

@@ -11,13 +11,13 @@
       "distribution": "versioned-archive"
     },
     "AUDIT.md": {
-      "sha256": "23a8b820a41ad6e37a7604001447eb768aa098a0495713105063ce78997bc743",
-      "bytes": 4745,
+      "sha256": "86d3dae89da9c2efa2663e1d2d70bd5dcf34f7911cf682c0a3b9dbab7716b76d",
+      "bytes": 4817,
       "distribution": "versioned-archive"
     },
     "CHANGELOG.md": {
-      "sha256": "10fe1f2c3b837d0c2804db58545a88470181a626eaa161603857a143dbd74b09",
-      "bytes": 4499,
+      "sha256": "4b4bb670216d9396db6b83f3cb287c0fe792e7835c22be1e85a54a5542adf4cd",
+      "bytes": 4679,
       "distribution": "versioned-archive"
     },
     "CITATION.cff": {
@@ -51,63 +51,13 @@
       "distribution": "versioned-archive"
     },
     "README.md": {
-      "sha256": "32855e95c156e0e5805d2c921e7a6a6ca7b47d0411bc493ba94d09b822213fce",
-      "bytes": 7724,
+      "sha256": "6a6fb5a2e1e5476a88f54d110849f9188d1f9ff5ee42db35977e22b5b425e07e",
+      "bytes": 8046,
       "distribution": "versioned-archive"
     },
     "build.sh": {
-      "sha256": "67335926c0db0f6187e009d3d0a6cb43f37c27c5fee92ae255c32187f3837da9",
-      "bytes": 807,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/bibtex.log": {
-      "sha256": "8d071bc97c4d48c1c177fdf1db96f1d284388377b588b6dc0bea7b075bbdeaf1",
-      "bytes": 173,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.aux": {
-      "sha256": "384042a9c3ab6bc3459f5e3b30bd22993d41a4fff1365f0e848073d5893cfa9c",
-      "bytes": 43378,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.bbl": {
-      "sha256": "2307b13394e59cc15fb9c066ddab95754a563690f67ba800a6dd238d8d2de39b",
-      "bytes": 20408,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.blg": {
-      "sha256": "ae49a9d643e766981e152139cd531adf47a636750320a4f7b9f8fa69d1f6ba5f",
-      "bytes": 940,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.log": {
-      "sha256": "a44b004c5dd9b0bd4551fd5a0fac7d43a0d0a916695c2c81dff3332a8d2d55e7",
-      "bytes": 42767,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.out": {
-      "sha256": "045f0c8c525f9b4876f255186763a6e65144131a6e7245c79c8b24790fcfb87c",
-      "bytes": 7981,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/paper.pdf": {
-      "sha256": "f13f337731cb41ff4fcd0ba3aae4c0dd6d06d50621df87fe61f377de488a3e5a",
-      "bytes": 2451590,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/pass1.log": {
-      "sha256": "20be9336feec28c68c6524762f1d095a4653fd1d07fff10750578cfa0cfaf970",
-      "bytes": 27522,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/pass2.log": {
-      "sha256": "caa827cb72c4cdecf9416f6c7e79168af7ac3f39cec973614bfabafb118fc731",
-      "bytes": 18017,
-      "distribution": "versioned-archive"
-    },
-    "build_independent/pass3.log": {
-      "sha256": "3f1318f2ab47b8772c16eb3d5c1f0b348a90eafcb8bd995d702016cc7169864d",
-      "bytes": 11745,
+      "sha256": "4f31970bbb148834ca7d0b6f412086e667afc993a156a7976192d5cff5e32634",
+      "bytes": 257,
       "distribution": "versioned-archive"
     },
     "evidence/diversity-20261009/PROTOCOL.md": {
@@ -850,6 +800,11 @@
       "bytes": 28163,
       "distribution": "versioned-archive"
     },
+    "paper.pdf": {
+      "sha256": "ebf41efdfd278920148771d31b96c65ab9fb27ac3bd4d3bb17a129da824da90b",
+      "bytes": 1952576,
+      "distribution": "versioned-archive"
+    },
     "paper.tex": {
       "sha256": "07ca6085b84b44031341e31eb0d7b67c75ef9322dc3fcf0930ffc6894e71220e",
       "bytes": 103820,
@@ -870,6 +825,16 @@
       "bytes": 523,
       "distribution": "versioned-archive"
     },
+    "provenance/previous-version/audit_manuscript-2.0.1.py": {
+      "sha256": "25e07ad6bbfbe08a97eb5b59b1e494e12cbdac14348ea128b72db65dc426f7ef",
+      "bytes": 24675,
+      "distribution": "versioned-archive"
+    },
+    "provenance/previous-version/build-2.0.1.sh": {
+      "sha256": "67335926c0db0f6187e009d3d0a6cb43f37c27c5fee92ae255c32187f3837da9",
+      "bytes": 807,
+      "distribution": "versioned-archive"
+    },
     "provenance/previous-version/local_raag.py": {
       "sha256": "079422484c29aa30b964bdc5ad9f3ecdc32335df41f0621b1170f633b4ef22ce",
       "bytes": 20204,
@@ -878,6 +843,11 @@
     "qa/calibration-replay/receipt.json": {
       "sha256": "7eca9e11eb81b76ff81a8e7d7be14033f8907217dae29f2cdc57e7b020982906",
       "bytes": 4081,
+      "distribution": "versioned-archive"
+    },
+    "qa/scientific-reports/claims-audit.json": {
+      "sha256": "0818d650353893e1e26b5cac64ae641dc65871293a0759f382cab1c3a7a3355d",
+      "bytes": 145,
       "distribution": "versioned-archive"
     },
     "qa/scientific-reports/format-check.json": {
@@ -921,8 +891,8 @@
       "distribution": "versioned-archive"
     },
     "scripts/audit_manuscript.py": {
-      "sha256": "396978c3461fe06969e7739c259f26f9dcc66043c7c98758d1b1e5d054e8cddd",
-      "bytes": 23351,
+      "sha256": "b34765ffd9dd10650b693730e707264ea2d5971e2c8ba45df58124c7e80b4f9b",
+      "bytes": 1065,
       "distribution": "versioned-archive"
     },
     "scripts/build_architecture.py": {
@@ -1045,6 +1015,16 @@
       "bytes": 18637,
       "distribution": "versioned-archive"
     },
+    "scripts/verify_journal_candidates.py": {
+      "sha256": "d84bbf1d6ff7d7429c8bc4c4a4d0580c97b79130fa3c9fc4fdf5dcdb5e944f53",
+      "bytes": 7327,
+      "distribution": "versioned-archive"
+    },
+    "scripts/verify_saved_claims.py": {
+      "sha256": "f30fb24ad1f931d45ef0021b2c458ad74fb86b445694ea66597f6474c7116d44",
+      "bytes": 9260,
+      "distribution": "versioned-archive"
+    },
     "standalone-assets/preamble.tex": {
       "sha256": "460273cc5cdac1cc6a5c0f1a8b428114fca3c8475512229c0f6892653dc42523",
       "bytes": 1640,
@@ -1081,8 +1061,8 @@
       "distribution": "versioned-archive"
     },
     "validation/README.md": {
-      "sha256": "dbaaaddbe4b27ce878dcc70ffc4fca61577bb016ba9c8ee3001e2c337ca5678e",
-      "bytes": 1696,
+      "sha256": "7c6cb65c8a0ff5341bc520af44c97cbf2ded695a91859b7f9fa87252751bae7a",
+      "bytes": 1780,
       "distribution": "versioned-archive"
     },
     "validation/raag_v3_oracle.py": {
@@ -1091,12 +1071,12 @@
       "distribution": "versioned-archive"
     },
     "validation/test_raag_v3.py": {
-      "sha256": "9e09119738595262748719c4fb713d3762dcd5d0a7c4dc125ce94df1c117126f",
-      "bytes": 21043,
+      "sha256": "d98459d50814f693fee578ccda0a2f3e3db212c761be411d7032715f356a8d75",
+      "bytes": 21088,
       "distribution": "versioned-archive"
     }
   },
-  "source_files": 218,
+  "source_files": 214,
   "checkpoint_files": 0,
   "historical_hash_policy": "Producer digests inside scientific records identify historical computations. This manifest hashes the actual distributed bytes."
 }

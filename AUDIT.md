@@ -16,7 +16,7 @@
 
 **Official trajectory metric** (`evidence/submission-20261011/`). The low value of the official scIB trajectory metric on the identity control is reproduced for all saved values (largest difference 2.5e-5). It comes from reversal of both arms in diffusion pseudotime, not from the choice of root, and depends on the number of diffusion components, the neighbour count and the jitter level.
 
-**Manuscript audit** (`scripts/audit_manuscript.py`). Against the compiled manuscript it checks section structure, that floats appear only in Results, that Introduction and Discussion are continuous prose, citation order and use, banned process language, the abstract length, the LaTeX log, embedded fonts, page-bottom whitespace, float call-out order and numbering, figure typography, the checksum list, and every number that the text takes from saved records.
+**Current journal audit** (`scripts/audit_manuscript.py`). Verifies generator/source/config/PDF hashes, title and abstract limits, display count, first-citation placement, complete supplementary references, embedded fonts and page bounds. It reuses all 43 published numeric-claim checks without changing them. Separate independent visual review checks legibility of the final pages. The predecessor 2.0.1 consolidated-layout audit/build remain byte-exact in `provenance/previous-version/`, preserving their original version identity.
 
 ## Boundary of the claims
 

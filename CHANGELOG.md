@@ -2,7 +2,7 @@
 
 ## 2.0.2 — 2026-10-12
 
-Adds Scientific Reports main and supplementary documents, separate code availability, Gmail-first correspondence and version-specific source archive. Adds a portable stored-array calibration replay (36 rows, 1,224 exact field matches); clarifies legacy scorer docstrings with executable-AST identity and original-byte provenance. Numerical research outputs and geometry implementations are unchanged.
+Adds Scientific Reports main and supplementary documents, separate code availability, Gmail-first correspondence and version-specific source archive. Adds a portable stored-array calibration replay (36 rows, 1,224 exact field matches); clarifies legacy scorer docstrings with executable-AST identity and original-byte provenance. Numerical research outputs and geometry implementations are unchanged. The current default build/audit targets the Scientific Reports main and SI; all 43 predecessor numeric checks and the original 2.0.1 consolidated-layout audit/build are preserved.
 
 ## 2.0.1 — 2026-10-11
 
