@@ -1,6 +1,6 @@
-"""Source-authored unittest suite; execute only through the admitted P1 runner.
+"""Source-authored unittest suite for the identity-explicit scorer.
 
-No new test dependency. The numerical suite has NOT RUN. The complete tail
+No new test dependency. The complete tail
 ladder, ideal scaling and precision response records live in the separate
 runner; these unit tests check its graph/identity/support building blocks.
 """

@@ -14,7 +14,7 @@ For every section the five candidates are rescored against 62 reference graphs:
   C      one tie-complete graph that keeps every strictly nearer neighbour and every neighbour at the
          cutoff distance, so out-degree can exceed k
 
-Run from any directory:  python tie_sensitivity.py            (full run, about 7 minutes)
+Run from any directory:  python tie_sensitivity.py            (full run, about 5 minutes)
                          python tie_sensitivity.py --summarise (summaries from the saved raw table)
 Inputs are read from ../../followup-20261010/arrays/diversity; outputs go to ../results.
 """

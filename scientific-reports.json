@@ -1,0 +1,26 @@
+{
+  "main_source": "paper.tex",
+  "supplement_source": null,
+  "main_figures": [
+    "fig:interventions",
+    "fig:reachability",
+    "fig:coherence",
+    "fig:allocation",
+    "fig:chance",
+    "fig:spatial",
+    "fig:views"
+  ],
+  "main_tables": [
+    "tab:estimands"
+  ],
+  "title": "Reference-anchored diagnostics of single-cell geometry and native allocation coherence",
+  "output": "scientific-reports",
+  "qa": "qa/scientific-reports",
+  "compiler": "xelatex",
+  "discussion_sentence_limit": 2,
+  "inline_float_spec": "tbp",
+  "inline_max_pages_after_citation": 3,
+  "equation_style": true,
+  "journal_figure_directory": true,
+  "journal_lowercase_panels": false
+}

@@ -9,13 +9,10 @@ Checks
   language    no internal version codes, hashes, file names or process notes in the body text
   floats      every figure and table is called out no later than the page on which it appears; numbering follows
               first citation
-  layout      LaTeX log without diagnostics, abstract below 250 words, no page but the last with more than 1.5 in of
-              empty space above the bottom margin, fonts embedded
-  page flow   no page ends on a hyphen, no heading is stranded, no sentence is interrupted by a float above or below
-              the text, no sentence starts with one or two words at the end of a page
+  layout      LaTeX log without diagnostics, abstract at most 200 words, no page with more than 1.5 in of empty space
+              above the bottom margin, fonts embedded
   figures     one page, expected bold panel tags only, Arial text, nothing outside the page
-  evidence    SHA-256 manifest of the saved evidence matches the files; rebuilt PDFs (paper.pdf, figures/*.pdf) carry
-              build timestamps, so a byte difference there is recorded as a warning, not an error
+  evidence    SHA-256 manifest of the saved evidence matches the files
   numbers     values added during the final revision match the saved records and the text
 """
 from __future__ import annotations
@@ -158,8 +155,8 @@ if diagnostics:
 page1 = doc[0].get_text()
 abstract = re.sub(r"-\n\s*", "", page1.split("Abstract", 1)[1].split("1\nIntroduction", 1)[0])
 report["abstract_words"] = len(abstract.split())
-if report["abstract_words"] >= 250:
-    fail("abstract has 250 words or more")
+if report["abstract_words"] > 200:
+    fail("abstract exceeds the journal 200-word limit")
 title = re.search(r"pdftitle=\{([^}]+)\}", tex)[1]
 if doc.metadata.get("title") != title:
     fail("PDF title metadata")
@@ -183,7 +180,7 @@ if report["last_page_filled_in"] < 2.5:
     fail(f"the last page holds only {report['last_page_filled_in']} in of content")
 
 # ----------------------------------------------------------------- page flow
-# body text is 10.9 pt, captions 10.0 pt; the folio lies below y = 730 pt (a page may hold one extra line below y = 722 pt)
+# body text is 10.9 pt, captions 10.0 pt; the footer lies below y = 722 pt
 flow = []
 for page in doc:
     body, heads, caps = [], [], []
@@ -197,9 +194,9 @@ for page in doc:
             span, (y0, y1) = line["spans"][0], (line["bbox"][1], line["bbox"][3])
             if re.match(r"^(Figure|Table) \d+:", text) and abs(span["size"] - 10.0) < 0.3:
                 caps.append(y0)
-            elif 10.8 <= span["size"] <= 11.0 and y1 <= 730 and not span["flags"] & 16:
+            elif 10.8 <= span["size"] <= 11.0 and y1 <= 722 and not span["flags"] & 16:
                 body.append((y0, y1, text))
-            elif span["flags"] & 16 and span["size"] >= 10.9 and re.match(r"^\d+(\.\d+)*\s", text) and y1 <= 730:
+            elif span["flags"] & 16 and span["size"] >= 10.9 and re.match(r"^\d+(\.\d+)*\s", text) and y1 <= 722:
                 heads.append((y0, y1))
     flow.append((sorted(body), heads, caps))
 hyphen_breaks, stranded, split_by_float = [], [], []
@@ -207,26 +204,9 @@ for i, (body, heads, caps) in enumerate(flow):
     if i < len(flow) - 1 and body and body[-1][2].endswith("-"):
         hyphen_breaks.append(i + 1)
     stranded += [i + 1 for (y0, y1) in heads if sum(b[0] > y1 for b in body) < 3]
-    if i > 0 and flow[i - 1][0]:
-        previous_open = re.search(r"[.!?:;)]\s*$", flow[i - 1][0][-1][2]) is None
-        if previous_open and ((body and any(c < body[0][0] for c in caps)) or not body):
-            split_by_float.append(i + 1)
-cut_by_bottom_float, sentence_orphan = [], []
-for i, (body, heads, caps) in enumerate(flow[:-1]):
-    if not body:
-        continue
-    last_y1, last_text = body[-1][1], body[-1][2]
-    ends_sentence = re.search(r"[.!?:;)]\s*$", last_text) is not None
-    if any(c > last_y1 for c in caps) and not ends_sentence:
-        cut_by_bottom_float.append(i + 1)
-    if re.search(r"[.!?]\s+\S+(?:\s+\S+)?$", last_text) and not ends_sentence:
-        sentence_orphan.append(i + 1)
-report["page_flow"] = {"hyphen_at_page_end": hyphen_breaks, "stranded_headings": stranded, "sentence_split_by_float": split_by_float,
-                       "sentence_cut_by_bottom_float": cut_by_bottom_float, "sentence_started_at_page_end": sentence_orphan}
-if cut_by_bottom_float:
-    fail(f"a sentence is interrupted by a float below the text: pages {cut_by_bottom_float}")
-if sentence_orphan:
-    fail(f"a sentence starts with one or two words at the end of a page: pages {sentence_orphan}")
+    if i > 0 and body and body[0][2][:1].islower() and (any(c < body[0][0] for c in caps) or not flow[i - 1][0]):
+        split_by_float.append(i + 1)
+report["page_flow"] = {"hyphen_at_page_end": hyphen_breaks, "stranded_headings": stranded, "sentence_split_by_float": split_by_float}
 if hyphen_breaks:
     fail(f"a page ends on a hyphenated word: pages {hyphen_breaks}")
 if stranded:

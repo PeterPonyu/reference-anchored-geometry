@@ -1,8 +1,12 @@
 # Changelog
 
+## 2.0.2 — 2026-10-12
+
+Adds Scientific Reports main and supplementary documents, separate code availability, Gmail-first correspondence and version-specific source archive. Adds a portable stored-array calibration replay (36 rows, 1,224 exact field matches); clarifies legacy scorer docstrings with executable-AST identity and original-byte provenance. Numerical research outputs and geometry implementations are unchanged.
+
 ## 2.0.1 — 2026-10-11
 
-Corrects the pagination of the manuscript in release 2.0.0: one sentence in Section 3.6 continued after a table at the top of the next page. The page-flow checks of `scripts/audit_manuscript.py` now detect any sentence interrupted by a float, including one whose continuation begins with a parenthesis, and allow for the extra line that Section 3.1 holds. Code, data, saved results and the manuscript text are unchanged apart from the release identifiers in the Declarations; the figures and tables are identical. This version supersedes 2.0.0 ([10.5281/zenodo.23299047](https://doi.org/10.5281/zenodo.23299047)).
+Published pagination correction: one sentence interrupted by a table was repaired, with stronger page-flow audit checks. DOI 10.5281/zenodo.23301675.
 
 ## 2.0.0 — 2026-10-11
 

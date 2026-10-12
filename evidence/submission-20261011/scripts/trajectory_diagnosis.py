@@ -8,7 +8,7 @@ Reads the saved fixture arrays (three seeds, twelve candidates) and the saved of
   3. Reports the within-branch Spearman correlation between known and diffusion pseudotime.
   4. Probes the identity control: number of diffusion components, neighbour count, extra jitter.
 
-Run:  python trajectory_diagnosis.py     (about one minute)      Outputs go to ../results.
+Run:  python trajectory_diagnosis.py     (about two minutes)      Outputs go to ../results.
 """
 from __future__ import annotations
 

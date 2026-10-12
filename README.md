@@ -1,9 +1,10 @@
 # Reference-anchored diagnostics of single-cell geometry and native allocation coherence
 
-Research release 2.0.1 accompanying the manuscript of the same title by Zeyu Fu. The study asks how graph construction, chance expectations, reference choice and allocation baselines change the interpretation of geometric preservation scores for single-cell representations. It separates reachability, edge survival and separation from allocation coherence, calibrates them on controlled synthetic interventions, and examines 24 stored representations, seven tissue sections and one blood sample.
+Version 2.0.2 accompanying the manuscript of the same title by Zeyu Fu. The study asks how graph construction, chance expectations, reference choice and allocation baselines change the interpretation of geometric preservation scores for single-cell representations. It separates reachability, edge survival and separation from allocation coherence, calibrates them on controlled synthetic interventions, and examines 24 stored representations, seven tissue sections and one blood sample.
 
 - Repository: [PeterPonyu/reference-anchored-geometry](https://github.com/PeterPonyu/reference-anchored-geometry)
-- This version: [10.5281/zenodo.23301675](https://doi.org/10.5281/zenodo.23301675). All versions: [10.5281/zenodo.22914408](https://doi.org/10.5281/zenodo.22914408), which resolves to the latest version.
+- Software and research-source archive: [10.5281/zenodo.23308078](https://doi.org/10.5281/zenodo.23308078). Prior published version 2.0.1: [10.5281/zenodo.23301675](https://doi.org/10.5281/zenodo.23301675).
+- Current submission documents: [inline manuscript](scientific-reports/scientific-reports-manuscript-inline.pdf), [supplementary information](scientific-reports/scientific-reports-supplement.pdf). The archive DOI is a software/source DOI, not a manuscript-publication DOI.
 - Citation: `CITATION.cff`. Changes since 1.0.0: `CHANGELOG.md`.
 
 The objects analysed are fixed computational objects, not independent biological replicates, and the results make no claim of biological or method superiority. `AUDIT.md` states what was verified and where the boundary lies. `CLAIM_LEDGER.md` maps each family of manuscript claims to its evidence.
@@ -35,13 +36,16 @@ Python 3 with NumPy, SciPy, pandas and scikit-learn runs everything below except
 # numerical tests of the identity-explicit scorer against the decimal oracle
 python3 -m unittest validation.test_raag_v3
 
+# replay all 36 RAAG calibration rows from stored arrays (fresh receipt directory)
+python3 scripts/replay_saved_calibration.py --output-dir tmp/calibration-replay-01
+
 # fixed-object checks on the 24 stored objects
 python3 scripts/paired_grid_permutation.py
 python3 scripts/robustness_check.py
 python3 scripts/tied_graph_probe.py
 python3 scripts/scale_correspondence.py
 
-# tissue-reference ties (about seven minutes) and the official trajectory diagnosis (about one minute)
+# tissue-reference ties (about five minutes) and the official trajectory diagnosis (about two minutes)
 python3 evidence/submission-20261011/scripts/tie_sensitivity.py
 python3 evidence/submission-20261011/scripts/trajectory_diagnosis.py     # needs scanpy and scib 1.1.7
 
@@ -65,7 +69,7 @@ The two numerical drivers of the identity-explicit scorer refuse to start withou
 
 Included: the manuscript, figures and tables; all code; the synthetic calibration arrays; the 24 matched representation and reference arrays; the representation arrays, tissue coordinates and spot or cell identifiers of the seven tissue sections and the blood sample; every saved score table.
 
-Not included: the count matrices of the cited public datasets, the complete expression caches of the four stored backgrounds, the remaining stored latent files of the historical inventory, and the script that ran every metric library on the calibration arrays. The public datasets are available from the sources cited in the manuscript. The release therefore supports the documented fixed-object analyses, the follow-up analyses from saved arrays and the reconstruction of every figure and table, but not regeneration of every historical model from raw expression data.
+Not included: the count matrices of the cited public datasets, the complete expression caches of the four stored backgrounds, the remaining stored latent files of the historical inventory, and the script that ran every metric library on the calibration arrays. The public datasets are available from the sources cited in the manuscript. The release therefore supports the documented fixed-object analyses, the follow-up analyses from saved arrays and the reconstruction of every figure and table, but not regeneration of every historical model from raw expression data. The new saved-array calibration command verifies 1,224 RAAG fields without the absent historical external-library driver; it does not rerun those other metric stacks. Version 2.0.2 changes scorer docstrings only, with executable-AST identity and the original bytes retained in `provenance/`.
 
 ## Rights
 

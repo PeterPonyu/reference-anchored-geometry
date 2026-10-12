@@ -17,12 +17,12 @@ reference graph rather than to a clustering of it:
 
 ``reachability_survival``
     Do cells connected in the reference stay connected in the candidate?
-    Detects tearing, which is what the rank-local family misses.  It is
+    Reports graph disconnection in the controlled fixtures. It is
     measured over pairs rather than edges: a cut that severs two percent of
     edges makes two thirds of pairs unreachable, and only the pair-level view
-    shows that.  Calibration caught the edge-level version scoring a shattered
+    shows that graph change. Calibration caught the edge-level version scoring a shattered
     manifold *above* a faithful one, for the same averaging reason
-    trustworthiness does.
+    some rank-local summaries can in these fixtures.
 
 ``edge_survival``
     How far apart reference neighbours drift, in hops.  This is a local
@@ -36,8 +36,8 @@ reference graph rather than to a clustering of it:
 ``allocation_coherence``
     Does the allocation itself vary smoothly along the reference manifold,
     measured with Jensen-Shannon divergence on the simplex rather than
-    Euclidean distance?  This is the model-native question, and Euclidean
-    metrics answer it with the wrong geometry.
+    Euclidean distance? This allocation diagnostic uses its declared simplex
+    geometry; it does not invalidate Euclidean diagnostics of other objects.
 
     Coherence is a ratio of two divergences, so it stays numerically high
     when every row is near-uniform and both divergences are tiny.  The
@@ -50,8 +50,7 @@ softmax coordinates separately from allocations. Legacy sampled estimates remain
 available through ``legacy_allocation_coherence``.
 
 The quantities are reported separately.  Collapsing them into one number would
-reproduce exactly the failure this battery exists to avoid: a single score
-cannot distinguish a torn embedding from a merged one.
+hide which of these separate graph and allocation quantities changed.
 """
 
 from __future__ import annotations

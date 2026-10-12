@@ -1,0 +1,8 @@
+{
+  "original_path": "provenance/previous-version/local_raag.py",
+  "original_sha256": "079422484c29aa30b964bdc5ad9f3ecdc32335df41f0621b1170f633b4ef22ce",
+  "current_path": "scripts/local_raag.py",
+  "current_sha256": "6ff91877d19b9972ad5a0c96a26cf6fca33fd43ad3282697473c32b7beb1a36c",
+  "change": "Docstrings only: controlled-fixture scope and declared allocation geometry. Executable AST identical after docstring removal.",
+  "executable_ast_sha256": "661829496b04a7e6966b9a19af58df3abed662cf59e22a5ddbf8a675970fe60e"
+}

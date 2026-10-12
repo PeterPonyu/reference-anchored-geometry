@@ -1,20 +1,16 @@
 cff-version: 1.2.0
-message: Please cite this study and its archived research release.
+message: Please cite this software and research-source version using the version DOI.
 type: software
 title: "Reference-anchored diagnostics of single-cell geometry and native allocation coherence"
 authors:
   - family-names: Fu
     given-names: Zeyu
-version: "2.0.1"
-date-released: "2026-10-11"
-doi: 10.5281/zenodo.23301675
+    orcid: https://orcid.org/0009-0001-8329-0108
+version: "2.0.2"
+doi: 10.5281/zenodo.23308078
+date-released: 2026-10-12
 repository-code: https://github.com/PeterPonyu/reference-anchored-geometry
-url: https://doi.org/10.5281/zenodo.23301675
 license:
   - MIT
   - CC-BY-4.0
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22914408
-    description: Concept DOI covering all versions; resolves to the latest version.
 abstract: "Calibration, chance correction and sensitivity analysis of reference-anchored graph geometry and native probability-allocation diagnostics for single-cell representations. The release contains the manuscript, twelve vector figures, analysis code, synthetic calibration arrays, saved score tables, the matched representation and reference arrays of 24 stored objects, seven tissue sections and one blood sample, the identity-explicit scorer with its decimal-oracle validation, and a consistency audit of the manuscript against the saved evidence. Count matrices of the cited public datasets, complete expression caches and the historical multi-library calibration driver are not distributed."

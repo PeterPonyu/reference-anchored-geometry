@@ -1,0 +1,65 @@
+{
+ "structure": {
+  "floats": {
+   "figure": 12,
+   "table": 4
+  },
+  "displayed_equations": 32
+ },
+ "citations": {
+  "cited": 46,
+  "bibliography_entries": 46,
+  "intro": 11,
+  "discussion_cited": [
+   "cannoodt2021dyngen",
+   "phipson2010permutation",
+   "weinreb2020lineage",
+   "zappia2017splatter"
+  ]
+ },
+ "language": {
+  "version code": 0,
+  "hash or digest": 0,
+  "file name": 0,
+  "process language": 0,
+  "code identifier": 0,
+  "placeholder": 0,
+  "mixed spelling": 0
+ },
+ "pages": 37,
+ "abstract_words": 178,
+ "largest_empty_space_above_bottom_margin_in": 1.17,
+ "pages_with_more_than_1in_empty": [
+  3,
+  28
+ ],
+ "last_page_filled_in": 4.4,
+ "page_flow": {
+  "hyphen_at_page_end": [],
+  "stranded_headings": [],
+  "sentence_split_by_float": []
+ },
+ "float_pages": {
+  "fig:workflow": 17,
+  "fig:interventions": 18,
+  "fig:reachability": 19,
+  "fig:coherence": 21,
+  "fig:allocation": 22,
+  "fig:coverage": 23,
+  "fig:scale": 25,
+  "fig:chance": 26,
+  "fig:correspondence": 27,
+  "fig:spatial": 29,
+  "fig:views": 30,
+  "fig:pbmc": 31,
+  "tab:estimands": 16,
+  "tab:calibration": 17,
+  "tab:spatial": 31,
+  "tab:expression": 32
+ },
+ "evidence_manifest_entries": 219,
+ "rebuilt_pdfs_not_byte_identical": [],
+ "number_checks": 43,
+ "errors": [],
+ "status": "PASS"
+}

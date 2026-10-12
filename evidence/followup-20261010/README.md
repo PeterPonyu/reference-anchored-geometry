@@ -4,7 +4,7 @@ This folder extends the archived measurements with a connected-reference identit
 
 ## Scorer and additions
 
-All reachability, edge-survival and separation values come from the archived scorer `scripts/local_raag.py`, imported unchanged; coherence uses its `allocation_coherence`. Quantities the archived scorer does not provide are defined in `scripts/common.py`: exact permutation-null expectations of edge survival and separation (derivation in the file header), the corrected scores E\* and S\*, a tie-aware far-versus-edge AUROC, and pair-counting scores for reference and candidate component partitions.
+All reachability, edge-survival and separation values come from the archived scorer `scripts/local_raag.py`, whose executable code is unchanged (version2.0.2 clarifies docstrings only; the original and AST comparison are in `provenance/`); coherence uses its `allocation_coherence`. Quantities the archived scorer does not provide are defined in `scripts/common.py`: exact permutation-null expectations of edge survival and separation (derivation in the file header), the corrected scores E\* and S\*, a tie-aware far-versus-edge AUROC, and pair-counting scores for reference and candidate component partitions.
 
 Statistical units. Fixture seeds, model seeds and permutation draws are computational replicates, not biological ones. The 24 scale objects come from four backgrounds, and the three seeds of a background share one reference matrix, so they are not independent references.
 

@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "title": "Reference-anchored diagnostics of single-cell geometry and native allocation coherence",
+  "title_words": 9,
+  "abstract_words": 184,
+  "main_figures": 7,
+  "main_tables": 1,
+  "supplementary_figures": 5,
+  "supplementary_tables": 3,
+  "moved_displays": {
+    "fig:workflow": [
+      "figure",
+      1
+    ],
+    "tab:calibration": [
+      "table",
+      1
+    ],
+    "fig:coverage": [
+      "figure",
+      2
+    ],
+    "fig:scale": [
+      "figure",
+      3
+    ],
+    "fig:correspondence": [
+      "figure",
+      4
+    ],
+    "tab:spatial": [
+      "table",
+      2
+    ],
+    "fig:pbmc": [
+      "figure",
+      5
+    ],
+    "tab:expression": [
+      "table",
+      3
+    ]
+  },
+  "main_text_words": 4188,
+  "main_text_section_words": {
+    "introduction": 909,
+    "results": 2949,
+    "discussion": 330
+  },
+  "main_text_count_method": "TeXcount prose words in Introduction, Results and Discussion; excludes Abstract, Methods, references, headings, equations and figure legends.",
+  "main_text_recommendation_met": true,
+  "title_recommendation_met": true,
+  "title_page_and_declaration_order": "PASS",
+  "supplement_title_matches": true,
+  "canonical_source_sha256": "07ca6085b84b44031341e31eb0d7b67c75ef9322dc3fcf0930ffc6894e71220e",
+  "canonical_supplement_sha256": null,
+  "configuration_sha256": "a38ad5b32fb15b949a1d69e998812899e541080e8b08c69239b94c38235dfa2b",
+  "generator_sha256": "855cc5fe061552d8e50e48a4bfbb05ff6ccfdc5de3581fa43561fd3f2caddd06",
+  "documents": {
+    "manuscript": {
+      "path": "/home/zeyufu/Desktop/ortho-diabetic-wound-insilico/output/scientific-reports-readiness-20261011-r2/final-documents/raag/scientific-reports/scientific-reports-manuscript.pdf",
+      "sha256": "0091a7775c2c77a4c42fc5713d6903cc356e85f8083c803b7d0c073c9461d2b0",
+      "pages": 33,
+      "source_sha256": "7680763bd9eb104bf4206ef573ce1311ef44b77acfa6f1de11e64d9e2bf14f7c",
+      "bytes": 1952357
+    },
+    "supplement": {
+      "path": "/home/zeyufu/Desktop/ortho-diabetic-wound-insilico/output/scientific-reports-readiness-20261011-r2/final-documents/raag/scientific-reports/scientific-reports-supplement.pdf",
+      "sha256": "6987ba2dbff24349de1a929b1f5af7183484f6c0aafb699f62c20825f0554e2b",
+      "pages": 8,
+      "source_sha256": "c85a719990ad89f3c04716b8e0983213ea9b936cb36df7abd151b8e61b6805f3",
+      "bytes": 568450
+    },
+    "manuscript-inline": {
+      "path": "/home/zeyufu/Desktop/ortho-diabetic-wound-insilico/output/scientific-reports-readiness-20261011-r2/final-documents/raag/scientific-reports/scientific-reports-manuscript-inline.pdf",
+      "sha256": "ebf41efdfd278920148771d31b96c65ab9fb27ac3bd4d3bb17a129da824da90b",
+      "pages": 33,
+      "source_sha256": "8856ed6a0b89dcf2c9b120cd7be02f65f317ef90e7d4f358833128466502cf19",
+      "bytes": 1952576
+    }
+  },
+  "inline_layout": {
+    "tab:estimands": {
+      "display": "Table 1",
+      "first_citation_page": 16,
+      "display_page": 16,
+      "pages_after_first_citation": 0
+    },
+    "fig:interventions": {
+      "display": "Figure 1",
+      "first_citation_page": 16,
+      "display_page": 17,
+      "pages_after_first_citation": 1
+    },
+    "fig:reachability": {
+      "display": "Figure 2",
+      "first_citation_page": 17,
+      "display_page": 19,
+      "pages_after_first_citation": 2
+    },
+    "fig:coherence": {
+      "display": "Figure 3",
+      "first_citation_page": 20,
+      "display_page": 21,
+      "pages_after_first_citation": 1
+    },
+    "fig:allocation": {
+      "display": "Figure 4",
+      "first_citation_page": 21,
+      "display_page": 22,
+      "pages_after_first_citation": 1
+    },
+    "fig:chance": {
+      "display": "Figure 5",
+      "first_citation_page": 23,
+      "display_page": 24,
+      "pages_after_first_citation": 1
+    },
+    "fig:spatial": {
+      "display": "Figure 6",
+      "first_citation_page": 25,
+      "display_page": 27,
+      "pages_after_first_citation": 2
+    },
+    "fig:views": {
+      "display": "Figure 7",
+      "first_citation_page": 25,
+      "display_page": 28,
+      "pages_after_first_citation": 3
+    }
+  },
+  "layouts": {
+    "manuscript": "journal-checklist layout: legends, figures and the table follow the references",
+    "manuscript-inline": "reading layout: each figure and table floats after the paragraph that first cites it"
+  },
+  "scope": "Journal document conversion and mechanical checks; no new experiments or independent peer review.",
+  "guidelines": "https://www.nature.com/srep/author-instructions/submission-guidelines",
+  "checklist": "https://www.nature.com/documents/srep-checklist-for-initial-submissions.pdf"
+}

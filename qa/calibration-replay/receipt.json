@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "rows": 36,
+  "comparisons": 1224,
+  "maximum_absolute_difference": 0.0,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-10,
+  "scope": "RAAG stack only; no new optimization or external metric replay",
+  "inputs": {
+    "evidence/measurement-inventory/calibration.json": "dcba5e386ea364f6f9edbde6b2eb85e720537b42933808720fc393e8911d7973",
+    "evidence/measurement-inventory/calibration_arrays/seed17.npz": "f208cbbdd8d813c7a18800e0c12015b16a1566f46ff792c1b82ff53ca4259937",
+    "evidence/measurement-inventory/calibration_arrays/seed42.npz": "f4ea80f535a88d452d361dbed56f5c98ce353854db72c61aa2ab8e1951e9081a",
+    "evidence/measurement-inventory/calibration_arrays/seed7.npz": "6d4ec89ebe1809a0298c454881362ff7f9e9606ccc22aac50e504a76b97a0049",
+    "scripts/local_raag.py": "6ff91877d19b9972ad5a0c96a26cf6fca33fd43ad3282697473c32b7beb1a36c"
+  },
+  "row_checks": [
+    {
+      "seed": 7,
+      "candidate": "identity",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "faithful",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "rotated_scaled",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "permuted",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "shatter_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "shatter_2.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "shatter_9",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "collapse_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "collapse_0",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "noise_0.06",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "noise_0.18",
+      "status": "PASS"
+    },
+    {
+      "seed": 7,
+      "candidate": "historical_unmatched_shatter",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "identity",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "faithful",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "rotated_scaled",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "permuted",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "shatter_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "shatter_2.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "shatter_9",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "collapse_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "collapse_0",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "noise_0.06",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "noise_0.18",
+      "status": "PASS"
+    },
+    {
+      "seed": 17,
+      "candidate": "historical_unmatched_shatter",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "identity",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "faithful",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "rotated_scaled",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "permuted",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "shatter_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "shatter_2.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "shatter_9",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "collapse_0.5",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "collapse_0",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "noise_0.06",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "noise_0.18",
+      "status": "PASS"
+    },
+    {
+      "seed": 42,
+      "candidate": "historical_unmatched_shatter",
+      "status": "PASS"
+    }
+  ]
+}
