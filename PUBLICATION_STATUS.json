@@ -1,0 +1,11 @@
+{
+  "software_version": "2.0.2",
+  "software_publication_and_download_check": "PASS",
+  "editorial_document_release": "https://github.com/PeterPonyu/reference-anchored-geometry/releases/tag/submission-2026-10-12",
+  "editorial_document_commit": "6fb640a040052c714a16063e817ff232c668d3e9",
+  "immutable_archives_and_release_tags_changed": false,
+  "metadata_scope": "Mutable default-branch publication metadata; frozen software/source manifests in historical releases remain unchanged.",
+  "current_compact_manifest_files_checked": 210,
+  "prior_manifest_sha256": "ffd9f8ada36db055b99abccb434c74c3d33f34653750a1c4815007443f2c7544",
+  "current_manifest_sha256": "1cc41a135d5f4167c85fdf1d4613e0be7483cbff7ad0ea758754bd1dd7edd19d"
+}

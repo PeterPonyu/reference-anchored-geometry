@@ -1,5 +1,5 @@
 {
-  "scope": "Current source, documents and compact saved results; full archive required for input/manifest replay.",
+  "scope": "Current compact default-branch research source and separately versioned submission documents; full numerical inputs remain in the immutable software archive.",
   "version": "2.0.2",
   "software_doi": "10.5281/zenodo.23308078",
   "full_archive_sha256": "d068ac71d19d99c8e81932743251ceaaac863e8b67e6454ef6d24e0dedc15c90",
@@ -51,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "e717140c3b87201471eb9411fbcb49fe81bab02bd6e0b63cb397c448b47f71e4",
-      "bytes": 9003
+      "sha256": "51d40e86bbaf8f46c32b231302745231e9df43adfbf400a6c2b0a3307cb5f343",
+      "bytes": 10108
     },
     {
       "path": "SHA256SUMS",
@@ -700,6 +700,11 @@
       "bytes": 856
     },
     {
+      "path": "scientific-reports.json",
+      "sha256": "a38ad5b32fb15b949a1d69e998812899e541080e8b08c69239b94c38235dfa2b",
+      "bytes": 672
+    },
+    {
       "path": "scientific-reports/scientific-reports-manuscript-inline.pdf",
       "sha256": "ebf41efdfd278920148771d31b96c65ab9fb27ac3bd4d3bb17a129da824da90b",
       "bytes": 1952576
@@ -713,11 +718,6 @@
       "path": "scientific-reports/scientific-reports-supplement.pdf",
       "sha256": "6987ba2dbff24349de1a929b1f5af7183484f6c0aafb699f62c20825f0554e2b",
       "bytes": 568450
-    },
-    {
-      "path": "scientific-reports.json",
-      "sha256": "a38ad5b32fb15b949a1d69e998812899e541080e8b08c69239b94c38235dfa2b",
-      "bytes": 672
     },
     {
       "path": "scripts/audit_manuscript.py",
@@ -860,6 +860,156 @@
       "bytes": 1640
     },
     {
+      "path": "submission-2026-10-12/DOCUMENT_VERIFICATION.json",
+      "sha256": "6a8f6a81e9258b39628503941cbc90b3e795a2b4f10dea1a5d5c5bb20778dd34",
+      "bytes": 1607
+    },
+    {
+      "path": "submission-2026-10-12/README.md",
+      "sha256": "2ff44ddfeaf3579dc5618b23da799696b980c253d2d2c36e00c854f48c0e9d41",
+      "bytes": 1978
+    },
+    {
+      "path": "submission-2026-10-12/SHA256SUMS",
+      "sha256": "441f7a471450a38620fb4961a6b5b7d3636c7cd1709cd20a0b7401b0976c2b79",
+      "bytes": 429
+    },
+    {
+      "path": "submission-2026-10-12/scientific-reports-manuscript.pdf",
+      "sha256": "58047b4e481a9418f0147775494f0042c4aebd6d914f24beb445b7415351ad67",
+      "bytes": 407130
+    },
+    {
+      "path": "submission-2026-10-12/scientific-reports-supplement.pdf",
+      "sha256": "cd9ba147a8283b1839a6167f014df422acbafb7b201e617df5edf8a45fdd00b6",
+      "bytes": 2160836
+    },
+    {
+      "path": "submission-2026-10-12/source/LICENSE",
+      "sha256": "d36a23d2cae0daf36fd1bfd3b15131c3816cd829d4ff7dc71379c75ef768a93f",
+      "bytes": 1123
+    },
+    {
+      "path": "submission-2026-10-12/source/README.md",
+      "sha256": "998ab583b27f28a6d1a3d8b6442419265054bd158bdd06f7f9cf65e0aed2f9dc",
+      "bytes": 2331
+    },
+    {
+      "path": "submission-2026-10-12/source/SOURCE_MANIFEST.json",
+      "sha256": "31efc3ba314b8ccc01c0c94717feee3e4081c5ed829f7ee0f88197436e1a7525",
+      "bytes": 4468
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/allocation_validity_guards.pdf",
+      "sha256": "1154f1393811086b7cf4539ae6914c8495d797ab9dec89e5f687ad2310543eab",
+      "bytes": 34846
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/architecture.pdf",
+      "sha256": "053a7e17fcc2db5fc64bbb19c57795c8c368c241533c32694ce6d0ffe73dd340",
+      "bytes": 36935
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/calibration_perturbations.pdf",
+      "sha256": "e60bc0a5c2d86e5e2c81083f8af1d6282fef3f9facd1d0f6da30714306734903",
+      "bytes": 122289
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/calibration_reachability.pdf",
+      "sha256": "b06bc56d5d8feb0168cdab532fecffebfe7e2e83a104a7ec340031dcfc9c44b0",
+      "bytes": 37407
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/chance_correction.pdf",
+      "sha256": "3c02d29ad2e0fd9f3ce9fe856c9e25f9751e1bf3cf2c78b8865803cedb82ded8",
+      "bytes": 36051
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/coherence_baselines.pdf",
+      "sha256": "90a0fcd8f189ab9688a92020fa987c8974acf416a829f26dd26cd20b0e9accf2",
+      "bytes": 48588
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/inventory_null_comparison.pdf",
+      "sha256": "611464d805265896898d2ad5948acd9205d53d9f55a6cc5ca5ba68d2c09fed7b",
+      "bytes": 28966
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/object_embeddings.pdf",
+      "sha256": "3a08331425b2a7e4fe403e375b52890eb192d7a9f0f2d80b6181a41a3a85e1fa",
+      "bytes": 724654
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/object_pbmc.pdf",
+      "sha256": "ecbf302a07ece828d4db5b0e5027251e5abd7e5aa6d34a21301b99b9af8f1cab",
+      "bytes": 366652
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/row_correspondence_sensitivity.pdf",
+      "sha256": "df911c8e209f4a59816b6b3a0ce9ce6ea7bba6be4278a0eb2c1a8e55790f0d30",
+      "bytes": 28764
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/scale_reference_sensitivity.pdf",
+      "sha256": "43c6285d412719e8e4a28d455bcf3c4f6629fc2bc8dafee06a8cc942f2b6ead8",
+      "bytes": 35586
+    },
+    {
+      "path": "submission-2026-10-12/source/journal-figures/spatial_reference.pdf",
+      "sha256": "de2d8e3d736c99b950b4b1af2f0f5ba821a7f52213f7a6a420225cdd585bd3e7",
+      "bytes": 734205
+    },
+    {
+      "path": "submission-2026-10-12/source/paper_srep_inline.bbl",
+      "sha256": "d32eb751c135ec18af899cfb4139cc2ce062d7d5b2da0c9aad23cd7d709e6f65",
+      "bytes": 6464
+    },
+    {
+      "path": "submission-2026-10-12/source/paper_srep_inline.tex",
+      "sha256": "7f47fad738736cace43b3df08135b15444927ffb6da0438cde291549b71352e3",
+      "bytes": 37858
+    },
+    {
+      "path": "submission-2026-10-12/source/references.bib",
+      "sha256": "75d35a221b5e06b72ceff790bccb5ec66281d3ff67cc3424521137da544f9c2d",
+      "bytes": 18840
+    },
+    {
+      "path": "submission-2026-10-12/source/standalone-assets/preamble.tex",
+      "sha256": "460273cc5cdac1cc6a5c0f1a8b428114fca3c8475512229c0f6892653dc42523",
+      "bytes": 1640
+    },
+    {
+      "path": "submission-2026-10-12/source/supporting_srep.bbl",
+      "sha256": "53226c417ff1dec4172c25a2e4cbc219ef676896a0394f420161c07f583fb8bc",
+      "bytes": 15172
+    },
+    {
+      "path": "submission-2026-10-12/source/supporting_srep.tex",
+      "sha256": "2f72a532864733d12920e07df4259ab5763da9f025451ce360ea47d3dad5085f",
+      "bytes": 85466
+    },
+    {
+      "path": "submission-2026-10-12/source/tables/calibration.tex",
+      "sha256": "d022ae101dad30d838a92ddb837e004965672cf1a2a0cbe3239022f9bfdce806",
+      "bytes": 596
+    },
+    {
+      "path": "submission-2026-10-12/source/tables/diversity_expression.tex",
+      "sha256": "cdf95212d08e44b77bd92fee181a2ffd7fc6c9750dfad8f877706928e9a19b74",
+      "bytes": 637
+    },
+    {
+      "path": "submission-2026-10-12/source/tables/diversity_spatial.tex",
+      "sha256": "c6e0d9c5b6af33dd127428e12d495bbc06b7f89e1e3af453cf3f748d6588bce7",
+      "bytes": 579
+    },
+    {
+      "path": "submission-2026-10-12/source/tables/measurement_numbers.tex",
+      "sha256": "bb44603c3de69eea68499c116fd47bcd9458b61b765efb15bdc534f85554e3c6",
+      "bytes": 364
+    },
+    {
       "path": "supporting_srep.tex",
       "sha256": "c85a719990ad89f3c04716b8e0983213ea9b936cb36df7abd151b8e61b6805f3",
       "bytes": 16427
@@ -903,6 +1053,14 @@
       "path": "validation/test_raag_v3.py",
       "sha256": "d98459d50814f693fee578ccda0a2f3e3db212c761be411d7032715f356a8d75",
       "bytes": 21088
+    },
+    {
+      "path": "PUBLICATION_STATUS.json",
+      "sha256": "759a74a14a642d501c91e5e5e4b6cc30107f0d6750e11bb4d3134757ce2cd51a",
+      "bytes": 729
     }
-  ]
+  ],
+  "editorial_document_tag": "submission-2026-10-12",
+  "prior_frozen_compact_manifest_sha256": "ffd9f8ada36db055b99abccb434c74c3d33f34653750a1c4815007443f2c7544",
+  "immutable_software_archives_changed": false
 }
