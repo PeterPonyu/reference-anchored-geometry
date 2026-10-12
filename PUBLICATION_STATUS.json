@@ -7,5 +7,6 @@
   "metadata_scope": "Mutable default-branch publication metadata; frozen software/source manifests in historical releases remain unchanged.",
   "current_compact_manifest_files_checked": 210,
   "prior_manifest_sha256": "ffd9f8ada36db055b99abccb434c74c3d33f34653750a1c4815007443f2c7544",
-  "current_manifest_sha256": "1cc41a135d5f4167c85fdf1d4613e0be7483cbff7ad0ea758754bd1dd7edd19d"
+  "current_manifest_sha256": "979affb7257856705578aafa4633c3dc3d1dc77d2346a5a9bdfe7dc2df26bfab",
+  "publication_status_excluded_from_source_manifest_to_avoid_self_reference": true
 }

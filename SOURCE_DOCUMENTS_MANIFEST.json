@@ -1053,11 +1053,6 @@
       "path": "validation/test_raag_v3.py",
       "sha256": "d98459d50814f693fee578ccda0a2f3e3db212c761be411d7032715f356a8d75",
       "bytes": 21088
-    },
-    {
-      "path": "PUBLICATION_STATUS.json",
-      "sha256": "759a74a14a642d501c91e5e5e4b6cc30107f0d6750e11bb4d3134757ce2cd51a",
-      "bytes": 729
     }
   ],
   "editorial_document_tag": "submission-2026-10-12",
